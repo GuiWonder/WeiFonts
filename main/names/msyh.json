@@ -1,0 +1,3186 @@
+{
+    "msyh": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 2,
+            "nameString": "obyčejné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 2,
+            "nameString": "Standard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 2,
+            "nameString": "Κανονικά"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017  Microsoft Corporation. All Rights Reserved. Portions © 2017 Beijing Founder Electronics Co. Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft YaHei Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.25"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHei"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "Founder"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 2,
+            "nameString": "Normaali"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 2,
+            "nameString": "Normál"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 2,
+            "nameString": "Normale"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 2,
+            "nameString": "Standaard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 2,
+            "nameString": "Normalny"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 2,
+            "nameString": "Обычный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 2,
+            "nameString": "Normálne"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 2,
+            "nameString": "Navadno"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 2,
+            "nameString": "Arrunta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© 2016 微软公司版权所有 © 2016 北京北大方正电子有限公司部分版权所有"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "微软雅黑"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "微软雅黑 Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "微软雅黑"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 6.25"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHeiRegular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "北京北大方正电子有限公司"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 2,
+            "nameString": "Normal"
+        }
+    ],
+    "msyhui": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 2,
+            "nameString": "obyčejné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 2,
+            "nameString": "Standard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 2,
+            "nameString": "Κανονικά"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017  Microsoft Corporation. All Rights Reserved. Portions © 2017 Beijing Founder Electronics Co. Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft YaHei UI Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.25"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHeiUI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "Founder"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 2,
+            "nameString": "Normaali"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 2,
+            "nameString": "Normál"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 2,
+            "nameString": "Normale"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 2,
+            "nameString": "Standaard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 2,
+            "nameString": "Normalny"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 2,
+            "nameString": "Обычный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 2,
+            "nameString": "Normálne"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 2,
+            "nameString": "Navadno"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 2,
+            "nameString": "Arrunta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© 2016 微软公司版权所有 © 2016 北京北大方正电子有限公司部分版权所有"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "Microsoft Yahei UI Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "Microsoft Yahei UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 6.25"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHeiUIRegular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "北京北大方正电子有限公司"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 2,
+            "nameString": "Normal"
+        }
+    ],
+    "msyhbd": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 2,
+            "nameString": "Negreta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Negreta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 2,
+            "nameString": "tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 2,
+            "nameString": "fed"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei fed"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 2,
+            "nameString": "Fett"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Fett"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 2,
+            "nameString": "Έντονα"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Έντονα"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017  Microsoft Corporation. All Rights Reserved. Portions © 2017 Beijing Founder Electronics Co. Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft YaHei-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.25"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHei-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "Founder"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 2,
+            "nameString": "Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 2,
+            "nameString": "Lihavoitu"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Lihavoitu"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 2,
+            "nameString": "Gras"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Gras"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 2,
+            "nameString": "Félkövér"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Félkövér"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 2,
+            "nameString": "Grassetto"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Grassetto"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 2,
+            "nameString": "Vet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Vet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 2,
+            "nameString": "Halvfet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Halvfet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 2,
+            "nameString": "Pogrubiony"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Pogrubiony"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 2,
+            "nameString": "Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 2,
+            "nameString": "Полужирный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Полужирный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 2,
+            "nameString": "Tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 2,
+            "nameString": "Fet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Fet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 2,
+            "nameString": "Kalın"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Kalın"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 2,
+            "nameString": "Krepko"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Krepko"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 2,
+            "nameString": "Lodia"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Lodia"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© 2016 微软公司版权所有 © 2016 北京北大方正电子有限公司部分版权所有"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "微软雅黑"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "微软雅黑-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "微软雅黑 Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 6.25"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHei-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "北京北大方正电子有限公司"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 2,
+            "nameString": "Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 2,
+            "nameString": "Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 2,
+            "nameString": "Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 2,
+            "nameString": "Gras"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Gras"
+        }
+    ],
+    "msyhbdui": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 2,
+            "nameString": "Negreta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Negreta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 2,
+            "nameString": "tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 2,
+            "nameString": "fed"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI fed"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 2,
+            "nameString": "Fett"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Fett"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 2,
+            "nameString": "Έντονα"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Έντονα"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017  Microsoft Corporation. All Rights Reserved. Portions © 2017 Beijing Founder Electronics Co. Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft YaHei UI-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.25"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHeiUI-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "Founder"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 2,
+            "nameString": "Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 2,
+            "nameString": "Lihavoitu"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Lihavoitu"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 2,
+            "nameString": "Gras"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Gras"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 2,
+            "nameString": "Félkövér"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Félkövér"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 2,
+            "nameString": "Grassetto"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Grassetto"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 2,
+            "nameString": "Vet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Vet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 2,
+            "nameString": "Halvfet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Halvfet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 2,
+            "nameString": "Pogrubiony"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Pogrubiony"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 2,
+            "nameString": "Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 2,
+            "nameString": "Полужирный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Полужирный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 2,
+            "nameString": "Tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 2,
+            "nameString": "Fet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Fet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 2,
+            "nameString": "Kalın"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Kalın"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 2,
+            "nameString": "Krepko"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Krepko"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 2,
+            "nameString": "Lodia"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Lodia"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© 2016 微软公司版权所有 © 2016 北京北大方正电子有限公司部分版权所有"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "Microsoft YaHei UI Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "Microsoft Yahei UI Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 6.25"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHeiUI-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "北京北大方正电子有限公司"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 2,
+            "nameString": "Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 2,
+            "nameString": "Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 2,
+            "nameString": "Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 2,
+            "nameString": "Gras"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Gras"
+        }
+    ],
+    "msyhl": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017  Microsoft Corporation. All Rights Reserved. Portions © 2017 Beijing Founder Electronics Co. Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft YaHei Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.23"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHeiLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Microsoft YaHei"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© 2017 微软公司版权所有 © 2017 北京北大方正电子有限公司部分版权所有"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "微软雅黑 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "微软雅黑 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "微软雅黑 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 6.23"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "微软雅黑 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "北京北大方正电子有限公司"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 16,
+            "nameString": "微软雅黑"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ],
+    "msyhlui": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017  Microsoft Corporation. All Rights Reserved. Portions © 2017 Beijing Founder Electronics Co. Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei UI Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft YaHei UI Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.23"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHeiUILight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Microsoft YaHei UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© 2017 微软公司版权所有 © 2017 北京北大方正电子有限公司部分版权所有"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei UI Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "Microsoft YaHei UI Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 6.23"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHeiUILight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "北京北大方正电子有限公司"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 16,
+            "nameString": "Microsoft YaHei UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ],
+    "msyhxl": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017  Microsoft Corporation. All Rights Reserved. Portions © 2017 Beijing Founder Electronics Co. Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft YaHei ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.23"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHeiExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Microsoft YaHei"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© 2017 微软公司版权所有 © 2017 北京北大方正电子有限公司部分版权所有"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "微软雅黑 ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "微软雅黑 ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "微软雅黑 ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 6.23"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "微软雅黑 ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "北京北大方正电子有限公司"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 16,
+            "nameString": "微软雅黑"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 17,
+            "nameString": "ExtraLight"
+        }
+    ],
+    "msyhxlui": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017  Microsoft Corporation. All Rights Reserved. Portions © 2017 Beijing Founder Electronics Co. Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei UI ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft YaHei UI ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.23"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHeiUIExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Microsoft YaHei UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© 2017 微软公司版权所有 © 2017 北京北大方正电子有限公司部分版权所有"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei UI ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "Microsoft YaHei UI ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI ExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 6.23"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHeiUIExtraLight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "北京北大方正电子有限公司"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 16,
+            "nameString": "Microsoft YaHei UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 17,
+            "nameString": "ExtraLight"
+        }
+    ],
+    "msyhhv": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017  Microsoft Corporation. All Rights Reserved. Portions © 2017 Beijing Founder Electronics Co. Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft YaHei Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.23"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHeiHeavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Microsoft YaHei"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© 2017 微软公司版权所有 © 2017 北京北大方正电子有限公司部分版权所有"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "微软雅黑 Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "微软雅黑 Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "微软雅黑 Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 6.23"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "微软雅黑 Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "北京北大方正电子有限公司"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 16,
+            "nameString": "微软雅黑"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 17,
+            "nameString": "Heavy"
+        }
+    ],
+    "msyhhvui": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017  Microsoft Corporation. All Rights Reserved. Portions © 2017 Beijing Founder Electronics Co. Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei UI Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft YaHei UI Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.23"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHeiUIHeavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Microsoft YaHei UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© 2017 微软公司版权所有 © 2017 北京北大方正电子有限公司部分版权所有"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "Microsoft YaHei UI Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "Microsoft YaHei UI Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "Microsoft YaHei UI Heavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 6.23"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "MicrosoftYaHeiUIHeavy"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Microsoft YaHei is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "北京北大方正电子有限公司"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 10,
+            "nameString": "The font glyphs are certified compliant with China standard GB18030-2000 with the font name Founder Lan Ting Hei.  Microsoft Licensed the font glyph from Beijing Founder  Electronics Co. Ltd.\r\n本字库字形从北京北大方正电子有限公司授权。本字库字形 以字库名方正兰亭黑通过中国标准符合性检测，符合中国 GB18030-2000标准。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.founder.com.cn/cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 16,
+            "nameString": "Microsoft YaHei UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 17,
+            "nameString": "Heavy"
+        }
+    ]
+}
