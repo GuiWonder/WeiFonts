@@ -1,7 +1,7 @@
 # 创建 Windows 中文字体代替字体
 将字体转换为 Windows 雅黑、正黑、宋体的代替字体。
 ## 使用方法
-程序可支持 8 重字重 "ExtraLight", "Light", "Normal", "Regular", "Medium", "SemiBold", "Bold", "Heavy"
+程序可支持 8 种字重 "ExtraLight", "Light", "Normal", "Regular", "Medium", "SemiBold", "Bold", "Heavy"
 #### 1. 字体名称（指内部名称，下同）中包含“Sans”或“Serif”
 运行 `python winfont.py XX.otf` </br>
 程序会自动判断字重根据字体名称在当前目录生成 msyhXX.otf msyhXXui.otf msyhXX.ttc msjhXX.otf msjhXXui.otf msjhXX.ttc 或 simsunXX.otf nsimsunXX.otf simsunXX.ttc
