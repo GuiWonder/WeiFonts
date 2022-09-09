@@ -29,18 +29,25 @@ def creattmp():
 			fpn=n1['nameString']
 			break
 	print('字体为', fpn)
+	wt=fv
+	wtn={250:'ExtraLight', 300:'Light', 350:'Normal', 400:'Regular', 500:'Medium', 600:'SemiBold', 700:'Bold', 900:'Heavy'}
+	end={'ExtraLight':'xl', 'Light':'l', 'Normal':'nm', 'Regular':'', 'Medium':'md', 'SemiBold':'sb', 'Bold':'bd', 'Heavy':'hv'}
+	if not fv:
+		wtc=font['OS_2']['usWeightClass']
+		if wtc<300:
+			wtc=250
+		if wtc in wtn:
+			wt=wtn[wtc]
+		else:
+			wt='Regular'
+	if 'macStyle' in font['head']:
+		font['head']['macStyle']['bold']=wt=='Bold'
+	if 'fsSelection' in font['OS_2']:
+		font['OS_2']['fsSelection']['bold']=wt=='Bold'
+	print('字重为', wt)
+	
 	print('正在设置字体信息...')
 	if stl=='sans' or (stl!='serif' and 'Sans' in fpn):
-		end={'Regular':'', 'Bold':'bd', 'Light':'l', 'Extralight':'xl', 'Heavy':'hv'}
-		fml='none'
-		if fv.capitalize() in end:
-			fml=fv.capitalize()
-		elif '-' in fpn:
-			fml=fpn.split('-')[-1].capitalize()
-		if fml not in end:
-			print('文件不匹配，退出！')
-			sys.exit()
-
 		yh_ulCodePageRange1= {
 			'latin1': True,
 			'latin2': True,
@@ -55,10 +62,31 @@ def creattmp():
 			'big5': True
 		}
 		
-		yh='msyh'+end[fml]
-		jh='msjh'+end[fml]
+		yh='msyh'+end[wt]
+		jh='msjh'+end[wt]
 		nyh=json.load(open(os.path.join(pydir, 'names/msyh.json'), 'r', encoding = 'utf-8'))
 		njh=json.load(open(os.path.join(pydir, 'names/msjh.json'), 'r', encoding = 'utf-8'))
+		if wt not in ('Regular', 'Bold', 'Light'):
+			nyh[yh]=list()
+			for n1 in nyh['msyhl']:
+				n2=dict(n1)
+				n2['nameString']=n2['nameString'].replace('Light', wt)
+				nyh[yh].append(n2)
+			nyh[yh+'ui']=list()
+			for n1 in nyh['msyhlui']:
+				n2=dict(n1)
+				n2['nameString']=n2['nameString'].replace('Light', wt)
+				nyh[yh+'ui'].append(n2)
+			njh[jh]=list()
+			for n1 in njh['msjhl']:
+				n2=dict(n1)
+				n2['nameString']=n2['nameString'].replace('Light', wt)
+				njh[jh].append(n2)
+			njh[jh+'ui']=list()
+			for n1 in njh['msjhlui']:
+				n2=dict(n1)
+				n2['nameString']=n2['nameString'].replace('Light', wt)
+				njh[jh+'ui'].append(n2)
 		yhver=str()
 		jhver=str()
 		yhverui=str()
@@ -116,16 +144,16 @@ def creattmp():
 		gc.collect()
 		
 		print('正在生成雅黑字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O3', '-q', '-o', yh+'.otf', tmp['yh']))
+		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', yh+'.otf', tmp['yh']))
 		os.remove(tmp['yh'])
 		print('正在生成雅黑ui字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O3', '-q', '-o', yh+'ui.otf', tmp['yhui']))
+		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', yh+'ui.otf', tmp['yhui']))
 		os.remove(tmp['yhui'])
 		print('正在生成正黑字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O3', '-q', '-o', jh+'.otf', tmp['jh']))
+		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', jh+'.otf', tmp['jh']))
 		os.remove(tmp['jh'])
 		print('正在生成正黑ui字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O3', '-q', '-o', jh+'ui.otf', tmp['jhui']))
+		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', jh+'ui.otf', tmp['jhui']))
 		os.remove(tmp['jhui'])
 		
 		print('正在生成雅黑字体OTC/TTC...')
@@ -138,7 +166,19 @@ def creattmp():
 			'latin1': True,
 			'gbk': True
 		}
+		sname='simsun'+end[wt]
 		nssn=json.load(open(os.path.join(pydir, 'names/simsun.json'), 'r', encoding = 'utf-8'))
+		if wt not in ('Regular', 'Bold', 'Light'):
+			nssn[sname]=list()
+			for n1 in nssn['simsunl']:
+				n2=dict(n1)
+				n2['nameString']=n2['nameString'].replace('Light', wt)
+				nssn[sname].append(n2)
+			nssn['n'+sname]=list()
+			for n1 in nssn['nsimsunl']:
+				n2=dict(n1)
+				n2['nameString']=n2['nameString'].replace('Light', wt)
+				nssn['n'+sname].append(n2)
 		snver=str()
 		nsnver=str()
 		for n1 in nssn['simsun']:
@@ -153,14 +193,14 @@ def creattmp():
 		font['OS_2']['ulCodePageRange1']=s_ulCodePageRange1
 		
 		font['head']['fontRevision']=float(snver)
-		font['name']=nssn['simsun']
+		font['name']=nssn[sname]
 		print('正在生成宋体字体...')
 		tmp['sn'] = tempfile.mktemp('.json')
 		with open(tmp['sn'], 'w', encoding='utf-8') as f:
 			f.write(json.dumps(font))
 		
 		font['head']['fontRevision']=float(nsnver)
-		font['name']=nssn['nsimsun']
+		font['name']=nssn['n'+sname]
 		print('正在生成新宋体字体...')
 		tmp['nsn'] = tempfile.mktemp('.json')
 		with open(tmp['nsn'], 'w', encoding='utf-8') as f:
@@ -170,14 +210,14 @@ def creattmp():
 		gc.collect()
 		
 		print('正在生成宋体字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O3', '-q', '-o', 'simsun.otf', tmp['sn']))
+		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', sname+'.otf', tmp['sn']))
 		os.remove(tmp['sn'])
 		print('正在生成新宋体字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O3', '-q', '-o', 'nsimsun.otf', tmp['nsn']))
+		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', 'n'+sname+'.otf', tmp['nsn']))
 		os.remove(tmp['nsn'])
 		
 		print('正在生成宋体字体OTC/TTC...')
-		subprocess.run(('python', otf2otc, '-t', '"CFF "=0', '-o', 'simsun.ttc', 'simsun.otf', 'nsimsun.otf'))
+		subprocess.run(('python', otf2otc, '-t', '"CFF "=0', '-o', sname+'.ttc', sname+'.otf', 'n'+sname+'.otf'))
 		
 	else:
 		print('文件不匹配，退出！')
@@ -204,9 +244,15 @@ if len(sys.argv)>2:
 		sys.exit()
 if len(sys.argv)>3:
 	fv=sys.argv[3].lower()
-	if stl=='sans' and fv not in ('regular', 'bold', 'light', 'extralight', 'heavy'):
-		print(f'无效参数"{sys.argv[3]}"，请使用"Regular", "Bold", "Light", "ExtraLight","Heavy"。\n')
+	if fv not in ('extralight', 'light', 'normal', 'regular', 'medium', 'semibold', 'bold', 'heavy'):
+		print(f'无效参数"{sys.argv[3]}"，请使用"ExtraLight", "Light", "Normal", "Regular", "Medium", "SemiBold", "Bold", "Heavy"。\n')
 		sys.exit()
+	if fv=='extralight':
+		fv='ExtraLight'
+	elif fv=='semibold':
+		fv='SemiBold'
+	else:
+		fv=fv.capitalize()
 
 print('正在载入字体...')
 font = json.loads(subprocess.check_output((otfccdump, '--no-bom', inf)).decode("utf-8", "ignore"))
