@@ -6,7 +6,7 @@ name: Build Test Fonts
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main-test" ]
 
 
 jobs:
