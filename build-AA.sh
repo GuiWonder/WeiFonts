@@ -19,4 +19,4 @@ mkdir -p out
 rm -rf ./AA
 rm -f ./*.otf
 rm -f ./*.ttf
-rm -f ./*.otf
+rm -f ./*.ttc
