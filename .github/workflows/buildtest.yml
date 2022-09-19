@@ -5,9 +5,9 @@
 name: Build Test Fonts
 
 on:
-  push:
-    branches: [ "main-test" ]
-
+  workflow_dispatch:
+#   push:
+#     branches: [ "main" ]
 
 jobs:
   build:
