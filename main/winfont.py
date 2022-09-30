@@ -25,7 +25,7 @@ def creattmp():
 	fpn=str()
 	global font
 	for n1 in font['name']:
-		if n1['nameID']==6 and '-' in n1['nameString']:
+		if n1['languageID']==1033 and n1['nameID']==6:
 			fpn=n1['nameString']
 			break
 	print('字体为', fpn)
@@ -157,17 +157,23 @@ def creattmp():
 		os.remove(tmp['jhui'])
 		
 		print('正在生成雅黑字体OTC/TTC...')
-		subprocess.run(('python', otf2otc, '-t', '"CFF "=0', '-o', yh+'.ttc', yh+'.otf', yh+'ui.otf'))
+		subprocess.run(('python', otf2otc, '-o', yh+'.ttc', yh+'.otf', yh+'ui.otf'))
 		print('正在生成正黑字体OTC/TTC...')
-		subprocess.run(('python', otf2otc, '-t', '"CFF "=0', '-o', jh+'.ttc', jh+'.otf', jh+'ui.otf'))
+		subprocess.run(('python', otf2otc, '-o', jh+'.ttc', jh+'.otf', jh+'ui.otf'))
 	
 	elif stl=='serif' or 'Serif' in fpn:
 		s_ulCodePageRange1= {
 			'latin1': True,
 			'gbk': True
 		}
+		m_ulCodePageRange1= {
+			'latin1': True,
+			'big5': True
+		}
 		sname='simsun'+end[wt]
+		mname='mingliu'+end[wt]
 		nssn=json.load(open(os.path.join(pydir, 'names/simsun.json'), 'r', encoding = 'utf-8'))
+		mln=json.load(open(os.path.join(pydir, 'names/mingliu.json'), 'r', encoding = 'utf-8'))
 		if wt not in ('Regular', 'Bold', 'Light'):
 			nssn[sname]=list()
 			for n1 in nssn['simsunl']:
@@ -179,8 +185,26 @@ def creattmp():
 				n2=dict(n1)
 				n2['nameString']=n2['nameString'].replace('Light', wt)
 				nssn['n'+sname].append(n2)
+			mln[mname]=list()
+			for n1 in mln['mingliul']:
+				n2=dict(n1)
+				n2['nameString']=n2['nameString'].replace('Light', wt)
+				mln[mname].append(n2)
+			mln['p'+mname]=list()
+			for n1 in mln['pmingliul']:
+				n2=dict(n1)
+				n2['nameString']=n2['nameString'].replace('Light', wt)
+				mln['p'+mname].append(n2)
+			mln['mingliu_hkscs'+end[wt]]=list()
+			for n1 in mln['mingliu_hkscsl']:
+				n2=dict(n1)
+				n2['nameString']=n2['nameString'].replace('Light', wt)
+				mln['mingliu_hkscs'+end[wt]].append(n2)
 		snver=str()
 		nsnver=str()
+		mlver=str()
+		pmlver=str()
+		mlhver=str()
 		for n1 in nssn['simsun']:
 			if n1['languageID']==1033:
 				if n1['nameID']==5:
@@ -189,6 +213,18 @@ def creattmp():
 			if n1['languageID']==1033:
 				if n1['nameID']==5:
 					nsnver=n1['nameString'].split(' ')[-1]
+		for n1 in mln['mingliu']:
+			if n1['languageID']==1033:
+				if n1['nameID']==5:
+					mlver=n1['nameString'].split(' ')[-1]
+		for n1 in mln['pmingliu']:
+			if n1['languageID']==1033:
+				if n1['nameID']==5:
+					pmlver=n1['nameString'].split(' ')[-1]
+		for n1 in mln['mingliu_hkscs']:
+			if n1['languageID']==1033:
+				if n1['nameID']==5:
+					mlhver=n1['nameString'].split(' ')[-1]
 		
 		font['OS_2']['ulCodePageRange1']=s_ulCodePageRange1
 		
@@ -206,6 +242,30 @@ def creattmp():
 		with open(tmp['nsn'], 'w', encoding='utf-8') as f:
 			f.write(json.dumps(font))
 		
+		font['OS_2']['ulCodePageRange1']=m_ulCodePageRange1
+		
+		font['head']['fontRevision']=float(mlver)
+		font['name']=mln[mname]
+		print('正在生成細明體字体...')
+		tmp['mln'] = tempfile.mktemp('.json')
+		with open(tmp['mln'], 'w', encoding='utf-8') as f:
+			f.write(json.dumps(font))
+		
+		font['head']['fontRevision']=float(pmlver)
+		font['name']=mln['p'+mname]
+		print('正在生成新細明體字体...')
+		tmp['pmln'] = tempfile.mktemp('.json')
+		with open(tmp['pmln'], 'w', encoding='utf-8') as f:
+			f.write(json.dumps(font))
+		
+		font['head']['fontRevision']=float(mlhver)
+		font['name']=mln['mingliu_hkscs'+end[wt]]
+		print('正在生成細明體_HKSCS字体...')
+		tmp['mlhn'] = tempfile.mktemp('.json')
+		with open(tmp['mlhn'], 'w', encoding='utf-8') as f:
+			f.write(json.dumps(font))
+		
+		
 		del font
 		gc.collect()
 		
@@ -217,7 +277,22 @@ def creattmp():
 		os.remove(tmp['nsn'])
 		
 		print('正在生成宋体字体OTC/TTC...')
-		subprocess.run(('python', otf2otc, '-t', '"CFF "=0', '-o', sname+'.ttc', sname+'.otf', 'n'+sname+'.otf'))
+		subprocess.run(('python', otf2otc, '-o', sname+'.ttc', sname+'.otf', 'n'+sname+'.otf'))
+		
+		print('正在生成細明體字体OTF/TTF...')
+		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', mname+'.otf', tmp['mln']))
+		os.remove(tmp['mln'])
+		
+		print('正在生成新細明體字体OTF/TTF...')
+		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', 'p'+mname+'.otf', tmp['pmln']))
+		os.remove(tmp['pmln'])
+		
+		print('正在生成細明體_HKSCS字体OTF/TTF...')
+		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', 'mingliu_hkscs'+end[wt]+'.otf', tmp['mlhn']))
+		os.remove(tmp['mlhn'])
+		
+		print('正在生成細明體字体OTC/TTC...')
+		subprocess.run(('python', otf2otc, '-o', mname+'.ttc', mname+'.otf', 'p'+mname+'.otf', 'mingliu_hkscs'+end[wt]+'.otf'))
 		
 	else:
 		print('文件不匹配，退出！')
