@@ -32,6 +32,4 @@ jobs:
         prerelease: true
         title: Build Test Fonts
         files: |
-            out/msyh.7z
-            out/msjh.7z
-            #out/simsun.7z
+            *.7z
