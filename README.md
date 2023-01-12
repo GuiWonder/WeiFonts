@@ -16,7 +16,7 @@
   | msgothic | MS Gothic、MS UI Gothic、MS PGothic |
   | malgun  | Malgun Gothic |
   | msmincho | MS Mincho、MS PMincho |
-  | meiryo  | Meiryo、Meiryo |
+  | meiryo  | Meiryo、Meiryo UI |
   | batang  | Batang、BatangChe、Gungsuh、GungsuhChe |
 - `-wt` 字重(Weight)，可使用 `"ExtraLight", "Light", "Semilight", "Normal", "Regular", "Medium", "SemiBold", "Bold", "Heavy"`。如未指定字重，程序会自动判断字重。
   > NOTE: 目标为 `yugoth` 时，不建议使用 `"Semilight"` 和 `"SemiBold"`。
