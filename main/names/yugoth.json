@@ -1,0 +1,1206 @@
+{
+    "ulCodePageRange1": {
+        "latin1": true,
+        "latin2": true,
+        "cyrillic": true,
+        "greek": true,
+        "turkish": true,
+        "windowsBaltic": true,
+        "jis": true,
+        "macRoman": true
+    },
+    "yugoth": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 JIYUKOBO Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Yu Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "YuGothic-Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Yu Gothic Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 1.90"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "YuGothic-Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Yu Type Library is a Trademark of JIYUKOBO Ltd. registered in Japan."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 有限会社字游工房 All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "游ゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "游ゴシック Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "游書体ライブラリーは有限会社字游工房の登録商標です"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 8,
+            "nameString": "有限会社字游工房"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 9,
+            "nameString": "有限会社字游工房"
+        }
+    ],
+    "yugothuisl": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 JIYUKOBO Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Yu Gothic UI Semilight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "YuGothicUI-Semilight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Yu Gothic UI Semilight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 1.90"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "YuGothicUI-Semilight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Yu Type Library is a Trademark of JIYUKOBO Ltd. registered in Japan."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Yu Gothic UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Semilight"
+        }
+    ],
+    "yugothbd": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 JIYUKOBO Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Yu Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "YuGothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Yu Gothic Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 1.90"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "YuGothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Yu Type Library is a Trademark of JIYUKOBO Ltd. registered in Japan."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 有限会社字游工房 All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "游ゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "游ゴシック Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "游書体ライブラリーは有限会社字游工房の登録商標です"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 8,
+            "nameString": "有限会社字游工房"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 9,
+            "nameString": "有限会社字游工房"
+        }
+    ],
+    "yugothuibd": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 JIYUKOBO Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Yu Gothic UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "YuGothicUI-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Yu Gothic UI Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 1.90"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "YuGothicUI-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Yu Type Library is a Trademark of JIYUKOBO Ltd. registered in Japan."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        }
+    ],
+    "yugothuisb": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 JIYUKOBO Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Yu Gothic UI Semibold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "YuGothicUI-Semibold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Yu Gothic UI Semibold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 1.90"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "YuGothicUI-Semibold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Yu Type Library is a Trademark of JIYUKOBO Ltd. registered in Japan."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Yu Gothic UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Semibold"
+        }
+    ],
+    "yugothmd": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 JIYUKOBO Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Yu Gothic Medium"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "YuGothic-Medium"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Yu Gothic Medium"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 1.90"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "YuGothic-Medium"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Yu Type Library is a Trademark of JIYUKOBO Ltd. registered in Japan."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Yu Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Medium"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 有限会社字游工房 All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "游ゴシック Medium"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "游ゴシック Medium"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "游書体ライブラリーは有限会社字游工房の登録商標です"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 8,
+            "nameString": "有限会社字游工房"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 9,
+            "nameString": "有限会社字游工房"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "游ゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Medium"
+        }
+    ],
+    "yugothui": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 JIYUKOBO Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Yu Gothic UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "YuGothicUI-Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Yu Gothic UI Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 1.90"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "YuGothicUI-Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Yu Type Library is a Trademark of JIYUKOBO Ltd. registered in Japan."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        }
+    ],
+    "yugothl": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 JIYUKOBO Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Yu Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "YuGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Yu Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 1.90"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "YuGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Yu Type Library is a Trademark of JIYUKOBO Ltd. registered in Japan."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Yu Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 有限会社字游工房 All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "游ゴシック Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "游ゴシック Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "游書体ライブラリーは有限会社字游工房の登録商標です"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 8,
+            "nameString": "有限会社字游工房"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 9,
+            "nameString": "有限会社字游工房"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "游ゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ],
+    "yugothuil": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 JIYUKOBO Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Yu Gothic UI Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "YuGothicUI-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Yu Gothic UI Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 1.90"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "YuGothicUI-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Yu Type Library is a Trademark of JIYUKOBO Ltd. registered in Japan."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Yu Gothic UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ]
+}

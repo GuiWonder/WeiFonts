@@ -4,334 +4,226 @@ pydir = os.path.abspath(os.path.dirname(__file__))
 otfccdump = os.path.join(pydir, 'otfcc/otfccdump')
 otfccbuild = os.path.join(pydir, 'otfcc/otfccbuild')
 otf2otc = os.path.join(pydir, 'otf2otc.py')
+outd=str()
 if platform.system() in ('Mac', 'Darwin'):
 	otfccdump += '1'
 	otfccbuild += '1'
 if platform.system() == 'Linux':
 	otfccdump += '2'
 	otfccbuild += '2'
+TG= ('msyh', 'msjh', 'mingliu', 'simsun', 'yugoth', 'msgothic', 'malgun', 'msmincho', 'meiryo', 'batang')
+WT=('extralight', 'light', 'semilight', 'normal', 'regular', 'medium', 'semibold', 'bold', 'heavy')
 
-def ckfile(f):
-	f=f.strip()
-	if not os.path.isfile(f):
-		if os.path.isfile(f.strip('"')):
-			return f.strip('"')
-		elif os.path.isfile(f.strip("'")):
-			return f.strip("'")
-	return f
+def getwt(font):
+	if 'macStyle' in font['head'] and 'bold' in font['head']['macStyle'] and font['head']['macStyle']['bold']:
+		return 'Bold'
+	wtn={250:'ExtraLight', 300:'Light', 350:'Normal', 400:'Regular', 500:'Medium', 600:'SemiBold', 900:'Heavy'}
+	wtc=font['OS_2']['usWeightClass']
+	if wtc<300:
+		wtc=250
+	if wtc in wtn:
+		return wtn[wtc]
+	else:
+		return 'Regular'
 
-def creattmp():
-	print('正在检查字体...')
-	fpn=str()
-	global font
-	for n1 in font['name']:
-		if n1['languageID']==1033 and n1['nameID']==6:
-			fpn=n1['nameString']
-			break
-	print('字体为', fpn)
-	wt=fv
-	wtn={250:'ExtraLight', 300:'Light', 350:'Normal', 400:'Regular', 500:'Medium', 600:'SemiBold', 700:'Bold', 900:'Heavy'}
-	end={'ExtraLight':'xl', 'Light':'l', 'Normal':'nm', 'Regular':'', 'Medium':'md', 'SemiBold':'sb', 'Bold':'bd', 'Heavy':'hv'}
-	if not fv:
-		wtc=font['OS_2']['usWeightClass']
-		if wtc<300:
-			wtc=250
-		if wtc in wtn:
-			wt=wtn[wtc]
+def getver(nmo):
+	for n1 in nmo:
+		if n1['languageID']==1033 and n1['nameID']==5:
+			return n1['nameString'].split(' ')[-1]
+	return 0
+
+def mktmp(font):
+	tmp = tempfile.mktemp('.json')
+	with open(tmp, 'w', encoding='utf-8') as f:
+		f.write(json.dumps(font))
+	return tmp
+
+def otpth(ftf):
+	if outd:
+		return os.path.join(outd, ftf)
+	return ftf
+
+def svtottf(jsf, ttff):
+	subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', ttff, jsf))
+	os.remove(jsf)
+
+def wtbuil(nml, wt):
+	nwtnm=list()
+	for n1 in nml:
+		n2=dict(n1)
+		if n2['nameID'] in (1, 3, 4, 6, 17):
+			n2['nameString']=n2['nameString'].replace('Light', wt)
+		nwtnm.append(n2)
+	return nwtnm
+
+def bldttfft(font, tgft, wt):
+	end={'ExtraLight':'xl', 'Light':'l', 'Semilight':'sl', 'Normal':'nm', 'Regular':'', 'Medium':'md', 'SemiBold':'sb', 'Bold':'bd', 'Heavy':'hv'}
+	ncfg=json.load(open(os.path.join(pydir, f'names/{tgft}.json'), 'r', encoding = 'utf-8'))
+	font['OS_2']['ulCodePageRange1']=ncfg['ulCodePageRange1']
+	if wt not in ('Regular', 'Bold', 'Semilight', 'Light'):
+		nmslist=wtbuil(ncfg[tgft+'l'], wt)
+	else:
+		nmslist=ncfg[tgft+end[wt]]
+	ttflist=otpth(tgft+end[wt]+'.ttf')
+	font['head']['fontRevision']=float(getver(nmslist))
+	font['name']=nmslist
+	print('正在生成字体...')
+	tmpf=mktmp(font)
+	del font
+	gc.collect()
+	print('正在保存TTF...')
+	svtottf(tmpf, ttflist)
+
+def bldttcft(font, tgft, wt):
+	end={'ExtraLight':'xl', 'Light':'l', 'Semilight':'sl', 'Normal':'nm', 'Regular':'', 'Medium':'md', 'SemiBold':'sb', 'Bold':'bd', 'Heavy':'hv'}
+	ncfg=json.load(open(os.path.join(pydir, f'names/{tgft}.json'), 'r', encoding = 'utf-8'))
+	font['OS_2']['ulCodePageRange1']=ncfg['ulCodePageRange1']
+	if tgft in ('msyh', 'msjh', 'meiryo'):
+		if wt not in ('Regular', 'Bold', 'Light'):
+			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg[tgft+'ui'+'l'], wt)]
 		else:
-			wt='Regular'
+			nmslist=[ncfg[tgft+end[wt]], ncfg[tgft+'ui'+end[wt]]]
+		if tgft=='meiryo': end[wt]=end[wt].replace('bd', 'b')
+		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth(tgft+'ui'+end[wt]+'.ttf')]
+		ttcfil=otpth(tgft+end[wt]+'.ttc')
+	elif tgft=='simsun':
+		if wt not in ('Regular', 'Bold', 'Light'):
+			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg['n'+tgft+'l'], wt)]
+		else:
+			nmslist=[ncfg[tgft+end[wt]], ncfg['n'+tgft+end[wt]]]
+		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('p'+tgft+end[wt]+'.ttf')]
+		ttcfil=otpth(tgft+end[wt]+'.ttc')
+	elif tgft=='mingliu':
+		if wt not in ('Regular', 'Bold', 'Light'):
+			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg['p'+tgft+'l'], wt), wtbuil(ncfg[tgft+'_hkscsl'], wt)]
+		else:
+			nmslist=[ncfg[tgft+end[wt]], ncfg['p'+tgft+end[wt]], ncfg[tgft+'_hkscs'+end[wt]]]
+		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('p'+tgft+end[wt]+'.ttf'), otpth(tgft+'_hkscs'+end[wt]+'.ttf')]
+		ttcfil=otpth(tgft+end[wt]+'.ttc')
+	elif tgft=='msgothic':
+		if wt not in ('Regular', 'Bold', 'Light'):
+			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg['msuigothicl'], wt), wtbuil(ncfg['mspgothicl'], wt)]
+		else:
+			nmslist=[ncfg[tgft+end[wt]], ncfg['msuigothic'+end[wt]], ncfg['mspgothic'+end[wt]]]
+		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('msuigothic'+end[wt]+'.ttf'), otpth('mspgothic'+end[wt]+'.ttf')]
+		ttcfil=otpth(tgft+end[wt]+'.ttc')
+	elif tgft=='msmincho':
+		if wt not in ('Regular', 'Bold', 'Light'):
+			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg['mspminchol'], wt)]
+		else:
+			nmslist=[ncfg[tgft+end[wt]], ncfg['mspmincho'+end[wt]]]
+		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('mspmincho'+end[wt]+'.ttf')]
+		ttcfil=otpth(tgft+end[wt]+'.ttc')
+	elif tgft=='batang':
+		if wt not in ('Regular', 'Bold', 'Light'):
+			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg['batangchel'], wt), wtbuil(ncfg['gungsuhl'], wt), wtbuil(ncfg['gungsuhchel'], wt)]
+		else:
+			nmslist=[ncfg[tgft+end[wt]], ncfg['batangche'+end[wt]], ncfg['gungsuh'+end[wt]], ncfg['gungsuhche'+end[wt]]]
+		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('batangche'+end[wt]+'.ttf'), otpth('gungsuh'+end[wt]+'.ttf'), otpth('gungsuhche'+end[wt]+'.ttf')]
+		ttcfil=otpth(tgft+end[wt]+'.ttc')
+	elif tgft=='yugoth':
+		if wt =='Regular':
+			nmslist=[ncfg['yugoth'], ncfg['yugothuisl']]
+			ttflist=[otpth('YuGothR.ttf'), otpth('YuGothuiSL.ttf')]
+			ttcfil=otpth('YuGothR.ttc')
+		elif wt =='Bold':
+			nmslist=[ncfg['yugothbd'], ncfg['yugothuibd'], ncfg['yugothuisb']]
+			ttflist=[otpth('YuGothB.ttf'), otpth('YuGothuiB.ttf'), otpth('YuGothuiSB.ttf')]
+			ttcfil=otpth('YuGothB.ttc')
+		elif wt =='Medium':
+			nmslist=[ncfg['yugothmd'], ncfg['yugothui']]
+			ttflist=[otpth('YuGothM.ttf'), otpth('YuGothuiR.ttf')]
+			ttcfil=otpth('YuGothM.ttc')
+		elif wt =='Light':
+			nmslist=[ncfg['yugothl'], ncfg['yugothuil']]
+			ttflist=[otpth('YuGothL.ttf'), otpth('YuGothuiL.ttf')]
+			ttcfil=otpth('YuGothL.ttc')
+		else:
+			nmslist=[wtbuil(ncfg['yugothl'], wt), wtbuil(ncfg['yugothuil'], wt)]
+			ttflist=[otpth('YuGoth'+end[wt].upper()+'.ttf'), otpth('YuGothui'+end[wt].upper()+'.ttf')]
+			ttcfil=otpth('YuGoth'+end[wt].upper()+'.ttc')
+
+	print('正在生成字体...')
+	tmpf=list()
+	for i in range(len(nmslist)):
+		font['head']['fontRevision']=float(getver(nmslist[i]))
+		font['name']=nmslist[i]
+		tmpf.append(mktmp(font))
+	del font
+	gc.collect()
+	print('正在保存TTFs...')
+	for i in range(len(nmslist)):
+		svtottf(tmpf[i], ttflist[i])
+	print('正在生成TTC...')
+	ttcarg=['python', otf2otc, '-o', ttcfil]
+	ttcarg+=ttflist
+	subprocess.run(tuple(ttcarg))
+
+def parseArgs(args):
+	global outd
+	nwk=dict()
+	nwk['inFilePath'], nwk['outDir'], nwk['tarGet'], nwk['weight']=(str() for i in range(4))
+	argn = len(args)
+	i = 0
+	while i < argn:
+		arg  = args[i]
+		i += 1
+		if arg == "-i":
+			nwk['inFilePath'] = args[i]
+			i += 1
+		elif arg == "-d":
+			nwk['outDir'] = args[i]
+			i += 1
+		elif arg == "-wt":
+			nwk['weight'] = args[i]
+			i += 1
+		elif arg == "-tg":
+			nwk['tarGet'] = args[i].lower()
+			i += 1
+		else:
+			raise RuntimeError("Unknown option '%s'." % (arg))
+	if not nwk['inFilePath']:
+		raise RuntimeError("You must specify one input font.")
+	if not nwk['tarGet']:
+		raise RuntimeError(f"You must specify target.{TG}")
+	elif nwk['tarGet'] not in TG:
+		raise RuntimeError(f"Unknown target \"{nwk['tarGet']}\"，please use {TG}.\n")
+	if nwk['weight']:
+		if nwk['weight'].lower() not in WT:
+			raise RuntimeError(f'Unknown weight "{nwk["weight"]}"，please use "ExtraLight", "Light", "Semilight", "Normal", "Regular", "Medium", "SemiBold", "Bold", "Heavy"。\n')
+		nwk['weight']=nwk['weight'].lower()
+		if nwk['weight']=='extralight':
+			nwk['weight']='ExtraLight'
+		elif nwk['weight']=='semibold':
+			nwk['weight']='SemiBold'
+		else:
+			nwk['weight']=nwk['weight'].capitalize()
+	if nwk['outDir']:
+		if not os.path.isdir(nwk['outDir']):
+			raise RuntimeError(f"Can not fint directory \"{nwk['outDir']}\".\n")
+		else:
+			outd=nwk['outDir']
+	return nwk
+
+def run(args):
+	wkfl=parseArgs(args)
+	print('正在载入字体...')
+	font = json.loads(subprocess.check_output((otfccdump, '--no-bom', wkfl['inFilePath'])).decode("utf-8", "ignore"))
+	if not wkfl['weight']:
+		wkfl['weight']=getwt(font)
 	if 'macStyle' in font['head']:
-		font['head']['macStyle']['bold']=wt=='Bold'
+		font['head']['macStyle']['bold']=wkfl['weight']=='Bold'
 	if 'fsSelection' in font['OS_2']:
-		font['OS_2']['fsSelection']['bold']=wt=='Bold'
-	print('字重为', wt)
-	
-	print('正在设置字体信息...')
-	if stl=='sans' or (stl!='serif' and 'Sans' in fpn):
-		yh_ulCodePageRange1= {
-			'latin1': True,
-			'latin2': True,
-			'cyrillic': True,
-			'greek': True,
-			'turkish': True,
-			'gbk': True
-		}
-		jh_ulCodePageRange1= {
-			'latin1': True,
-			'greek': True,
-			'big5': True
-		}
-		
-		yh='msyh'+end[wt]
-		jh='msjh'+end[wt]
-		nyh=json.load(open(os.path.join(pydir, 'names/msyh.json'), 'r', encoding = 'utf-8'))
-		njh=json.load(open(os.path.join(pydir, 'names/msjh.json'), 'r', encoding = 'utf-8'))
-		if wt not in ('Regular', 'Bold', 'Light'):
-			nyh[yh]=list()
-			for n1 in nyh['msyhl']:
-				n2=dict(n1)
-				n2['nameString']=n2['nameString'].replace('Light', wt)
-				nyh[yh].append(n2)
-			nyh[yh+'ui']=list()
-			for n1 in nyh['msyhlui']:
-				n2=dict(n1)
-				n2['nameString']=n2['nameString'].replace('Light', wt)
-				nyh[yh+'ui'].append(n2)
-			njh[jh]=list()
-			for n1 in njh['msjhl']:
-				n2=dict(n1)
-				n2['nameString']=n2['nameString'].replace('Light', wt)
-				njh[jh].append(n2)
-			njh[jh+'ui']=list()
-			for n1 in njh['msjhlui']:
-				n2=dict(n1)
-				n2['nameString']=n2['nameString'].replace('Light', wt)
-				njh[jh+'ui'].append(n2)
-		yhver=str()
-		jhver=str()
-		yhverui=str()
-		jhverui=str()
-		for n1 in nyh[yh]:
-			if n1['languageID']==1033:
-				if n1['nameID']==5:
-					yhver=n1['nameString'].split(' ')[-1]
-		for n1 in njh[jh]:
-			if n1['languageID']==1033:
-				if n1['nameID']==5:
-					jhver=n1['nameString'].split(' ')[-1]
-		for n1 in nyh[yh+'ui']:
-			if n1['languageID']==1033:
-				if n1['nameID']==5:
-					yhverui=n1['nameString'].split(' ')[-1]
-		for n1 in njh[jh+'ui']:
-			if n1['languageID']==1033:
-				if n1['nameID']==5:
-					jhverui=n1['nameString'].split(' ')[-1]
-		
-		font['OS_2']['ulCodePageRange1']=yh_ulCodePageRange1
-		
-		font['head']['fontRevision']=float(yhver)
-		font['name']=nyh[yh]
-		print('正在生成雅黑字体...')
-		tmp['yh'] = tempfile.mktemp('.json')
-		with open(tmp['yh'], 'w', encoding='utf-8') as f:
-			f.write(json.dumps(font))
-		
-		font['head']['fontRevision']=float(yhverui)
-		font['name']=nyh[yh+'ui']
-		print('正在生成雅黑ui字体...')
-		tmp['yhui'] = tempfile.mktemp('.json')
-		with open(tmp['yhui'], 'w', encoding='utf-8') as f:
-			f.write(json.dumps(font))
-		
-		font['OS_2']['ulCodePageRange1']=jh_ulCodePageRange1
-		
-		font['head']['fontRevision']=float(jhver)
-		font['name']=njh[jh]
-		print('正在生成正黑字体...')
-		tmp['jh'] = tempfile.mktemp('.json')
-		with open(tmp['jh'], 'w', encoding='utf-8') as f:
-			f.write(json.dumps(font))
-
-		font['head']['fontRevision']=float(jhverui)
-		font['name']=njh[jh+'ui']
-		print('正在生成正黑ui字体...')
-		tmp['jhui'] = tempfile.mktemp('.json')
-		with open(tmp['jhui'], 'w', encoding='utf-8') as f:
-			f.write(json.dumps(font))
-		
-		del font
-		gc.collect()
-		
-		print('正在生成雅黑字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', yh+'.otf', tmp['yh']))
-		os.remove(tmp['yh'])
-		print('正在生成雅黑ui字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', yh+'ui.otf', tmp['yhui']))
-		os.remove(tmp['yhui'])
-		print('正在生成正黑字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', jh+'.otf', tmp['jh']))
-		os.remove(tmp['jh'])
-		print('正在生成正黑ui字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', jh+'ui.otf', tmp['jhui']))
-		os.remove(tmp['jhui'])
-		
-		print('正在生成雅黑字体OTC/TTC...')
-		subprocess.run(('python', otf2otc, '-o', yh+'.ttc', yh+'.otf', yh+'ui.otf'))
-		print('正在生成正黑字体OTC/TTC...')
-		subprocess.run(('python', otf2otc, '-o', jh+'.ttc', jh+'.otf', jh+'ui.otf'))
-	
-	elif stl=='serif' or 'Serif' in fpn:
-		s_ulCodePageRange1= {
-			'latin1': True,
-			'gbk': True
-		}
-		m_ulCodePageRange1= {
-			'latin1': True,
-			'big5': True
-		}
-		sname='simsun'+end[wt]
-		mname='mingliu'+end[wt]
-		nssn=json.load(open(os.path.join(pydir, 'names/simsun.json'), 'r', encoding = 'utf-8'))
-		mln=json.load(open(os.path.join(pydir, 'names/mingliu.json'), 'r', encoding = 'utf-8'))
-		if wt not in ('Regular', 'Bold', 'Light'):
-			nssn[sname]=list()
-			for n1 in nssn['simsunl']:
-				n2=dict(n1)
-				n2['nameString']=n2['nameString'].replace('Light', wt)
-				nssn[sname].append(n2)
-			nssn['n'+sname]=list()
-			for n1 in nssn['nsimsunl']:
-				n2=dict(n1)
-				n2['nameString']=n2['nameString'].replace('Light', wt)
-				nssn['n'+sname].append(n2)
-			mln[mname]=list()
-			for n1 in mln['mingliul']:
-				n2=dict(n1)
-				n2['nameString']=n2['nameString'].replace('Light', wt)
-				mln[mname].append(n2)
-			mln['p'+mname]=list()
-			for n1 in mln['pmingliul']:
-				n2=dict(n1)
-				n2['nameString']=n2['nameString'].replace('Light', wt)
-				mln['p'+mname].append(n2)
-			mln['mingliu_hkscs'+end[wt]]=list()
-			for n1 in mln['mingliu_hkscsl']:
-				n2=dict(n1)
-				n2['nameString']=n2['nameString'].replace('Light', wt)
-				mln['mingliu_hkscs'+end[wt]].append(n2)
-		snver=str()
-		nsnver=str()
-		mlver=str()
-		pmlver=str()
-		mlhver=str()
-		for n1 in nssn['simsun']:
-			if n1['languageID']==1033:
-				if n1['nameID']==5:
-					snver=n1['nameString'].split(' ')[-1]
-		for n1 in nssn['nsimsun']:
-			if n1['languageID']==1033:
-				if n1['nameID']==5:
-					nsnver=n1['nameString'].split(' ')[-1]
-		for n1 in mln['mingliu']:
-			if n1['languageID']==1033:
-				if n1['nameID']==5:
-					mlver=n1['nameString'].split(' ')[-1]
-		for n1 in mln['pmingliu']:
-			if n1['languageID']==1033:
-				if n1['nameID']==5:
-					pmlver=n1['nameString'].split(' ')[-1]
-		for n1 in mln['mingliu_hkscs']:
-			if n1['languageID']==1033:
-				if n1['nameID']==5:
-					mlhver=n1['nameString'].split(' ')[-1]
-		
-		font['OS_2']['ulCodePageRange1']=s_ulCodePageRange1
-		
-		font['head']['fontRevision']=float(snver)
-		font['name']=nssn[sname]
-		print('正在生成宋体字体...')
-		tmp['sn'] = tempfile.mktemp('.json')
-		with open(tmp['sn'], 'w', encoding='utf-8') as f:
-			f.write(json.dumps(font))
-		
-		font['head']['fontRevision']=float(nsnver)
-		font['name']=nssn['n'+sname]
-		print('正在生成新宋体字体...')
-		tmp['nsn'] = tempfile.mktemp('.json')
-		with open(tmp['nsn'], 'w', encoding='utf-8') as f:
-			f.write(json.dumps(font))
-		
-		font['OS_2']['ulCodePageRange1']=m_ulCodePageRange1
-		
-		font['head']['fontRevision']=float(mlver)
-		font['name']=mln[mname]
-		print('正在生成細明體字体...')
-		tmp['mln'] = tempfile.mktemp('.json')
-		with open(tmp['mln'], 'w', encoding='utf-8') as f:
-			f.write(json.dumps(font))
-		
-		font['head']['fontRevision']=float(pmlver)
-		font['name']=mln['p'+mname]
-		print('正在生成新細明體字体...')
-		tmp['pmln'] = tempfile.mktemp('.json')
-		with open(tmp['pmln'], 'w', encoding='utf-8') as f:
-			f.write(json.dumps(font))
-		
-		font['head']['fontRevision']=float(mlhver)
-		font['name']=mln['mingliu_hkscs'+end[wt]]
-		print('正在生成細明體_HKSCS字体...')
-		tmp['mlhn'] = tempfile.mktemp('.json')
-		with open(tmp['mlhn'], 'w', encoding='utf-8') as f:
-			f.write(json.dumps(font))
-		
-		
-		del font
-		gc.collect()
-		
-		print('正在生成宋体字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', sname+'.otf', tmp['sn']))
-		os.remove(tmp['sn'])
-		print('正在生成新宋体字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', 'n'+sname+'.otf', tmp['nsn']))
-		os.remove(tmp['nsn'])
-		
-		print('正在生成宋体字体OTC/TTC...')
-		subprocess.run(('python', otf2otc, '-o', sname+'.ttc', sname+'.otf', 'n'+sname+'.otf'))
-		
-		print('正在生成細明體字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', mname+'.otf', tmp['mln']))
-		os.remove(tmp['mln'])
-		
-		print('正在生成新細明體字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', 'p'+mname+'.otf', tmp['pmln']))
-		os.remove(tmp['pmln'])
-		
-		print('正在生成細明體_HKSCS字体OTF/TTF...')
-		subprocess.run((otfccbuild, '--keep-modified-time', '--keep-average-char-width', '-O2', '-q', '-o', 'mingliu_hkscs'+end[wt]+'.otf', tmp['mlhn']))
-		os.remove(tmp['mlhn'])
-		
-		print('正在生成細明體字体OTC/TTC...')
-		subprocess.run(('python', otf2otc, '-o', mname+'.ttc', mname+'.otf', 'p'+mname+'.otf', 'mingliu_hkscs'+end[wt]+'.otf'))
-		
+		font['OS_2']['fsSelection']['bold']=wkfl['weight']=='Bold'
+	tg=wkfl['tarGet']
+	if tg=='malgun':
+		bldttfft(font, tg, wkfl['weight'])
 	else:
-		print('文件不匹配，退出！')
-		sys.exit()
+		bldttcft(font, tg, wkfl['weight'])
+	print('完成!')
 
-print('====创建Windows取代字体====\n')
-inf=str()
-outf=str()
-outfui=str()
-if len(sys.argv)<2:
-	while not os.path.isfile(inf):
-		inf=input('请输入字体文件路径（或拖入文件）：\n')
-		inf=ckfile(inf)
-		if not os.path.isfile(inf):
-			print('文件不存在，请重新选择！\n')
-else:
-	inf=sys.argv[1]
-stl=str()
-fv=str()
-if len(sys.argv)>2:
-	stl=sys.argv[2].lower()
-	if stl not in ('sans', 'serif'):
-		print(f'无效参数"{sys.argv[2]}"，请使用"Sans"或"Serif"。\n')
-		sys.exit()
-if len(sys.argv)>3:
-	fv=sys.argv[3].lower()
-	if fv not in ('extralight', 'light', 'normal', 'regular', 'medium', 'semibold', 'bold', 'heavy'):
-		print(f'无效参数"{sys.argv[3]}"，请使用"ExtraLight", "Light", "Normal", "Regular", "Medium", "SemiBold", "Bold", "Heavy"。\n')
-		sys.exit()
-	if fv=='extralight':
-		fv='ExtraLight'
-	elif fv=='semibold':
-		fv='SemiBold'
-	else:
-		fv=fv.capitalize()
+def main():
+	run(sys.argv[1:])
 
-print('正在载入字体...')
-font = json.loads(subprocess.check_output((otfccdump, '--no-bom', inf)).decode("utf-8", "ignore"))
-tmp=dict()
-creattmp()
-
-print('完成!')
+if __name__ == "__main__":
+	main()

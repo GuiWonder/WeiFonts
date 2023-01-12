@@ -1,11 +1,23 @@
 # 创建 Windows 中文字体代替字体
-将字体转换为 Windows 雅黑、正黑、宋体、细明体的代替字体。
+将字体转换为 Windows 雅黑、正黑、宋体、细明体等代替字体。
 ## 使用方法
-程序可支持 8 种字重 "ExtraLight", "Light", "Normal", "Regular", "Medium", "SemiBold", "Bold", "Heavy"
-#### 1. 字体名称（指内部名称，下同）中包含“Sans”或“Serif”
-运行 `python winfont.py XX.otf` </br>
-程序会自动判断字重根据字体名称在当前目录生成 msyhXX.otf msyhXXui.otf msyhXX.ttc msjhXX.otf msjhXXui.otf msjhXX.ttc 或 simsunXX.otf nsimsunXX.otf simsunXX.ttc mingliuXX.otf pmingliuXX.otf mingliu_hkscsXX.otf mingliuXX.ttc
-#### 2. 字体名称中不包含“Sans”或“Serif”，或强制指定“Sans”或“Serif”
-运行 `python winfont.py XX.otf Sans` 或 `python winfont.py XX.otf Serif` 程序会自动判断字重
-#### 3. 程序无法判断字重，或强制指定字重
-运行 `python winfont.py XX.otf Sans Regular` 其中 "Regular" 可以是 "ExtraLight", "Light", "Normal", "Regular", "Medium", "SemiBold", "Bold", "Heavy"。
+
+运行 `python winfont.py -i InFont -tg Target -wt Weight -d OutDirectory`。
+- `-i` 输入字体(Input)。
+- `-tg` 目标字体(Target)，具体如下表。
+
+  | tg | 目标字体 |
+  | ---- | :---- |
+  | msyh   | 微软雅黑、微软雅黑UI |
+  | msjh   | 微軟正黑體、微軟正黑體UI |
+  | mingliu | 細明體、新細明體、細明體_HKSCS |
+  | simsun  | 宋体、新宋体 |
+  | yugoth  | Yu Gothic、Yu Gothic UI |
+  | msgothic | MS Gothic、MS UI Gothic、MS PGothic |
+  | malgun  | Malgun Gothic |
+  | msmincho | MS Mincho、MS PMincho |
+  | meiryo  | Meiryo、Meiryo |
+  | batang  | Batang、BatangChe、Gungsuh、GungsuhChe |
+- `-wt` 字重(Weight)，可使用 `"ExtraLight", "Light", "Semilight", "Normal", "Regular", "Medium", "SemiBold", "Bold", "Heavy"`。如未指定字重，程序会自动判断字重。
+  > NOTE: 目标为 `yugoth` 时，不建议使用 `"Semilight"` 和 `"SemiBold"`。
+- `-d` 字体保存目录(Output Directory)，如未指定，则使用当前目录。

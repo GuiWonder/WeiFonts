@@ -1,4 +1,8 @@
 {
+    "ulCodePageRange1": {
+        "latin1": true,
+        "big5": true
+    },
     "mingliu": [
         {
             "platformID": 1,

@@ -1,4 +1,8 @@
 {
+    "ulCodePageRange1": {
+        "latin1": true,
+        "gbk": true
+    },
     "simsun": [
         {
             "platformID": 1,

@@ -1,4 +1,12 @@
 {
+    "ulCodePageRange1": {
+		"latin1": true,
+		"latin2": true,
+		"cyrillic": true,
+		"greek": true,
+		"turkish": true,
+		"gbk": true
+    },
     "msyh": [
         {
             "platformID": 3,
@@ -1286,7 +1294,7 @@
             "nameString": "Microsoft YaHei Gras"
         }
     ],
-    "msyhbdui": [
+    "msyhuibd": [
         {
             "platformID": 3,
             "encodingID": 1,
@@ -2053,7 +2061,7 @@
             "nameString": "Light"
         }
     ],
-    "msyhlui": [
+    "msyhuil": [
         {
             "platformID": 3,
             "encodingID": 1,

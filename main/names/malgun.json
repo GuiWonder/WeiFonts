@@ -1,0 +1,966 @@
+{
+    "ulCodePageRange1": {
+        "latin1": true,
+        "korean": true
+    },
+    "malgun": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Malgun Gothic"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Malgun Gothic Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Malgun Gothic"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.68"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MalgunGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2016 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Malgun Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Malgun Gothic Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Malgun Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.68"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MalgunGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Malgun Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "Kyoung-bae Lee; Daekwon Kim"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "Malgun Gothic is a Korean font developed by taking advantage of ClearType technology, and it provides excellent reading experience particularly onscreen. Its elements are created based on the typeface of Hunminjeongeum, and streamlined with modern form of characters as well as upright and well-regulated strokes. The font is very legible at small sizes with its moderate open counters, and its even inter-character spacing and visual center line maximize the readability.\r\n\r\n"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.sandoll.co.kr"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 1,
+            "nameString": "맑은 고딕"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 3,
+            "nameString": "맑은 고딕 Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 4,
+            "nameString": "맑은 고딕"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 5,
+            "nameString": "Version 6.68"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 6,
+            "nameString": "MalgunGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 9,
+            "nameString": "이경배; 김대권"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 10,
+            "nameString": "맑은 고딕은 ClearType 기술을 채택하여 개발한 한글 폰트이며, 특히 스크린 상에서 뛰어난 가독성을 제공한다. 기본 모듈은 훈민정음의 글자체를 기반으로 제작하였으며, 모던한 자형과 곧고 잘 정리된 획을 사용하여 현대적인 감각을 부여하였다. 글자의 속공간을 알맞게 확보하여 작은 크기에서도 판독성을 높였으며, 고른 자간과 시각 중심선으로 가독성을 극대화하였다."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 12,
+            "nameString": "http://www.sandoll.co.kr"
+        }
+    ],
+    "malgunbd": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Malgun Gothic"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Malgun Gothic Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Malgun Gothic Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.68"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MalgunGothicBold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2014 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Malgun Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Malgun Gothic Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Malgun Gothic Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.68"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MalgunGothicBold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Malgun Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "Kyoung-bae Lee; Daekwon Kim"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "Malgun Gothic is a Korean font developed by taking advantage of ClearType technology, and it provides excellent reading experience particularly onscreen. Its elements are created based on the typeface of Hunminjeongeum, and streamlined with modern form of characters as well as upright and well-regulated strokes. The font is very legible at small sizes with its moderate open counters, and its even inter-character spacing and visual center line maximize the readability.\r\n\r\n"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.sandoll.co.kr"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 1,
+            "nameString": "맑은 고딕"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 3,
+            "nameString": "맑은 고딕 Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 4,
+            "nameString": "맑은 고딕 Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 5,
+            "nameString": "Version 6.68"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 6,
+            "nameString": "MalgunGothicBold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 9,
+            "nameString": "이경배; 김대권"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 10,
+            "nameString": "맑은 고딕은 ClearType 기술을 채택하여 개발한 한글 폰트이며, 특히 스크린 상에서 뛰어난 가독성을 제공한다. 기본 모듈은 훈민정음의 글자체를 기반으로 제작하였으며, 모던한 자형과 곧고 잘 정리된 획을 사용하여 현대적인 감각을 부여하였다. 글자의 속공간을 알맞게 확보하여 작은 크기에서도 판독성을 높였으며, 고른 자간과 시각 중심선으로 가독성을 극대화하였다."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 12,
+            "nameString": "http://www.sandoll.co.kr"
+        }
+    ],
+    "malgunsl": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Malgun Gothic Semilight"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Malgun Gothic Semilight"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Malgun Gothic Semilight"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.68"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MalgunGothic-Semilight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2015 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Malgun Gothic Semilight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Malgun Gothic Semilight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Malgun Gothic Semilight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.68"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MalgunGothic-Semilight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Malgun Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "Kyungbea Lee; Daekwon Kim"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "Malgun Gothic is a Korean font developed by taking advantage of ClearType technology, and it provides excellent reading experience particularly onscreen. Its elements are created based on the typeface of Hunminjeongeum, and streamlined with modern form of characters as well as upright and well-regulated strokes. The font is very legible at small sizes with its moderate open counters, and its even inter-character spacing and visual center line maximize the readability.\r\n\r\n"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.goodfont.co.kr"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Malgun Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Semilight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 1,
+            "nameString": "맑은 고딕 Semilight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 3,
+            "nameString": "맑은 고딕 Semilight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 4,
+            "nameString": "맑은 고딕 Semilight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 5,
+            "nameString": "Version 6.68"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 6,
+            "nameString": "MalgunGothic-Semilight"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 9,
+            "nameString": "이경배; 김대권"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 10,
+            "nameString": "맑은 고딕은 ClearType 기술을 채택하여 개발한 한글 폰트이며, 특히 스크린 상에서 뛰어난 가독성을 제공한다. 기본 모듈은 훈민정음의 글자체를 기반으로 제작하였으며, 모던한 자형과 곧고 잘 정리된 획을 사용하여 현대적인 감각을 부여하였다. 글자의 속공간을 알맞게 확보하여 작은 크기에서도 판독성을 높였으며, 고른 자간과 시각 중심선으로 가독성을 극대화하였다."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 12,
+            "nameString": "http://www.goodfont.co.kr"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 16,
+            "nameString": "맑은 고딕"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 17,
+            "nameString": "Semilight"
+        }
+    ],
+    "malgunl": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Malgun Gothic Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Malgun Gothic Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Malgun Gothic Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.68"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MalgunGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2015 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Malgun Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Malgun Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Malgun Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.68"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MalgunGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Malgun Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "Kyungbea Lee; Daekwon Kim"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "Malgun Gothic is a Korean font developed by taking advantage of ClearType technology, and it provides excellent reading experience particularly onscreen. Its elements are created based on the typeface of Hunminjeongeum, and streamlined with modern form of characters as well as upright and well-regulated strokes. The font is very legible at small sizes with its moderate open counters, and its even inter-character spacing and visual center line maximize the readability.\r\n\r\n"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.goodfont.co.kr"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Malgun Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 1,
+            "nameString": "맑은 고딕 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 3,
+            "nameString": "맑은 고딕 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 4,
+            "nameString": "맑은 고딕 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 5,
+            "nameString": "Version 6.68"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 6,
+            "nameString": "MalgunGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 9,
+            "nameString": "이경배; 김대권"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 10,
+            "nameString": "맑은 고딕은 ClearType 기술을 채택하여 개발한 한글 폰트이며, 특히 스크린 상에서 뛰어난 가독성을 제공한다. 기본 모듈은 훈민정음의 글자체를 기반으로 제작하였으며, 모던한 자형과 곧고 잘 정리된 획을 사용하여 현대적인 감각을 부여하였다. 글자의 속공간을 알맞게 확보하여 작은 크기에서도 판독성을 높였으며, 고른 자간과 시각 중심선으로 가독성을 극대화하였다."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 12,
+            "nameString": "http://www.goodfont.co.kr"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 16,
+            "nameString": "맑은 고딕"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1042,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ]
+}

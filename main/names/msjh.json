@@ -1,4 +1,9 @@
 {
+    "ulCodePageRange1": {
+		"latin1": true,
+		"greek": true,
+		"big5": true
+    },
     "msjh": [
         {
             "platformID": 3,
@@ -1223,7 +1228,7 @@
             "nameString": "Microsoft JhengHei Gras"
         }
     ],
-    "msjhbdui": [
+    "msjhuibd": [
         {
             "platformID": 3,
             "encodingID": 1,
@@ -1969,7 +1974,7 @@
             "nameString": "Light"
         }
     ],
-    "msjhlui": [
+    "msjhuil": [
         {
             "platformID": 3,
             "encodingID": 1,
