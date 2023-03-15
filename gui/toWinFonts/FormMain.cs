@@ -98,6 +98,24 @@ namespace toWinFonts
                 case 9:
                     tg = "batang";
                     break;
+                case 10:
+                    tg = "gulim";
+                    break;
+                case 11:
+                    tg = "allsans";
+                    break;
+                case 12:
+                    tg = "allserif";
+                    break;
+                case 13:
+                    tg = "all";
+                    break;
+                case 14:
+                    tg = "mingliub";
+                    break;
+                case 15:
+                    tg = "simsunb";
+                    break;
                 default:
                     break;
             }
@@ -109,6 +127,10 @@ namespace toWinFonts
             if (comboBox2.SelectedIndex != 0)
             {
                 args += $" -wt {comboBox2.Text}";
+            }
+            if (checkBoxRmTTF.Checked)
+            {
+                args += " -r";
             }
             panelMain.Enabled = false;
             Cursor = Cursors.WaitCursor;

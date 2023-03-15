@@ -35,14 +35,15 @@
             this.textBoxOut = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panelMain = new System.Windows.Forms.Panel();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.linkLabelOut = new System.Windows.Forms.LinkLabel();
             this.linkLabelIn = new System.Windows.Forms.LinkLabel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.checkBoxRmTTF = new System.Windows.Forms.CheckBox();
             this.panelMain.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -100,6 +101,7 @@
             // 
             // panelMain
             // 
+            this.panelMain.Controls.Add(this.checkBoxRmTTF);
             this.panelMain.Controls.Add(this.comboBox2);
             this.panelMain.Controls.Add(this.comboBox1);
             this.panelMain.Controls.Add(this.label2);
@@ -113,19 +115,8 @@
             this.panelMain.Controls.Add(this.buttonStart);
             this.panelMain.Location = new System.Drawing.Point(13, 13);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(478, 149);
+            this.panelMain.Size = new System.Drawing.Size(478, 181);
             this.panelMain.TabIndex = 18;
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(28, 173);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(53, 12);
-            this.linkLabel1.TabIndex = 21;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "项目主页";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
             // 
             // comboBox2
             // 
@@ -133,14 +124,17 @@
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "自动",
+            "Thin",
             "ExtraLight",
             "Light",
             "Semilight",
+            "DemiLight",
             "Normal",
             "Regular",
             "Medium",
             "SemiBold",
             "Bold",
+            "Black",
             "Heavy"});
             this.comboBox2.Location = new System.Drawing.Point(74, 49);
             this.comboBox2.Name = "comboBox2";
@@ -161,7 +155,13 @@
             "Malgun Gothic",
             "MS Mincho、MS PMincho",
             "Meiryo、Meiryo UI",
-            "Batang、BatangChe、Gungsuh、GungsuhChe"});
+            "Batang、BatangChe、Gungsuh、GungsuhChe",
+            "Gulim、GulimChe、Dotum、DotumChe",
+            "以上所有无衬线字体",
+            "以上所有衬线字体",
+            "以上所有字体",
+            "細明體-ExtB、新細明體-ExtB、細明體_HKSCS-ExtB",
+            "宋体-ExtB"});
             this.comboBox1.Location = new System.Drawing.Point(74, 14);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(286, 20);
@@ -207,13 +207,36 @@
             this.linkLabelIn.Text = "选择";
             this.linkLabelIn.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabelIn_LinkClicked);
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(28, 208);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(53, 12);
+            this.linkLabel1.TabIndex = 21;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "项目主页";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
+            // 
+            // checkBoxRmTTF
+            // 
+            this.checkBoxRmTTF.AutoSize = true;
+            this.checkBoxRmTTF.Checked = true;
+            this.checkBoxRmTTF.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxRmTTF.Location = new System.Drawing.Point(17, 157);
+            this.checkBoxRmTTF.Name = "checkBoxRmTTF";
+            this.checkBoxRmTTF.Size = new System.Drawing.Size(156, 16);
+            this.checkBoxRmTTF.TabIndex = 21;
+            this.checkBoxRmTTF.Text = "TTC 打包完成后移除 TTF";
+            this.checkBoxRmTTF.UseVisualStyleBackColor = true;
+            // 
             // FormMain
             // 
             this.AcceptButton = this.buttonStart;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(506, 194);
+            this.ClientSize = new System.Drawing.Size(506, 229);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.panelMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -247,6 +270,7 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.CheckBox checkBoxRmTTF;
     }
 }
 

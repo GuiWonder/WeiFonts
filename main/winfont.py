@@ -5,14 +5,16 @@ otfccdump = os.path.join(pydir, 'otfcc/otfccdump')
 otfccbuild = os.path.join(pydir, 'otfcc/otfccbuild')
 otf2otc = os.path.join(pydir, 'otf2otc.py')
 outd=str()
+rmttf=False
 if platform.system() in ('Mac', 'Darwin'):
 	otfccdump += '1'
 	otfccbuild += '1'
 if platform.system() == 'Linux':
 	otfccdump += '2'
 	otfccbuild += '2'
-TG= ('msyh', 'msjh', 'mingliu', 'simsun', 'yugoth', 'msgothic', 'malgun', 'msmincho', 'meiryo', 'batang')
-WT=('extralight', 'light', 'semilight', 'normal', 'regular', 'medium', 'semibold', 'bold', 'heavy')
+TG= ('msyh', 'msjh', 'mingliu', 'mingliub', 'simsun', 'simsunb', 'yugoth', 'msgothic', 'malgun', 'msmincho', 'meiryo', 'batang', 'gulim', 'all', 'allsans', 'allserif')
+WT=('thin', 'extralight', 'light', 'semilight', 'demilight', 'normal', 'regular', 'medium', 'semibold', 'bold', 'black', 'heavy')
+end={'Thin':'th', 'ExtraLight':'xl', 'Light':'l', 'Semilight':'sl', 'DemiLight':'dm', 'Normal':'nm', 'Regular':'', 'Medium':'md', 'SemiBold':'sb', 'Bold':'bd', 'Black':'bl', 'Heavy':'hv'}
 
 def getwt(font):
 	if 'macStyle' in font['head'] and 'bold' in font['head']['macStyle'] and font['head']['macStyle']['bold']:
@@ -20,17 +22,16 @@ def getwt(font):
 	wtn={250:'ExtraLight', 300:'Light', 350:'Normal', 400:'Regular', 500:'Medium', 600:'SemiBold', 900:'Heavy'}
 	wtc=font['OS_2']['usWeightClass']
 	if wtc<300:
-		wtc=250
+		return wtn[250]
 	if wtc in wtn:
 		return wtn[wtc]
-	else:
-		return 'Regular'
+	return 'Regular'
 
 def getver(nmo):
 	for n1 in nmo:
 		if n1['languageID']==1033 and n1['nameID']==5:
 			return n1['nameString'].split(' ')[-1]
-	return 0
+	return 1
 
 def mktmp(font):
 	tmp = tempfile.mktemp('.json')
@@ -57,10 +58,11 @@ def wtbuil(nml, wt):
 	return nwtnm
 
 def bldttfft(font, tgft, wt):
-	end={'ExtraLight':'xl', 'Light':'l', 'Semilight':'sl', 'Normal':'nm', 'Regular':'', 'Medium':'md', 'SemiBold':'sb', 'Bold':'bd', 'Heavy':'hv'}
 	ncfg=json.load(open(os.path.join(pydir, f'names/{tgft}.json'), 'r', encoding = 'utf-8'))
 	font['OS_2']['ulCodePageRange1']=ncfg['ulCodePageRange1']
-	if wt not in ('Regular', 'Bold', 'Semilight', 'Light'):
+	if tgft=='malgun':wts=('Regular', 'Bold', 'Semilight', 'Light')
+	else:wts=('Regular', 'Bold', 'Light')
+	if wt not in wts:
 		nmslist=wtbuil(ncfg[tgft+'l'], wt)
 	else:
 		nmslist=ncfg[tgft+end[wt]]
@@ -73,9 +75,9 @@ def bldttfft(font, tgft, wt):
 	gc.collect()
 	print('正在保存TTF...')
 	svtottf(tmpf, ttflist)
+	print('完成!')
 
 def bldttcft(font, tgft, wt):
-	end={'ExtraLight':'xl', 'Light':'l', 'Semilight':'sl', 'Normal':'nm', 'Regular':'', 'Medium':'md', 'SemiBold':'sb', 'Bold':'bd', 'Heavy':'hv'}
 	ncfg=json.load(open(os.path.join(pydir, f'names/{tgft}.json'), 'r', encoding = 'utf-8'))
 	font['OS_2']['ulCodePageRange1']=ncfg['ulCodePageRange1']
 	if tgft in ('msyh', 'msjh', 'meiryo'):
@@ -93,7 +95,7 @@ def bldttcft(font, tgft, wt):
 			nmslist=[ncfg[tgft+end[wt]], ncfg['n'+tgft+end[wt]]]
 		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('p'+tgft+end[wt]+'.ttf')]
 		ttcfil=otpth(tgft+end[wt]+'.ttc')
-	elif tgft=='mingliu':
+	elif tgft in ('mingliu', 'mingliub'):
 		if wt not in ('Regular', 'Bold', 'Light'):
 			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg['p'+tgft+'l'], wt), wtbuil(ncfg[tgft+'_hkscsl'], wt)]
 		else:
@@ -121,6 +123,13 @@ def bldttcft(font, tgft, wt):
 			nmslist=[ncfg[tgft+end[wt]], ncfg['batangche'+end[wt]], ncfg['gungsuh'+end[wt]], ncfg['gungsuhche'+end[wt]]]
 		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('batangche'+end[wt]+'.ttf'), otpth('gungsuh'+end[wt]+'.ttf'), otpth('gungsuhche'+end[wt]+'.ttf')]
 		ttcfil=otpth(tgft+end[wt]+'.ttc')
+	elif tgft=='gulim':
+		if wt not in ('Regular', 'Bold', 'Light'):
+			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg['gulimchel'], wt), wtbuil(ncfg['dotuml'], wt), wtbuil(ncfg['dotumchel'], wt)]
+		else:
+			nmslist=[ncfg[tgft+end[wt]], ncfg['gulimche'+end[wt]], ncfg['dotum'+end[wt]], ncfg['dotumche'+end[wt]]]
+		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('gulimche'+end[wt]+'.ttf'), otpth('dotum'+end[wt]+'.ttf'), otpth('dotumche'+end[wt]+'.ttf')]
+		ttcfil=otpth(tgft+end[wt]+'.ttc')
 	elif tgft=='yugoth':
 		if wt =='Regular':
 			nmslist=[ncfg['yugoth'], ncfg['yugothuisl']]
@@ -142,7 +151,6 @@ def bldttcft(font, tgft, wt):
 			nmslist=[wtbuil(ncfg['yugothl'], wt), wtbuil(ncfg['yugothuil'], wt)]
 			ttflist=[otpth('YuGoth'+end[wt].upper()+'.ttf'), otpth('YuGothui'+end[wt].upper()+'.ttf')]
 			ttcfil=otpth('YuGoth'+end[wt].upper()+'.ttc')
-
 	print('正在生成字体...')
 	tmpf=list()
 	for i in range(len(nmslist)):
@@ -158,69 +166,82 @@ def bldttcft(font, tgft, wt):
 	ttcarg=['python', otf2otc, '-o', ttcfil]
 	ttcarg+=ttflist
 	subprocess.run(tuple(ttcarg))
+	if rmttf:
+		for tpttf in ttflist: os.remove(tpttf)
+	print('完成!')
 
 def parseArgs(args):
-	global outd
-	nwk=dict()
-	nwk['inFilePath'], nwk['outDir'], nwk['tarGet'], nwk['weight']=(str() for i in range(4))
-	argn = len(args)
-	i = 0
+	global outd, rmttf
+	inFilePath, outDir, tarGet, weight=(str() for i in range(4))
+	i, argn = 0, len(args)
 	while i < argn:
 		arg  = args[i]
 		i += 1
 		if arg == "-i":
-			nwk['inFilePath'] = args[i]
+			inFilePath = args[i]
 			i += 1
 		elif arg == "-d":
-			nwk['outDir'] = args[i]
+			outDir = args[i]
 			i += 1
 		elif arg == "-wt":
-			nwk['weight'] = args[i]
+			weight = args[i]
 			i += 1
 		elif arg == "-tg":
-			nwk['tarGet'] = args[i].lower()
+			tarGet = args[i].lower()
 			i += 1
+		elif arg == "-r":
+			rmttf = True
 		else:
 			raise RuntimeError("Unknown option '%s'." % (arg))
-	if not nwk['inFilePath']:
+	if not inFilePath:
 		raise RuntimeError("You must specify one input font.")
-	if not nwk['tarGet']:
+	if not os.path.isfile(inFilePath):
+		raise FileNotFoundError(f"Can not find file \"{inFilePath}\".\n")
+	if not tarGet:
 		raise RuntimeError(f"You must specify target.{TG}")
-	elif nwk['tarGet'] not in TG:
-		raise RuntimeError(f"Unknown target \"{nwk['tarGet']}\"，please use {TG}.\n")
-	if nwk['weight']:
-		if nwk['weight'].lower() not in WT:
-			raise RuntimeError(f'Unknown weight "{nwk["weight"]}"，please use "ExtraLight", "Light", "Semilight", "Normal", "Regular", "Medium", "SemiBold", "Bold", "Heavy"。\n')
-		nwk['weight']=nwk['weight'].lower()
-		if nwk['weight']=='extralight':
-			nwk['weight']='ExtraLight'
-		elif nwk['weight']=='semibold':
-			nwk['weight']='SemiBold'
+	elif tarGet not in TG:
+		raise RuntimeError(f"Unknown target \"{tarGet}\"，please use {TG}.\n")
+	if weight:
+		if weight.lower() not in WT:
+			raise RuntimeError(f'Unknown weight "{weight}"，please use {tuple(end.keys())}。\n')
+		weight=weight.lower()
+		if weight=='extralight': weight='ExtraLight'
+		elif weight=='semibold': weight='SemiBold'
+		elif weight=='demilight': weight='DemiLight'
+		else: weight=weight.capitalize()
+	if outDir:
+		if not os.path.isdir(outDir):
+			raise RuntimeError(f"Can not find directory \"{outDir}\".\n")
 		else:
-			nwk['weight']=nwk['weight'].capitalize()
-	if nwk['outDir']:
-		if not os.path.isdir(nwk['outDir']):
-			raise RuntimeError(f"Can not fint directory \"{nwk['outDir']}\".\n")
-		else:
-			outd=nwk['outDir']
-	return nwk
+			outd=outDir
+	return inFilePath, tarGet, weight
 
 def run(args):
-	wkfl=parseArgs(args)
+	ftin, tg, setwt=parseArgs(args)
 	print('正在载入字体...')
-	font = json.loads(subprocess.check_output((otfccdump, '--no-bom', wkfl['inFilePath'])).decode("utf-8", "ignore"))
-	if not wkfl['weight']:
-		wkfl['weight']=getwt(font)
+	font = json.loads(subprocess.check_output((otfccdump, '--no-bom', ftin)).decode("utf-8", "ignore"))
+	if not setwt:
+		setwt=getwt(font)
 	if 'macStyle' in font['head']:
-		font['head']['macStyle']['bold']=wkfl['weight']=='Bold'
+		font['head']['macStyle']['bold']=setwt=='Bold'
 	if 'fsSelection' in font['OS_2']:
-		font['OS_2']['fsSelection']['bold']=wkfl['weight']=='Bold'
-	tg=wkfl['tarGet']
-	if tg=='malgun':
-		bldttfft(font, tg, wkfl['weight'])
-	else:
-		bldttcft(font, tg, wkfl['weight'])
-	print('完成!')
+		font['OS_2']['fsSelection']['bold']=setwt=='Bold'
+	if tg in ('malgun', 'all', 'allsans'):
+		bldttfft(font, 'malgun', setwt)
+	if tg=='all':
+		for stg in ('msyh', 'msjh', 'mingliu', 'simsun', 'yugoth', 'msgothic', 'msmincho', 'meiryo', 'batang', 'gulim'):
+			bldttcft(font, stg, setwt)
+	elif tg=='allsans':
+		for stg in ('msyh', 'msjh', 'yugoth', 'msgothic', 'meiryo', 'gulim'):
+			bldttcft(font, stg, setwt)
+	elif tg=='allserif':
+		for stg in ('mingliu', 'simsun', 'msmincho', 'batang'):
+			bldttcft(font, stg, setwt)
+	elif tg=='simsunb':
+		bldttfft(font, tg, setwt)
+	elif tg!='malgun':
+		bldttcft(font, tg, setwt)
+	print('结束!')
 
 def main():
 	run(sys.argv[1:])
