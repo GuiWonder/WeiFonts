@@ -14,7 +14,6 @@ if platform.system() == 'Linux':
 	otfccbuild += '2'
 TG= ('msyh', 'msjh', 'mingliu', 'mingliub', 'simsun', 'simsunb', 'yugoth', 'msgothic', 'malgun', 'msmincho', 'meiryo', 'batang', 'gulim', 'all', 'allsans', 'allserif')
 WT=('thin', 'extralight', 'light', 'semilight', 'demilight', 'normal', 'regular', 'medium', 'semibold', 'bold', 'black', 'heavy')
-end={'Thin':'th', 'ExtraLight':'xl', 'Light':'l', 'Semilight':'sl', 'DemiLight':'dm', 'Normal':'nm', 'Regular':'', 'Medium':'md', 'SemiBold':'sb', 'Bold':'bd', 'Black':'bl', 'Heavy':'hv'}
 
 def getwt(font):
 	if 'macStyle' in font['head'] and 'bold' in font['head']['macStyle'] and font['head']['macStyle']['bold']:
@@ -58,6 +57,7 @@ def wtbuil(nml, wt):
 	return nwtnm
 
 def bldttfft(font, tgft, wt):
+	end={'Thin':'th', 'ExtraLight':'xl', 'Light':'l', 'Semilight':'sl', 'DemiLight':'dm', 'Normal':'nm', 'Regular':'', 'Medium':'md', 'SemiBold':'sb', 'Bold':'bd', 'Black':'bl', 'Heavy':'hv'}
 	ncfg=json.load(open(os.path.join(pydir, f'names/{tgft}.json'), 'r', encoding = 'utf-8'))
 	font['OS_2']['ulCodePageRange1']=ncfg['ulCodePageRange1']
 	if tgft=='malgun':wts=('Regular', 'Bold', 'Semilight', 'Light')
@@ -78,6 +78,7 @@ def bldttfft(font, tgft, wt):
 	print('完成!')
 
 def bldttcft(font, tgft, wt):
+	end={'Thin':'th', 'ExtraLight':'xl', 'Light':'l', 'Semilight':'sl', 'DemiLight':'dm', 'Normal':'nm', 'Regular':'', 'Medium':'md', 'SemiBold':'sb', 'Bold':'bd', 'Black':'bl', 'Heavy':'hv'}
 	ncfg=json.load(open(os.path.join(pydir, f'names/{tgft}.json'), 'r', encoding = 'utf-8'))
 	font['OS_2']['ulCodePageRange1']=ncfg['ulCodePageRange1']
 	if tgft in ('msyh', 'msjh', 'meiryo'):
