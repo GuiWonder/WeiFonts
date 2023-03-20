@@ -12,9 +12,9 @@ if platform.system() in ('Mac', 'Darwin'):
 if platform.system() == 'Linux':
 	otfccdump += '2'
 	otfccbuild += '2'
-TG= ('msyh', 'msjh', 'mingliu', 'mingliub', 'simsun', 'simsunb', 'yugoth', 'msgothic', 'malgun', 'msmincho', 'meiryo', 'batang', 'gulim', 'all', 'allsans', 'allserif')
-WT=('thin', 'extralight', 'light', 'semilight', 'demilight', 'normal', 'regular', 'medium', 'semibold', 'bold', 'black', 'heavy')
-end={'Thin':'th', 'ExtraLight':'xl', 'Light':'l', 'Semilight':'sl', 'DemiLight':'dm', 'Normal':'nm', 'Regular':'', 'Medium':'md', 'SemiBold':'sb', 'Bold':'bd', 'Black':'bl', 'Heavy':'hv'}
+TG= ('msyh', 'msjh', 'mingliu', 'simsun', 'simhei', 'msgothic', 'msmincho', 'meiryo', 'malgun', 'yugoth', 'yumin', 'batang', 'gulim', 'allsans', 'allserif', 'all', 'mingliub', 'simsunb')
+WT=('thin', 'extralight', 'light', 'semilight', 'demilight', 'normal', 'regular', 'medium', 'demibold', 'semibold', 'bold', 'black', 'heavy')
+end={'Thin':'th', 'ExtraLight':'xl', 'Light':'l', 'Semilight':'sl', 'DemiLight':'dm', 'Normal':'nm', 'Regular':'', 'Medium':'md', 'Demibold':'db', 'SemiBold':'sb', 'Bold':'bd', 'Black':'bl', 'Heavy':'hv'}
 
 def getwt(font):
 	if 'macStyle' in font['head'] and 'bold' in font['head']['macStyle'] and font['head']['macStyle']['bold']:
@@ -61,11 +61,10 @@ def bldttfft(font, tgft, wt):
 	ncfg=json.load(open(os.path.join(pydir, f'names/{tgft}.json'), 'r', encoding = 'utf-8'))
 	font['OS_2']['ulCodePageRange1']=ncfg['ulCodePageRange1']
 	if tgft=='malgun':wts=('Regular', 'Bold', 'Semilight', 'Light')
+	elif tgft=='yumin':wts=('Regular', 'Bold', 'Demibold', 'Light')
 	else:wts=('Regular', 'Bold', 'Light')
-	if wt not in wts:
-		nmslist=wtbuil(ncfg[tgft+'l'], wt)
-	else:
-		nmslist=ncfg[tgft+end[wt]]
+	if wt not in wts: nmslist=wtbuil(ncfg[tgft+'l'], wt)
+	else: nmslist=ncfg[tgft+end[wt]]
 	ttflist=otpth(tgft+end[wt]+'.ttf')
 	font['head']['fontRevision']=float(getver(nmslist))
 	font['name']=nmslist
@@ -229,6 +228,10 @@ def run(args):
 		font['OS_2']['fsSelection']['bold']=setwt=='Bold'
 	if tg in ('malgun', 'all', 'allsans'):
 		bldttfft(font, 'malgun', setwt)
+	if tg in ('simhei', 'all', 'allsans'):
+		bldttfft(font, 'simhei', setwt)
+	if tg in ('yumin', 'all', 'allserif'):
+		bldttfft(font, 'yumin', setwt)
 	if tg=='all':
 		for stg in ('msyh', 'msjh', 'mingliu', 'simsun', 'yugoth', 'msgothic', 'msmincho', 'meiryo', 'batang', 'gulim'):
 			bldttcft(font, stg, setwt)
@@ -240,7 +243,7 @@ def run(args):
 			bldttcft(font, stg, setwt)
 	elif tg=='simsunb':
 		bldttfft(font, tg, setwt)
-	elif tg!='malgun':
+	elif tg not in ('malgun', 'simhei', 'yumin'):
 		bldttcft(font, tg, setwt)
 	print('结束!')
 

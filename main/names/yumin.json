@@ -1,0 +1,720 @@
+{
+    "ulCodePageRange1": {
+        "latin1": true,
+        "latin2": true,
+        "cyrillic": true,
+        "greek": true,
+        "turkish": true,
+        "windowsBaltic": true,
+        "jis": true,
+        "macRoman": true
+    },
+    "yumin": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 JIYUKOBO Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Yu Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "YuMincho-Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Yu Mincho Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 1.92"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "YuMincho-Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Yu Type Library is a Trademark of JIYUKOBO Ltd. registered in Japan."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Yu Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 有限会社字游工房 All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "游明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "游明朝 Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "游書体ライブラリーは有限会社字游工房の登録商標です"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 8,
+            "nameString": "有限会社字游工房"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 9,
+            "nameString": "有限会社字游工房"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "游明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Regular"
+        }
+    ],
+    "yuminbd": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 JIYUKOBO Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Yu Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "YuMincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Yu Mincho Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 1.92"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "YuMincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Yu Type Library is a Trademark of JIYUKOBO Ltd. registered in Japan."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Yu Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 有限会社字游工房 All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "游明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "游明朝 Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "游書体ライブラリーは有限会社字游工房の登録商標です"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 8,
+            "nameString": "有限会社字游工房"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 9,
+            "nameString": "有限会社字游工房"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "游明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Bold"
+        }
+    ],
+    "yumindb": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 JIYUKOBO Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Yu Mincho Demibold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "YuMincho-Demibold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Yu Mincho Demibold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 1.92"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "YuMincho-Demibold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Yu Type Library is a Trademark of JIYUKOBO Ltd. registered in Japan."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Yu Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Demibold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 有限会社字游工房 All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "游明朝 Demibold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "游明朝 Demibold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "游書体ライブラリーは有限会社字游工房の登録商標です"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 8,
+            "nameString": "有限会社字游工房"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 9,
+            "nameString": "有限会社字游工房"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "游明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Demibold"
+        }
+    ],
+    "yuminl": [
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 JIYUKOBO Ltd. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Yu Mincho Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "YuMincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Yu Mincho Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 1.92"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "YuMincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Yu Type Library is a Trademark of JIYUKOBO Ltd. registered in Japan."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "JIYUKOBO Ltd."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.jiyu-kobo.co.jp/"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Yu Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "Copyright © 2019 有限会社字游工房 All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "游明朝 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "游明朝 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "游書体ライブラリーは有限会社字游工房の登録商標です"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 8,
+            "nameString": "有限会社字游工房"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 9,
+            "nameString": "有限会社字游工房"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "游明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ]
+}
