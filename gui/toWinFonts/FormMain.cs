@@ -22,6 +22,7 @@ namespace toWinFonts
             CheckForIllegalCrossThreadCalls = false;
             comboBox1.SelectedIndex = 0;
             comboBox2.SelectedIndex = 0;
+            comboBox3.SelectedIndex = 0;
         }
 
         private bool IsInPATH(string command)
@@ -79,6 +80,14 @@ namespace toWinFonts
             {
                 args += " -r";
             }
+            if (comboBox3.SelectedIndex == 1)
+            {
+                args += " -it y";
+            }
+            else if (comboBox3.SelectedIndex == 2)
+            {
+                args += " -it n";
+            } 
             panelMain.Enabled = false;
             Cursor = Cursors.WaitCursor;
             err = "";

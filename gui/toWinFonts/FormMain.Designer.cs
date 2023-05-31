@@ -35,6 +35,7 @@
             this.textBoxOut = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panelMain = new System.Windows.Forms.Panel();
+            this.checkBoxRmTTF = new System.Windows.Forms.CheckBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -43,7 +44,8 @@
             this.linkLabelIn = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
-            this.checkBoxRmTTF = new System.Windows.Forms.CheckBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.panelMain.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +62,7 @@
             // labeli1
             // 
             this.labeli1.AutoSize = true;
-            this.labeli1.Location = new System.Drawing.Point(3, 87);
+            this.labeli1.Location = new System.Drawing.Point(3, 121);
             this.labeli1.Name = "labeli1";
             this.labeli1.Size = new System.Drawing.Size(65, 12);
             this.labeli1.TabIndex = 1;
@@ -69,7 +71,7 @@
             // labelo
             // 
             this.labelo.AutoSize = true;
-            this.labelo.Location = new System.Drawing.Point(3, 123);
+            this.labelo.Location = new System.Drawing.Point(3, 157);
             this.labelo.Name = "labelo";
             this.labelo.Size = new System.Drawing.Size(65, 12);
             this.labelo.TabIndex = 2;
@@ -78,17 +80,17 @@
             // textBoxIn
             // 
             this.textBoxIn.AllowDrop = true;
-            this.textBoxIn.Location = new System.Drawing.Point(74, 84);
+            this.textBoxIn.Location = new System.Drawing.Point(74, 118);
             this.textBoxIn.Name = "textBoxIn";
             this.textBoxIn.Size = new System.Drawing.Size(353, 21);
-            this.textBoxIn.TabIndex = 2;
+            this.textBoxIn.TabIndex = 3;
             this.textBoxIn.DragDrop += new System.Windows.Forms.DragEventHandler(this.TextBox_DragDrop);
             this.textBoxIn.DragEnter += new System.Windows.Forms.DragEventHandler(this.TextBox_DragEnter);
             // 
             // textBoxOut
             // 
             this.textBoxOut.AllowDrop = true;
-            this.textBoxOut.Location = new System.Drawing.Point(74, 120);
+            this.textBoxOut.Location = new System.Drawing.Point(74, 154);
             this.textBoxOut.Name = "textBoxOut";
             this.textBoxOut.Size = new System.Drawing.Size(353, 21);
             this.textBoxOut.TabIndex = 4;
@@ -102,8 +104,10 @@
             // panelMain
             // 
             this.panelMain.Controls.Add(this.checkBoxRmTTF);
+            this.panelMain.Controls.Add(this.comboBox3);
             this.panelMain.Controls.Add(this.comboBox2);
             this.panelMain.Controls.Add(this.comboBox1);
+            this.panelMain.Controls.Add(this.label3);
             this.panelMain.Controls.Add(this.label2);
             this.panelMain.Controls.Add(this.label1);
             this.panelMain.Controls.Add(this.labeli1);
@@ -115,8 +119,20 @@
             this.panelMain.Controls.Add(this.buttonStart);
             this.panelMain.Location = new System.Drawing.Point(13, 13);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(478, 181);
+            this.panelMain.Size = new System.Drawing.Size(478, 214);
             this.panelMain.TabIndex = 18;
+            // 
+            // checkBoxRmTTF
+            // 
+            this.checkBoxRmTTF.AutoSize = true;
+            this.checkBoxRmTTF.Checked = true;
+            this.checkBoxRmTTF.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxRmTTF.Location = new System.Drawing.Point(17, 191);
+            this.checkBoxRmTTF.Name = "checkBoxRmTTF";
+            this.checkBoxRmTTF.Size = new System.Drawing.Size(156, 16);
+            this.checkBoxRmTTF.TabIndex = 5;
+            this.checkBoxRmTTF.Text = "TTC 打包完成后移除 TTF";
+            this.checkBoxRmTTF.UseVisualStyleBackColor = true;
             // 
             // comboBox2
             // 
@@ -191,10 +207,10 @@
             // linkLabelOut
             // 
             this.linkLabelOut.AutoSize = true;
-            this.linkLabelOut.Location = new System.Drawing.Point(433, 124);
+            this.linkLabelOut.Location = new System.Drawing.Point(433, 158);
             this.linkLabelOut.Name = "linkLabelOut";
             this.linkLabelOut.Size = new System.Drawing.Size(29, 12);
-            this.linkLabelOut.TabIndex = 5;
+            this.linkLabelOut.TabIndex = 4;
             this.linkLabelOut.TabStop = true;
             this.linkLabelOut.Text = "选择";
             this.linkLabelOut.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabelOut_LinkClicked);
@@ -202,7 +218,7 @@
             // linkLabelIn
             // 
             this.linkLabelIn.AutoSize = true;
-            this.linkLabelIn.Location = new System.Drawing.Point(433, 88);
+            this.linkLabelIn.Location = new System.Drawing.Point(433, 122);
             this.linkLabelIn.Name = "linkLabelIn";
             this.linkLabelIn.Size = new System.Drawing.Size(29, 12);
             this.linkLabelIn.TabIndex = 3;
@@ -213,7 +229,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(28, 208);
+            this.linkLabel1.Location = new System.Drawing.Point(28, 240);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(53, 12);
             this.linkLabel1.TabIndex = 21;
@@ -221,17 +237,27 @@
             this.linkLabel1.Text = "项目主页";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
             // 
-            // checkBoxRmTTF
+            // label3
             // 
-            this.checkBoxRmTTF.AutoSize = true;
-            this.checkBoxRmTTF.Checked = true;
-            this.checkBoxRmTTF.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxRmTTF.Location = new System.Drawing.Point(17, 157);
-            this.checkBoxRmTTF.Name = "checkBoxRmTTF";
-            this.checkBoxRmTTF.Size = new System.Drawing.Size(156, 16);
-            this.checkBoxRmTTF.TabIndex = 21;
-            this.checkBoxRmTTF.Text = "TTC 打包完成后移除 TTF";
-            this.checkBoxRmTTF.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(39, 86);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(29, 12);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "斜体";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "自动",
+            "指定为斜体",
+            "指定为非斜体"});
+            this.comboBox3.Location = new System.Drawing.Point(74, 83);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(286, 20);
+            this.comboBox3.TabIndex = 2;
             // 
             // FormMain
             // 
@@ -239,7 +265,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(506, 229);
+            this.ClientSize = new System.Drawing.Size(506, 262);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.panelMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -274,6 +300,8 @@
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.CheckBox checkBoxRmTTF;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label3;
     }
 }
 
