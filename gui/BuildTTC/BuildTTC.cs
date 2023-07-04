@@ -51,13 +51,13 @@ namespace BuildTTC
             if (System.IO.File.Exists(path + "python/python.exe") && System.IO.File.Exists(path + "otf2otc.py"))
             {
                 exefl = path + "python/python.exe";
-                args += " " + path + "otf2otc.py";
+                args += " \"" + path + "otf2otc.py\"";
                 isgetexe = true;
             }
             else if (IsInPATH("python.exe") && System.IO.File.Exists(path + "otf2otc.py"))
             {
                 exefl = "python";
-                args += " " + path + "otf2otc.py";
+                args += " \"" + path + "otf2otc.py\"";
                 isgetexe = true;
             }
             else if (IsInPATH("otf2otc.exe"))
@@ -70,10 +70,10 @@ namespace BuildTTC
                 MessageBox.Show(this, "未找到 otf2otc 程序！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
-            args += $" -o {textBox1.Text}";
+            args += $" -o \"{textBox1.Text}\"";
             foreach (var item in listBox.Items)
             {
-                args += " " + item;
+                args += " \"" + item + "\"";
             }
             tableLayoutPanel1.Enabled = false;
             Cursor = Cursors.WaitCursor;
