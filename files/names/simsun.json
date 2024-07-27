@@ -1,0 +1,1723 @@
+{
+    "ulCodePageRange1": 262145,
+    "simsun": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "SimSun"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "SimSun"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "SimSun"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "SimSun"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "SimSun"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "SimSun"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "SimSun"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "SimSun"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "常规"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Beijing ZhongYi Electronics Co."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "Beijing ZhongYi Electronics Co."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.zhongyicts.com.cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.zhongyicts.com.cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 1,
+            "nameString": "宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 2,
+            "nameString": "常规"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 3,
+            "nameString": "宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 4,
+            "nameString": "宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 6,
+            "nameString": "宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        }
+    ],
+    "simsunbd": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "SimSun"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "SimSun-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "SimSun Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "SimSun-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "SimSun"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "SimSun-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "SimSun Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "SimSun-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "宋体-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "宋体 Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "宋体-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Beijing ZhongYi Electronics Co."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "Beijing ZhongYi Electronics Co."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.zhongyicts.com.cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.zhongyicts.com.cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 1,
+            "nameString": "宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 3,
+            "nameString": "宋体-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 4,
+            "nameString": "宋体 Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 6,
+            "nameString": "宋体-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        }
+    ],
+    "simsunl": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "SimSun Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "SimSun-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "SimSun Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "SimSun-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "SimSun Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "SimSun-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "SimSun Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "SimSun-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "宋体 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "常规"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "宋体-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "宋体 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "宋体-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Beijing ZhongYi Electronics Co."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "Beijing ZhongYi Electronics Co."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.zhongyicts.com.cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.zhongyicts.com.cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 1,
+            "nameString": "宋体 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 2,
+            "nameString": "常规"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 3,
+            "nameString": "宋体-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 4,
+            "nameString": "宋体 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 6,
+            "nameString": "宋体-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 16,
+            "nameString": "SimSun"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "SimSun"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 16,
+            "nameString": "宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 16,
+            "nameString": "宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ],
+    "nsimsun": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "NSimSun"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "NSimSun"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "NSimSun"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "NSimSun"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "NSimSun"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "NSimSun"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "NSimSun"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "NSimSun"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "新宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "常规"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "新宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "新宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "新宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Beijing ZhongYi Electronics Co."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "Beijing ZhongYi Electronics Co."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.zhongyicts.com.cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.zhongyicts.com.cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 1,
+            "nameString": "新宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 2,
+            "nameString": "常规"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 3,
+            "nameString": "新宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 4,
+            "nameString": "新宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 6,
+            "nameString": "新宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        }
+    ],
+    "nsimsunbd": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "NSimSun"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "NSimSun-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "NSimSun Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "NSimSun-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "NSimSun"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "NSimSun-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "NSimSun Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "NSimSun-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "新宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "新宋体-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "新宋体 Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "新宋体-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Beijing ZhongYi Electronics Co."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "Beijing ZhongYi Electronics Co."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.zhongyicts.com.cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.zhongyicts.com.cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 1,
+            "nameString": "新宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 3,
+            "nameString": "新宋体-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 4,
+            "nameString": "新宋体 Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 6,
+            "nameString": "新宋体-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        }
+    ],
+    "nsimsunl": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "NSimSun Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "NSimSun-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "NSimSun Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "NSimSun-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "NSimSun Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "NSimSun-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "NSimSun Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "NSimSun-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 1,
+            "nameString": "新宋体 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 2,
+            "nameString": "常规"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 3,
+            "nameString": "新宋体-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 4,
+            "nameString": "新宋体 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 6,
+            "nameString": "新宋体-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 8,
+            "nameString": "Beijing ZhongYi Electronics Co."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 9,
+            "nameString": "Beijing ZhongYi Electronics Co."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 11,
+            "nameString": "http://www.zhongyicts.com.cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 12,
+            "nameString": "http://www.zhongyicts.com.cn"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 0,
+            "nameString": "© Copyright ZHONGYI Electronic Co. 2001, 2020, 2022"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 1,
+            "nameString": "新宋体 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 2,
+            "nameString": "常规"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 3,
+            "nameString": "新宋体-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 4,
+            "nameString": "新宋体 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 5,
+            "nameString": "Version 5.21"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 6,
+            "nameString": "新宋体-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 7,
+            "nameString": "Trademark of ZHONGYI Electronic Co., Beijing"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 16,
+            "nameString": "NSimSun"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "NSimSun"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 16,
+            "nameString": "新宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2052,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 16,
+            "nameString": "新宋体"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 4100,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ]
+}

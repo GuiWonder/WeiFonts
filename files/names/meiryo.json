@@ -1,0 +1,3739 @@
+{
+    "ulCodePageRange1": 1610743967,
+    "meiryo": [
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 2,
+            "nameString": "obyčejné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 2,
+            "nameString": "normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 2,
+            "nameString": "Standard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 2,
+            "nameString": "Κανονικά"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 2,
+            "nameString": "Normaali"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 2,
+            "nameString": "Normál"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 2,
+            "nameString": "Normale"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "メイリオ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "レギュラー"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft: メイリオ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "メイリオ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "メイリオは、米国 Microsoft Corporation の米国およびその他の国における登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 10,
+            "nameString": "メイリオ・フォントはスクリーンでもプリントでも極めてクリアーで読み易く、広い用途に適した新世代のサンセリフ書体です。特に液晶スクリーン上の可読性を極限まで追求。オープンでバランスの良いスタイルは小さな文字サイズでも鮮明に読め、大きな文字サイズではダイナミックな効果を発揮します。和文と欧文をすっきりと調和させて組むことができます。この書体の巧みに調整された字間スペースによって生じる微妙な水平ラインは、横組文章をさらに読み易くします。メイリオは、和文と欧文を組合わせた膨大な文字セットで構成された完璧にスケーラブルなアウトライン・フォントとして、広範なコミュニケーションやパブリッシングの用途に適しています。卓越した汎用性と可読性に加え、行間をタイトに組めるためスペースの節約も可能です。\r\n"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 2,
+            "nameString": "Standaard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 2,
+            "nameString": "Normalny"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 2,
+            "nameString": "Обычный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 2,
+            "nameString": "Normálne"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 2,
+            "nameString": "Navadno"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 2,
+            "nameString": "Arrunta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 2,
+            "nameString": "Normal"
+        }
+    ],
+    "meiryobd": [
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo Bold"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Meiryo Bold"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "Meiryo-Bold"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Meiryo Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "Meiryo-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 2,
+            "nameString": "Negreta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 4,
+            "nameString": "Meiryo Negreta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 2,
+            "nameString": "tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 4,
+            "nameString": "Meiryo tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 2,
+            "nameString": "fed"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 4,
+            "nameString": "Meiryo fed"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 2,
+            "nameString": "Fett"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 4,
+            "nameString": "Meiryo Fett"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 2,
+            "nameString": "Έντονα"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 4,
+            "nameString": "Meiryo Έντονα"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Meiryo Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "Meiryo-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 2,
+            "nameString": "Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 4,
+            "nameString": "Meiryo Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 2,
+            "nameString": "Lihavoitu"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 4,
+            "nameString": "Meiryo Lihavoitu"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 2,
+            "nameString": "Gras"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 4,
+            "nameString": "Meiryo Gras"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 2,
+            "nameString": "Félkövér"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 4,
+            "nameString": "Meiryo Félkövér"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 2,
+            "nameString": "Grassetto"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 4,
+            "nameString": "Meiryo Grassetto"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "メイリオ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "ボールド"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft: メイリオ ボールド"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "メイリオ ボールド"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "Meiryo-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "メイリオは、米国 Microsoft Corporation の米国およびその他の国における登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 10,
+            "nameString": "メイリオ・フォントはスクリーンでもプリントでも極めてクリアーで読み易く、広い用途に適した新世代のサンセリフ書体です。特に液晶スクリーン上の可読性を極限まで追求。オープンでバランスの良いスタイルは小さな文字サイズでも鮮明に読め、大きな文字サイズではダイナミックな効果を発揮します。和文と欧文をすっきりと調和させて組むことができます。この書体の巧みに調整された字間スペースによって生じる微妙な水平ラインは、横組文章をさらに読み易くします。メイリオは、和文と欧文を組合わせた膨大な文字セットで構成された完璧にスケーラブルなアウトライン・フォントとして、広範なコミュニケーションやパブリッシングの用途に適しています。卓越した汎用性と可読性に加え、行間をタイトに組めるためスペースの節約も可能です。\r\n"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 2,
+            "nameString": "Vet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 4,
+            "nameString": "Meiryo Vet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 2,
+            "nameString": "Halvfet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 4,
+            "nameString": "Meiryo Halvfet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 2,
+            "nameString": "Pogrubiony"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 4,
+            "nameString": "Meiryo Pogrubiony"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 2,
+            "nameString": "Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 4,
+            "nameString": "Meiryo Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 2,
+            "nameString": "Полужирный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 4,
+            "nameString": "Meiryo Полужирный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 2,
+            "nameString": "Tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 4,
+            "nameString": "Meiryo Tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 2,
+            "nameString": "Fet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 4,
+            "nameString": "Meiryo Fet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 2,
+            "nameString": "Kalın"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 4,
+            "nameString": "Meiryo Kalın"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 2,
+            "nameString": "Krepko"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 4,
+            "nameString": "Meiryo Krepko"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 2,
+            "nameString": "Lodia"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 4,
+            "nameString": "Meiryo Lodia"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 2,
+            "nameString": "Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 4,
+            "nameString": "Meiryo Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 2,
+            "nameString": "Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 4,
+            "nameString": "Meiryo Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 2,
+            "nameString": "Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 4,
+            "nameString": "Meiryo Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 2,
+            "nameString": "Gras"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 4,
+            "nameString": "Meiryo Gras"
+        }
+    ],
+    "meiryol": [
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Meiryo Light"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo-Light"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Meiryo Light"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "Meiryo-Light"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Meiryo Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Meiryo Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "Meiryo-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 2,
+            "nameString": "obyčejné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 2,
+            "nameString": "normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 2,
+            "nameString": "Standard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 2,
+            "nameString": "Κανονικά"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Meiryo Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Meiryo Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "Meiryo-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 2,
+            "nameString": "Normaali"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 2,
+            "nameString": "Normál"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 2,
+            "nameString": "Normale"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "メイリオ Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "レギュラー"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft: メイリオ-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "メイリオ Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "Meiryo-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "メイリオは、米国 Microsoft Corporation の米国およびその他の国における登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 10,
+            "nameString": "メイリオ・フォントはスクリーンでもプリントでも極めてクリアーで読み易く、広い用途に適した新世代のサンセリフ書体です。特に液晶スクリーン上の可読性を極限まで追求。オープンでバランスの良いスタイルは小さな文字サイズでも鮮明に読め、大きな文字サイズではダイナミックな効果を発揮します。和文と欧文をすっきりと調和させて組むことができます。この書体の巧みに調整された字間スペースによって生じる微妙な水平ラインは、横組文章をさらに読み易くします。メイリオは、和文と欧文を組合わせた膨大な文字セットで構成された完璧にスケーラブルなアウトライン・フォントとして、広範なコミュニケーションやパブリッシングの用途に適しています。卓越した汎用性と可読性に加え、行間をタイトに組めるためスペースの節約も可能です。\r\n"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 2,
+            "nameString": "Standaard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 2,
+            "nameString": "Normalny"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 2,
+            "nameString": "Обычный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 2,
+            "nameString": "Normálne"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 2,
+            "nameString": "Navadno"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 2,
+            "nameString": "Arrunta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 16,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 16,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Meiryo"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "メイリオ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ],
+    "meiryoui": [
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo UI"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MeiryoUI"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo UI"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MeiryoUI"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 2,
+            "nameString": "obyčejné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 2,
+            "nameString": "normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 2,
+            "nameString": "Standard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 2,
+            "nameString": "Κανονικά"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MeiryoUI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 2,
+            "nameString": "Normaali"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 2,
+            "nameString": "Normál"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 2,
+            "nameString": "Normale"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MeiryoUI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "メイリオは、米国 Microsoft Corporation の米国およびその他の国における登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 10,
+            "nameString": "メイリオ・フォントはスクリーンでもプリントでも極めてクリアーで読み易く、広い用途に適した新世代のサンセリフ書体です。特に液晶スクリーン上の可読性を極限まで追求。オープンでバランスの良いスタイルは小さな文字サイズでも鮮明に読め、大きな文字サイズではダイナミックな効果を発揮します。和文と欧文をすっきりと調和させて組むことができます。この書体の巧みに調整された字間スペースによって生じる微妙な水平ラインは、横組文章をさらに読み易くします。メイリオは、和文と欧文を組合わせた膨大な文字セットで構成された完璧にスケーラブルなアウトライン・フォントとして、広範なコミュニケーションやパブリッシングの用途に適しています。卓越した汎用性と可読性に加え、行間をタイトに組めるためスペースの節約も可能です。\r\n"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 2,
+            "nameString": "Standaard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 2,
+            "nameString": "Normalny"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 2,
+            "nameString": "Обычный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 2,
+            "nameString": "Normálne"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 2,
+            "nameString": "Navadno"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 2,
+            "nameString": "Arrunta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 2,
+            "nameString": "Normal"
+        }
+    ],
+    "meiryouibd": [
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo UI Bold"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Meiryo UI Bold"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MeiryoUI-Bold"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo UI Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Meiryo UI Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MeiryoUI-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 2,
+            "nameString": "Negreta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 4,
+            "nameString": "Meiryo UI Negreta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 2,
+            "nameString": "tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 4,
+            "nameString": "Meiryo UI tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 2,
+            "nameString": "fed"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 4,
+            "nameString": "Meiryo UI fed"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 2,
+            "nameString": "Fett"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 4,
+            "nameString": "Meiryo UI Fett"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 2,
+            "nameString": "Έντονα"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 4,
+            "nameString": "Meiryo UI Έντονα"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo UI Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Meiryo UI Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MeiryoUI-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 2,
+            "nameString": "Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 4,
+            "nameString": "Meiryo UI Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 2,
+            "nameString": "Lihavoitu"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 4,
+            "nameString": "Meiryo UI Lihavoitu"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 2,
+            "nameString": "Gras"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 4,
+            "nameString": "Meiryo UI Gras"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 2,
+            "nameString": "Félkövér"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 4,
+            "nameString": "Meiryo UI Félkövér"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 2,
+            "nameString": "Grassetto"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 4,
+            "nameString": "Meiryo UI Grassetto"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo UI Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "Meiryo UI Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MeiryoUI-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "メイリオは、米国 Microsoft Corporation の米国およびその他の国における登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 10,
+            "nameString": "メイリオ・フォントはスクリーンでもプリントでも極めてクリアーで読み易く、広い用途に適した新世代のサンセリフ書体です。特に液晶スクリーン上の可読性を極限まで追求。オープンでバランスの良いスタイルは小さな文字サイズでも鮮明に読め、大きな文字サイズではダイナミックな効果を発揮します。和文と欧文をすっきりと調和させて組むことができます。この書体の巧みに調整された字間スペースによって生じる微妙な水平ラインは、横組文章をさらに読み易くします。メイリオは、和文と欧文を組合わせた膨大な文字セットで構成された完璧にスケーラブルなアウトライン・フォントとして、広範なコミュニケーションやパブリッシングの用途に適しています。卓越した汎用性と可読性に加え、行間をタイトに組めるためスペースの節約も可能です。\r\n"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 2,
+            "nameString": "Vet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 4,
+            "nameString": "Meiryo UI Vet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 2,
+            "nameString": "Halvfet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 4,
+            "nameString": "Meiryo UI Halvfet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 2,
+            "nameString": "Pogrubiony"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 4,
+            "nameString": "Meiryo UI Pogrubiony"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 2,
+            "nameString": "Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 4,
+            "nameString": "Meiryo UI Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 2,
+            "nameString": "Полужирный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 4,
+            "nameString": "Meiryo UI Полужирный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 2,
+            "nameString": "Tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 4,
+            "nameString": "Meiryo UI Tučné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 2,
+            "nameString": "Fet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 4,
+            "nameString": "Meiryo UI Fet"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 2,
+            "nameString": "Kalın"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 4,
+            "nameString": "Meiryo UI Kalın"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 2,
+            "nameString": "Krepko"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 4,
+            "nameString": "Meiryo UI Krepko"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 2,
+            "nameString": "Lodia"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 4,
+            "nameString": "Meiryo UI Lodia"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 2,
+            "nameString": "Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 4,
+            "nameString": "Meiryo UI Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 2,
+            "nameString": "Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 4,
+            "nameString": "Meiryo UI Negrito"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 2,
+            "nameString": "Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 4,
+            "nameString": "Meiryo UI Negrita"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 2,
+            "nameString": "Gras"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 4,
+            "nameString": "Meiryo UI Gras"
+        }
+    ],
+    "meiryouil": [
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Meiryo UI Light"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo UI-Light"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Meiryo UI Light"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MeiryoUI-Light"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "Meiryo UI Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo UI-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "Meiryo UI Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MeiryoUI-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 2,
+            "nameString": "obyčejné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 2,
+            "nameString": "normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 2,
+            "nameString": "Standard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 2,
+            "nameString": "Κανονικά"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "Meiryo UI Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo UI-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "Meiryo UI Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MeiryoUI-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Meiryo is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 8,
+            "nameString": "Microsoft Corporation"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 9,
+            "nameString": "C&G Inc.; Eiichi Kono; Matthew Carter"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "Meiryo is a very versatile modern sans serif type designed to give an exceptionally clean appearance on screen, as well as in print. It is optimized for on-screen reading. The letterforms are generously open and well-proportioned; legible and clear at smaller sizes, and dynamic at larger display sizes. The beauty of this face is that it sets text lines in Japanese with Roman seamlessly and harmoniously. The balanced inter-letter spacing enhances horizontal alignment, facilitating smooth reading flow. Meiryo has a very large character set with Japanese and Roman combined, fully scalable outline technology, making it extremely functional for all aspects of communication and publishing. It is a robust legible typeface yet compact enough to enable tight inter-line spacing which is good for space economy."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 11,
+            "nameString": "http://www.microsoft.com/typography/ctfonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 12,
+            "nameString": "http://www.c-and-g.co.jp"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts/default.aspx"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 2,
+            "nameString": "Normaali"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 2,
+            "nameString": "Normál"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 2,
+            "nameString": "Normale"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2021 Microsoft Corporation. All Rights Reserved."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "Meiryo UI Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft: Meiryo UI-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "Meiryo UI Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 6.51"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MeiryoUI-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "メイリオは、米国 Microsoft Corporation の米国およびその他の国における登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 10,
+            "nameString": "メイリオ・フォントはスクリーンでもプリントでも極めてクリアーで読み易く、広い用途に適した新世代のサンセリフ書体です。特に液晶スクリーン上の可読性を極限まで追求。オープンでバランスの良いスタイルは小さな文字サイズでも鮮明に読め、大きな文字サイズではダイナミックな効果を発揮します。和文と欧文をすっきりと調和させて組むことができます。この書体の巧みに調整された字間スペースによって生じる微妙な水平ラインは、横組文章をさらに読み易くします。メイリオは、和文と欧文を組合わせた膨大な文字セットで構成された完璧にスケーラブルなアウトライン・フォントとして、広範なコミュニケーションやパブリッシングの用途に適しています。卓越した汎用性と可読性に加え、行間をタイトに組めるためスペースの節約も可能です。\r\n"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 2,
+            "nameString": "Standaard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 2,
+            "nameString": "Normalny"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 2,
+            "nameString": "Обычный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 2,
+            "nameString": "Normálne"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 2,
+            "nameString": "Navadno"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 2,
+            "nameString": "Arrunta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 16,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 0,
+            "encodingID": 3,
+            "languageID": 0,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 16,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "Meiryo UI"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ]
+}

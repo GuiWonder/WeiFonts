@@ -1,0 +1,940 @@
+{
+    "ulCodePageRange1": 262145,
+    "simsunb": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© Beijing ZhongYi Electronics Co., 1995-2003, 2021, All rights reserved.  Portions © 2011 The Monotype Corporation."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "SimSun-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "SimSun-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "SimSun-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.06"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "SimSun-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark of Beijing ZhongYi Electronics Co., China"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 2,
+            "nameString": "obyčejné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 2,
+            "nameString": "normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 2,
+            "nameString": "Standard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 2,
+            "nameString": "Κανονικά"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© Beijing ZhongYi Electronics Co., 1995-2003, 2021, All rights reserved.  Portions © 2011 The Monotype Corporation."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "SimSun-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "SimSun-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "SimSun-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.06"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "SimSun-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark of Beijing ZhongYi Electronics Co., China"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 19,
+            "nameString": "𠀀𠀁𠀂𠀃𠀄\r𦬣𦬤𦬥𦬦𦬧\r𦩒𦩓𦩔𦩕𦩖\r𨣫𨣬𨣭𨣮𨣯\r"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 2,
+            "nameString": "Normaali"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 2,
+            "nameString": "Normál"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 2,
+            "nameString": "Normale"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 2,
+            "nameString": "Standaard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 2,
+            "nameString": "Normalny"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 2,
+            "nameString": "Обычный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 2,
+            "nameString": "Normálne"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 2,
+            "nameString": "Navadno"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 2,
+            "nameString": "Arrunta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 2,
+            "nameString": "Normal"
+        }
+    ],
+    "simsunbbd": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© Beijing ZhongYi Electronics Co., 1995-2003, 2021, All rights reserved.  Portions © 2011 The Monotype Corporation."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "SimSun-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "SimSun-ExtB-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "SimSun-ExtB Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.06"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "SimSun-ExtB-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark of Beijing ZhongYi Electronics Co., China"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© Beijing ZhongYi Electronics Co., 1995-2003, 2021, All rights reserved.  Portions © 2011 The Monotype Corporation."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "SimSun-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "SimSun-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "SimSun-ExtB Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.06"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "SimSun-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark of Beijing ZhongYi Electronics Co., China"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 19,
+            "nameString": "𠀀𠀁𠀂𠀃𠀄\r𦬣𦬤𦬥𦬦𦬧\r𦩒𦩓𦩔𦩕𦩖\r𨣫𨣬𨣭𨣮𨣯\r"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 2,
+            "nameString": "Bold"
+        }
+    ],
+    "simsunbl": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© Beijing ZhongYi Electronics Co., 1995-2003, 2021, All rights reserved.  Portions © 2011 The Monotype Corporation."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "SimSun-ExtB Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "SimSun-ExtB-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "SimSun-ExtB Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.06"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "SimSun-ExtB-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark of Beijing ZhongYi Electronics Co., China"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1027,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1029,
+            "nameID": 2,
+            "nameString": "obyčejné"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1030,
+            "nameID": 2,
+            "nameString": "normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1031,
+            "nameID": 2,
+            "nameString": "Standard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1032,
+            "nameID": 2,
+            "nameString": "Κανονικά"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© Beijing ZhongYi Electronics Co., 1995-2003, 2021, All rights reserved.  Portions © 2011 The Monotype Corporation."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "SimSun-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "SimSun-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "SimSun-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.06"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "SimSun-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark of Beijing ZhongYi Electronics Co., China"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 19,
+            "nameString": "𠀀𠀁𠀂𠀃𠀄\r𦬣𦬤𦬥𦬦𦬧\r𦩒𦩓𦩔𦩕𦩖\r𨣫𨣬𨣭𨣮𨣯\r"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1034,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1035,
+            "nameID": 2,
+            "nameString": "Normaali"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1036,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1038,
+            "nameID": 2,
+            "nameString": "Normál"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1040,
+            "nameID": 2,
+            "nameString": "Normale"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1043,
+            "nameID": 2,
+            "nameString": "Standaard"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1044,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1045,
+            "nameID": 2,
+            "nameString": "Normalny"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1046,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1049,
+            "nameID": 2,
+            "nameString": "Обычный"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1051,
+            "nameID": 2,
+            "nameString": "Normálne"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1053,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1055,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1060,
+            "nameID": 2,
+            "nameString": "Navadno"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1069,
+            "nameID": 2,
+            "nameString": "Arrunta"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2058,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 2070,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3082,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3084,
+            "nameID": 2,
+            "nameString": "Normal"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 16,
+            "nameString": "SimSun-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "SimSun-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ]
+}

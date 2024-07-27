@@ -1,0 +1,2394 @@
+{
+    "ulCodePageRange1": 1048577,
+    "mingliub": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "MingLiU-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "MingLiU-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "MingLiU-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MingLiU-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 1,
+            "nameString": "細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 3,
+            "nameString": "細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 4,
+            "nameString": "細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 6,
+            "nameString": "MingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "MingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 19,
+            "nameString": "𠀀𠀁𠀂𠀃𠀄\r𦬣𦬤𦬥𦬦𦬧\r𦩒𦩓𦩔𦩕𦩖\r𨣫𨣬𨣭𨣮𨣯"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 1,
+            "nameString": "細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 3,
+            "nameString": "細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 4,
+            "nameString": "細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 6,
+            "nameString": "MingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        }
+    ],
+    "mingliubbd": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "MingLiU-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "MingLiU-ExtB-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "MingLiU-ExtB Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MingLiU-ExtB-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 1,
+            "nameString": "細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 3,
+            "nameString": "細明體-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 4,
+            "nameString": "細明體-ExtB Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 6,
+            "nameString": "MingLiU-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "MingLiU-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MingLiU-ExtB Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MingLiU-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 19,
+            "nameString": "𠀀𠀁𠀂𠀃𠀄\r𦬣𦬤𦬥𦬦𦬧\r𦩒𦩓𦩔𦩕𦩖\r𨣫𨣬𨣭𨣮𨣯"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 1,
+            "nameString": "細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 3,
+            "nameString": "細明體-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 4,
+            "nameString": "細明體-ExtB Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 6,
+            "nameString": "MingLiU-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        }
+    ],
+    "mingliubl": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "MingLiU-ExtB Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "MingLiU-ExtB-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "MingLiU-ExtB Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MingLiU-ExtB-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 1,
+            "nameString": "細明體-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 3,
+            "nameString": "細明體-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 4,
+            "nameString": "細明體-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 6,
+            "nameString": "MingLiU-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MingLiU-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "MingLiU-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MingLiU-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MingLiU-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 19,
+            "nameString": "𠀀𠀁𠀂𠀃𠀄\r𦬣𦬤𦬥𦬦𦬧\r𦩒𦩓𦩔𦩕𦩖\r𨣫𨣬𨣭𨣮𨣯"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 1,
+            "nameString": "細明體-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 3,
+            "nameString": "細明體-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 4,
+            "nameString": "細明體-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 6,
+            "nameString": "MingLiU-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 16,
+            "nameString": "MingLiU-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 16,
+            "nameString": "細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "MingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 16,
+            "nameString": "細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ],
+    "pmingliub": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "PMingLiU-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "PMingLiU-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "PMingLiU-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "PMingLiU-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 1,
+            "nameString": "新細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 3,
+            "nameString": "新細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 4,
+            "nameString": "新細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 6,
+            "nameString": "PMingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "PMingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "PMingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "PMingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "PMingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 19,
+            "nameString": "𠀀𠀁𠀂𠀃𠀄\r𦬣𦬤𦬥𦬦𦬧\r𦩒𦩓𦩔𦩕𦩖\r𨣫𨣬𨣭𨣮𨣯"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 1,
+            "nameString": "新細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 3,
+            "nameString": "新細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 4,
+            "nameString": "新細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 6,
+            "nameString": "PMingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        }
+    ],
+    "pmingliubbd": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "PMingLiU-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "PMingLiU-ExtB-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "PMingLiU-ExtB Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "PMingLiU-ExtB-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 1,
+            "nameString": "新細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 3,
+            "nameString": "新細明體-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 4,
+            "nameString": "新細明體-ExtB Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 6,
+            "nameString": "PMingLiU-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "PMingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "PMingLiU-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "PMingLiU-ExtB Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "PMingLiU-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 19,
+            "nameString": "𠀀𠀁𠀂𠀃𠀄\r𦬣𦬤𦬥𦬦𦬧\r𦩒𦩓𦩔𦩕𦩖\r𨣫𨣬𨣭𨣮𨣯"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 1,
+            "nameString": "新細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 3,
+            "nameString": "新細明體-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 4,
+            "nameString": "新細明體-ExtB Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 6,
+            "nameString": "PMingLiU-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        }
+    ],
+    "pmingliubl": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "PMingLiU-ExtB Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "PMingLiU-ExtB-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "PMingLiU-ExtB Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "PMingLiU-ExtB-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 1,
+            "nameString": "新細明體-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 3,
+            "nameString": "新細明體-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 4,
+            "nameString": "新細明體-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 6,
+            "nameString": "PMingLiU-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "PMingLiU-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "PMingLiU-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "PMingLiU-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "PMingLiU-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 19,
+            "nameString": "𠀀𠀁𠀂𠀃𠀄\r𦬣𦬤𦬥𦬦𦬧\r𦩒𦩓𦩔𦩕𦩖\r𨣫𨣬𨣭𨣮𨣯"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 1,
+            "nameString": "新細明體-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 3,
+            "nameString": "新細明體-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 4,
+            "nameString": "新細明體-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 6,
+            "nameString": "PMingLiU-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 16,
+            "nameString": "PMingLiU-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 16,
+            "nameString": "新細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "PMingLiU-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 16,
+            "nameString": "新細明體-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ],
+    "mingliub_hkscs": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "MingLiU_HKSCS-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "MingLiU_HKSCS-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "MingLiU_HKSCS-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "Ming-Lt-HKSCS-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 1,
+            "nameString": "細明體_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 3,
+            "nameString": "細明體_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 4,
+            "nameString": "細明體_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 6,
+            "nameString": "Ming-Lt-HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MingLiU_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "MingLiU_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MingLiU_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "Ming-Lt-HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 19,
+            "nameString": "𠀀𠀁𠀂𠀃𠀄\r𦬣𦬤𦬥𦬦𦬧\r𦩒𦩓𦩔𦩕𦩖\r𨣫𨣬𨣭𨣮𨣯"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 1,
+            "nameString": "細明體_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 3,
+            "nameString": "細明體_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 4,
+            "nameString": "細明體_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 6,
+            "nameString": "Ming-Lt-HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        }
+    ],
+    "mingliub_hkscsbd": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "MingLiU_HKSCS-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "MingLiU_HKSCS-ExtB-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "MingLiU_HKSCS-ExtB Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "Ming-Lt-HKSCS-ExtB-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 1,
+            "nameString": "細明體_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 3,
+            "nameString": "細明體_HKSCS-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 4,
+            "nameString": "細明體_HKSCS-ExtB Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 6,
+            "nameString": "Ming-Lt-HKSCS-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MingLiU_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "MingLiU_HKSCS-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MingLiU_HKSCS-ExtB Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "Ming-Lt-HKSCS-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 19,
+            "nameString": "𠀀𠀁𠀂𠀃𠀄\r𦬣𦬤𦬥𦬦𦬧\r𦩒𦩓𦩔𦩕𦩖\r𨣫𨣬𨣭𨣮𨣯"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 1,
+            "nameString": "細明體_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 3,
+            "nameString": "細明體_HKSCS-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 4,
+            "nameString": "細明體_HKSCS-ExtB Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 6,
+            "nameString": "Ming-Lt-HKSCS-ExtB-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        }
+    ],
+    "mingliub_hkscsl": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "MingLiU_HKSCS-ExtB Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "MingLiU_HKSCS-ExtB-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "MingLiU_HKSCS-ExtB Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "Ming-Lt-HKSCS-ExtB-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 1,
+            "nameString": "細明體_HKSCS-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 3,
+            "nameString": "細明體_HKSCS-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 4,
+            "nameString": "細明體_HKSCS-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 6,
+            "nameString": "Ming-Lt-HKSCS-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MingLiU_HKSCS-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "MingLiU_HKSCS-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MingLiU_HKSCS-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "Ming-Lt-HKSCS-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 19,
+            "nameString": "𠀀𠀁𠀂𠀃𠀄\r𦬣𦬤𦬥𦬦𦬧\r𦩒𦩓𦩔𦩕𦩖\r𨣫𨣬𨣭𨣮𨣯"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 0,
+            "nameString": "© DynaComware Corp. 2008"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 1,
+            "nameString": "細明體_HKSCS-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 3,
+            "nameString": "細明體_HKSCS-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 4,
+            "nameString": "細明體_HKSCS-ExtB Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 5,
+            "nameString": "Version 7.03"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 6,
+            "nameString": "Ming-Lt-HKSCS-ExtB-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 7,
+            "nameString": "Trademark by DynaComware Corp."
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 16,
+            "nameString": "MingLiU_HKSCS-ExtB"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 16,
+            "nameString": "細明體_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1028,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "MingLiU_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 16,
+            "nameString": "細明體_HKSCS-ExtB"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 3076,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ]
+}

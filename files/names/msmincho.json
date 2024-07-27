@@ -1,0 +1,1919 @@
+{
+    "ulCodePageRange1": 1073873055,
+    "msmincho": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "MS Mincho"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Mincho"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "MS Mincho"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MS-Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2023 data:RICOH Industrial Solutions Inc. typeface:Morisawa Inc."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS Mincho is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The default glyph shapes of this font are based on JIS2004. This font also provides access to a set of JIS90 legacy glyphs via 'jp90' OpenType layout table."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2023 data:リコーインダストリアルソリューションズ株式会社 typeface:株式会社モリサワ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ 明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ 明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ 明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ 明朝は米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 10,
+            "nameString": "このフォントの既定で表示される字形は JIS2004 に基づいています。'jp90' OpenType レイアウトテーブルによって JIS90 字形を利用することもできます。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2023 data:RICOH Industrial Solutions Inc. typeface:Morisawa Inc."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS Mincho is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2023 data:リコーインダストリアルソリューションズ株式会社 typeface:株式会社モリサワ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ 明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ 明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ 明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ 明朝は米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        }
+    ],
+    "msminchobd": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "MS Mincho"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Mincho-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "MS Mincho Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MS-Mincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2023 data:RICOH Industrial Solutions Inc. typeface:Morisawa Inc."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Mincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS Mincho Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-Mincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS Mincho is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The default glyph shapes of this font are based on JIS2004. This font also provides access to a set of JIS90 legacy glyphs via 'jp90' OpenType layout table."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2023 data:リコーインダストリアルソリューションズ株式会社 typeface:株式会社モリサワ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ 明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ 明朝-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ 明朝 Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-Mincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ 明朝は米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 10,
+            "nameString": "このフォントの既定で表示される字形は JIS2004 に基づいています。'jp90' OpenType レイアウトテーブルによって JIS90 字形を利用することもできます。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2023 data:RICOH Industrial Solutions Inc. typeface:Morisawa Inc."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Mincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS Mincho Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-Mincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS Mincho is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2023 data:リコーインダストリアルソリューションズ株式会社 typeface:株式会社モリサワ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ 明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ 明朝-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ 明朝 Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-Mincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ 明朝は米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        }
+    ],
+    "msminchol": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "MS Mincho Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Mincho-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "MS Mincho Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MS-Mincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2023 data:RICOH Industrial Solutions Inc. typeface:Morisawa Inc."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS Mincho Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Mincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS Mincho Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-Mincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS Mincho is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The default glyph shapes of this font are based on JIS2004. This font also provides access to a set of JIS90 legacy glyphs via 'jp90' OpenType layout table."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2023 data:リコーインダストリアルソリューションズ株式会社 typeface:株式会社モリサワ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ 明朝 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ 明朝-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ 明朝 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-Mincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ 明朝は米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 10,
+            "nameString": "このフォントの既定で表示される字形は JIS2004 に基づいています。'jp90' OpenType レイアウトテーブルによって JIS90 字形を利用することもできます。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2023 data:RICOH Industrial Solutions Inc. typeface:Morisawa Inc."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS Mincho Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Mincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS Mincho Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-Mincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS Mincho is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2023 data:リコーインダストリアルソリューションズ株式会社 typeface:株式会社モリサワ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ 明朝 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ 明朝-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ 明朝 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-Mincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ 明朝は米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 16,
+            "nameString": "MS Mincho"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "MS Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "ＭＳ 明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "MS Mincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "ＭＳ 明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ],
+    "mspmincho": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "MS PMincho"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PMincho"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "MS PMincho"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MS-PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2023 data:RICOH Industrial Solutions Inc. typeface:Morisawa Inc."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS PMincho is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The default glyph shapes of this font are based on JIS2004. This font also provides access to a set of JIS90 legacy glyphs via 'jp90' OpenType layout table."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2023 data:リコーインダストリアルソリューションズ株式会社 typeface:株式会社モリサワ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ Ｐ明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ Ｐ明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ Ｐ明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ Ｐ明朝は米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 10,
+            "nameString": "このフォントの既定で表示される字形は JIS2004 に基づいています。'jp90' OpenType レイアウトテーブルによって JIS90 字形を利用することもできます。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2023 data:RICOH Industrial Solutions Inc. typeface:Morisawa Inc."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS PMincho is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2023 data:リコーインダストリアルソリューションズ株式会社 typeface:株式会社モリサワ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ Ｐ明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ Ｐ明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ Ｐ明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ Ｐ明朝は米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        }
+    ],
+    "mspminchobd": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "MS PMincho"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PMincho-Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "MS PMincho Bold"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MS-PMincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2023 data:RICOH Industrial Solutions Inc. typeface:Morisawa Inc."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PMincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS PMincho Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-PMincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS PMincho is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The default glyph shapes of this font are based on JIS2004. This font also provides access to a set of JIS90 legacy glyphs via 'jp90' OpenType layout table."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2023 data:リコーインダストリアルソリューションズ株式会社 typeface:株式会社モリサワ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ Ｐ明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ Ｐ明朝-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ Ｐ明朝 Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-PMincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ Ｐ明朝は米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 10,
+            "nameString": "このフォントの既定で表示される字形は JIS2004 に基づいています。'jp90' OpenType レイアウトテーブルによって JIS90 字形を利用することもできます。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2023 data:RICOH Industrial Solutions Inc. typeface:Morisawa Inc."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PMincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS PMincho Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-PMincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS PMincho is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2023 data:リコーインダストリアルソリューションズ株式会社 typeface:株式会社モリサワ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ Ｐ明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ Ｐ明朝-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ Ｐ明朝 Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-PMincho-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ Ｐ明朝は米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        }
+    ],
+    "mspminchol": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 1,
+            "nameString": "MS PMincho Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PMincho-Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 4,
+            "nameString": "MS PMincho Light"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 6,
+            "nameString": "MS-PMincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2023 data:RICOH Industrial Solutions Inc. typeface:Morisawa Inc."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS PMincho Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PMincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS PMincho Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-PMincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS PMincho is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 10,
+            "nameString": "The default glyph shapes of this font are based on JIS2004. This font also provides access to a set of JIS90 legacy glyphs via 'jp90' OpenType layout table."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 14,
+            "nameString": "http://www.microsoft.com/typography/fonts"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2023 data:リコーインダストリアルソリューションズ株式会社 typeface:株式会社モリサワ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ Ｐ明朝 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ Ｐ明朝-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ Ｐ明朝 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-PMincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ Ｐ明朝は米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 10,
+            "nameString": "このフォントの既定で表示される字形は JIS2004 に基づいています。'jp90' OpenType レイアウトテーブルによって JIS90 字形を利用することもできます。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2023 data:RICOH Industrial Solutions Inc. typeface:Morisawa Inc."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS PMincho Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PMincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS PMincho Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-PMincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS PMincho is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2023 data:リコーインダストリアルソリューションズ株式会社 typeface:株式会社モリサワ"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ Ｐ明朝 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ Ｐ明朝-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ Ｐ明朝 Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-PMincho-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ Ｐ明朝は米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 16,
+            "nameString": "MS PMincho"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "MS PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "ＭＳ Ｐ明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "MS PMincho"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "ＭＳ Ｐ明朝"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ]
+}

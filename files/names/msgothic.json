@@ -1,0 +1,2394 @@
+{
+    "ulCodePageRange1": 1073873055,
+    "msgothic": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ ゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ ゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ ゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ ゴシックは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ ゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ ゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ ゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ ゴシックは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        }
+    ],
+    "msgothicbd": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Gothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS Gothic Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-Gothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ ゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ ゴシック-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ ゴシック Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-Gothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ ゴシックは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Gothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS Gothic Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-Gothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ ゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ ゴシック-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ ゴシック Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-Gothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ ゴシックは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        }
+    ],
+    "msgothicl": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Gothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-Gothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ ゴシック Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ ゴシック-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ ゴシック Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-Gothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ ゴシックは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS Gothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-Gothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ ゴシック Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ ゴシック-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ ゴシック Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-Gothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ ゴシックは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "MS Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "ＭＳ ゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "MS Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "ＭＳ ゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ],
+    "msuigothic": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-UIGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS UI Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-UIGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "MS UI Gothicは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-UIGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS UI Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-UIGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "MS UI Gothicは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        }
+    ],
+    "msuigothicbd": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS UI Gothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS UI Gothic Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-UIGothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS UI Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:MS UI Gothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "MS UI Gothic Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-UIGothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "MS UI Gothicは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS UI Gothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS UI Gothic Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-UIGothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS UI Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:MS UI Gothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "MS UI Gothic Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-UIGothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "MS UI Gothicは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        }
+    ],
+    "msuigothicl": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS UI Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS UI Gothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS UI Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-UIGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS UI Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "MS UI Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:MS UI Gothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "MS UI Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-UIGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "MS UI Gothicは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS UI Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS UI Gothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS UI Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-UIGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS UI Gothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "MS UI Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:MS UI Gothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "MS UI Gothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-UIGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "MS UI Gothicは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "MS UI Gothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ],
+    "mspgothic": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS PGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS PGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-PGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS PGothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ Ｐゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ Ｐゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ Ｐゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-PGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ Ｐゴシックは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS PGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS PGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-PGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS PGothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ Ｐゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ Ｐゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ Ｐゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-PGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ Ｐゴシックは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        }
+    ],
+    "mspgothicbd": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS PGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PGothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS PGothic Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-PGothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS PGothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ Ｐゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ Ｐゴシック-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ Ｐゴシック Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-PGothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ Ｐゴシックは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS PGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PGothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS PGothic Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-PGothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS PGothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ Ｐゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ Ｐゴシック-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ Ｐゴシック Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-PGothic-Bold"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ Ｐゴシックは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        }
+    ],
+    "mspgothicl": [
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 1,
+            "encodingID": 0,
+            "languageID": 0,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS PGothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS PGothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-PGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS PGothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 13,
+            "nameString": "Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ Ｐゴシック Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ Ｐゴシック-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ Ｐゴシック Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-PGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ Ｐゴシックは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 0,
+            "nameString": "© 2017 data:RICOH Co.,Ltd. typeface:RYOBI IMAGIX CO."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 1,
+            "nameString": "MS PGothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 2,
+            "nameString": "Regular"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 3,
+            "nameString": "Microsoft:MS PGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 4,
+            "nameString": "MS PGothic Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 6,
+            "nameString": "MS-PGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 7,
+            "nameString": "MS PGothic is a trademark of the Microsoft group of companies."
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 0,
+            "nameString": "© 2017 data:株式会社リコー typeface:リョービイマジクス(株)"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 1,
+            "nameString": "ＭＳ Ｐゴシック Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 2,
+            "nameString": "標準"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 3,
+            "nameString": "Microsoft:ＭＳ Ｐゴシック-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 4,
+            "nameString": "ＭＳ Ｐゴシック Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 5,
+            "nameString": "Version 5.32"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 6,
+            "nameString": "MS-PGothic-Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 7,
+            "nameString": "ＭＳ Ｐゴシックは米国 Microsoft Corporation の米国及びその他の国の登録商標または商標です。"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "MS PGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "ＭＳ Ｐゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 1,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 16,
+            "nameString": "MS PGothic"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1033,
+            "nameID": 17,
+            "nameString": "Light"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 16,
+            "nameString": "ＭＳ Ｐゴシック"
+        },
+        {
+            "platformID": 3,
+            "encodingID": 10,
+            "languageID": 1041,
+            "nameID": 17,
+            "nameString": "Light"
+        }
+    ]
+}
