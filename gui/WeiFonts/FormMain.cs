@@ -200,13 +200,13 @@ namespace WeiFonts
             {
                 tabControl1.Enabled = true;
                 Cursor = Cursors.Default;
-                if (string.IsNullOrWhiteSpace(err))
+                if (err.Contains("Error:"))
                 {
-                    MessageBox.Show(this, "处理完毕！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(this, err, "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else
                 {
-                    MessageBox.Show(this, "出现错误！\r\n" + err, "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(this, "处理完毕！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }));
         }
@@ -254,9 +254,17 @@ namespace WeiFonts
 
             else if (sender == linkLabelOutWei)
             {
-                if (textBoxM.Text.ToLower().Trim().EndsWith("ttc"))
+                if (textBoxM.Text.ToLower().Trim().EndsWith(".ttc"))
                 {
-                    saveFileDialog.Filter = "字体文件|*.ttc;*.ttf;*.otf;*.otc|所有文件|*.*";
+                    saveFileDialog.Filter = "字体文件|*.ttc;*.otc;*.ttf;*.otf|所有文件|*.*";
+                }
+                else if (textBoxM.Text.ToLower().Trim().EndsWith(".otf"))
+                {
+                    saveFileDialog.Filter = "字体文件|*.otf;*.ttf;*.ttc;*.otc|所有文件|*.*";
+                }
+                else if (textBoxM.Text.ToLower().Trim().EndsWith(".otc"))
+                {
+                    saveFileDialog.Filter = "字体文件|*.otc;*.ttc;*.otf;*.ttf|所有文件|*.*";
                 }
                 else
                 {

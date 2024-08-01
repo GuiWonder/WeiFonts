@@ -51,7 +51,8 @@
 - `-it` 斜体(Italic)，可选，可使用 `-it y` 指定为斜体字体，`-it n` 指定为非斜体字体。如未指定，程序会使用输入字体的斜体属性。
 - `-d` 字体保存目录(Output Directory)，可选，如未指定，则使用当前目录。
 - `-r` TTC 打包完成后移除 TTF，可选。
-
+## 下载地址
+可从 [Releases](https://github.com/GuiWonder/WeiFonts/releases) 页面下载。
 ## 鸣谢
 - [FontTools](https://github.com/fonttools/fonttools)
 - [AFDKO](https://github.com/adobe-type-tools/afdko/)

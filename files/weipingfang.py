@@ -197,7 +197,7 @@ def buitotf(infile, outfile, mfile, i=-1):
 	fontm=ttLib.TTFont(mfile, fontNumber=i)
 	ftnm=fontm["name"].getDebugName(6)
 	inft=infile[ftnm.split('-')[-1]]
-	newft=ttLib.TTFont(inft, recalcTimestamp=False, recalcBBoxes=False, fontNumber=i)
+	newft=ttLib.TTFont(inft, recalcTimestamp=False, recalcBBoxes=False)
 	newft['OS/2'].achVendID=fontm['OS/2'].achVendID
 	newft['OS/2'].ulCodePageRange1=fontm['OS/2'].ulCodePageRange1
 	newft['head'].fontRevision=fontm['head'].fontRevision
