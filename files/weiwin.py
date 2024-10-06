@@ -309,7 +309,7 @@ def bldttcft(font, tgft, wt):
 			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg['n'+tgft+'l'], wt)]
 		else:
 			nmslist=[ncfg[tgft+end[wt]], ncfg['n'+tgft+end[wt]]]
-		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('p'+tgft+end[wt]+'.ttf')]
+		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('n'+tgft+end[wt]+'.ttf')]
 		ttcfil=otpth(tgft+end[wt]+'.ttc')
 	elif tgft in ('mingliu', 'mingliub'):
 		if wt not in ('Regular', 'Bold', 'Light'):
