@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Windows.Forms;
 
 namespace WeiFonts
@@ -10,9 +11,10 @@ namespace WeiFonts
         readonly FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
         readonly LinkLabel[] linkLabels;
         readonly TextBox[] textBoxes;
+        readonly bool DEBUG;
+        readonly string VER = "20250829";
         private string exepy;
         private readonly string path;
-        private string err;
         private string args;
         private System.Threading.Thread thRun;
 
@@ -20,7 +22,7 @@ namespace WeiFonts
         {
             InitializeComponent();
             path = AppDomain.CurrentDomain.BaseDirectory;
-            linkLabelWeb.LinkClicked += LinkLabelWeb_LinkClicked;
+            linkLabelWeb.LinkClicked += (s, e) => System.Diagnostics.Process.Start("https://github.com/GuiWonder/WeiFonts");
             comboBoxMBWin.SelectedIndex = 0;
             comboBoxWTWin.SelectedIndex = 0;
             comboBoxItWin.SelectedIndex = 0;
@@ -40,13 +42,17 @@ namespace WeiFonts
             buttonStartWin.Click += ButtonStartWin_Click;
             buttonStartPf.Click += ButtonStartPf_Click;
             FormClosing += FormMain_FormClosing;
+            checkBoxDeep.CheckStateChanged += (s, e) => checkBoxWeiMT.Enabled = !checkBoxDeep.Checked;
+            string[] startargs = Environment.GetCommandLineArgs();
+            DEBUG = startargs.Length > 1 && startargs[1].ToLower() == "debug";
+            label15.Text += VER;
         }
 
 
         private void ButtonStartPf_Click(object sender, System.EventArgs e)
         {
-            string fileout = textBoxOutPf.Text.Trim();
-            string[] infls = { textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text, textBox6.Text };
+            string fileout = textBoxOutPf.Text.Trim().Trim('"');
+            string[] infls = { textBox1.Text.Trim().Trim('"'), textBox2.Text.Trim().Trim('"'), textBox3.Text.Trim().Trim('"'), textBox4.Text.Trim().Trim('"'), textBox5.Text.Trim().Trim('"'), textBox6.Text.Trim().Trim('"') };
             if (!GetEXEPY())
             {
                 return;
@@ -65,24 +71,34 @@ namespace WeiFonts
                 return;
             }
 
-            string pyfile = path + "files/weipingfang.py";
+            string pyfile = path + "files\\weipingfang.py";
+            if (!System.IO.File.Exists(pyfile))
+            {
+                NoSysFileErr(pyfile);
+                return;
+            }
             pyfile = pyfile.Replace('\\', '/');
-            args = $"\"{pyfile}\" -o \"{fileout}\"";
+            args = $"-X utf8 \"{pyfile}\" -o \"{fileout}\"";
             for (int i = 0; i < infls.Length; i++)
             {
-                args += $" -f{i + 1} \"{infls[i]}\"";
+                args += $" -f{i + 1} \"{infls[i].Replace('\\', '/')}\"";
+            }
+            if (checkBoxPfMT.Checked)
+            {
+                args += " -mt";
             }
             RunArgs();
         }
 
         private void NoFileErr(string item) => MessageBox.Show(this, $"文件{item}无效，请重新选择。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        private void NoSysFileErr(string item) => MessageBox.Show(this, $"缺少必要文件{item}，请重新下载。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
         private void SellFileInfo() => MessageBox.Show(this, "请选择保存文件。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
         private void NoPYErr() => MessageBox.Show(this, "未能找到 Python。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
         private void ButtonStartWin_Click(object sender, System.EventArgs e)
         {
-            string filein = textBoxInWin.Text.Trim();
-            string dirout = textBoxOutWin.Text.Trim();
+            string filein = textBoxInWin.Text.Trim().Trim('"');
+            string dirout = textBoxOutWin.Text.Trim().Trim('"');
             if (!GetEXEPY())
             {
                 return;
@@ -94,15 +110,22 @@ namespace WeiFonts
             }
             if (!System.IO.Directory.Exists(dirout))
             {
-                SellFileInfo();
+                MessageBox.Show(this, $"保存目录{dirout}无效，请重新选择。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            string[] tgs = { "msyh", "msjh", "mingliu", "simsun", "simhei", "msgothic", "msmincho", "meiryo", "malgun", "yugoth", "yumin", "batang", "gulim", "allsans", "allserif", "all", "mingliub", "simsunb" };
+            string[] tgs = { "msyh", "msjh", "mingliu", "simsun", "simhei", "deng", "msgothic", "msmincho", "meiryo", "malgun", "yugoth", "yumin", "batang", "gulim", "allsans", "allserif", "all", "mingliub", "simsunb", "simsunextg", "kaiu", "simkai", "simfang" };
             string tg = tgs[comboBoxMBWin.SelectedIndex];
-            string pyfile = path + "files/weiwin.py";
+            string pyfile = path + "files\\weiwin.py";
+            if (!System.IO.File.Exists(pyfile))
+            {
+                NoSysFileErr(pyfile);
+                return;
+            }
             pyfile = pyfile.Replace('\\', '/');
-            args = $"\"{pyfile}\" -i \"{filein}\" -d \"{dirout}\" -tg {tg}";
+            filein = filein.Replace('\\', '/');
+            dirout = dirout.Replace('\\', '/');
+            args = $"-X utf8 \"{pyfile}\" -i \"{filein}\" -d \"{dirout}\" -tg {tg}";
             if (comboBoxWTWin.SelectedIndex != 0)
             {
                 args += $" -wt {comboBoxWTWin.Text}";
@@ -119,14 +142,18 @@ namespace WeiFonts
             {
                 args += " -it n";
             }
+            if (checkBoxWinMT.Checked)
+            {
+                args += " -mt";
+            }
             RunArgs();
         }
 
         private void ButtonStartWei_Click(object sender, System.EventArgs e)
         {
-            string filein = textBoxInWei.Text.Trim();
-            string fileout = textBoxOutWei.Text.Trim();
-            string filem = textBoxM.Text.Trim();
+            string filem = textBoxM.Text.Trim().Trim('"');
+            string filein = textBoxInWei.Text.Trim().Trim('"');
+            string fileout = textBoxOutWei.Text.Trim().Trim('"');
             if (!GetEXEPY())
             {
                 return;
@@ -147,9 +174,25 @@ namespace WeiFonts
                 return;
             }
 
-            string pyfile = path + "files/weiwei.py";
+            string pyfile = path + "files\\weiwei.py";
+            if (!System.IO.File.Exists(pyfile))
+            {
+                NoSysFileErr(pyfile);
+                return;
+            }
             pyfile = pyfile.Replace('\\', '/');
-            args = $"\"{pyfile}\" -i \"{filein}\" -o \"{fileout}\" -m \"{filem}\"";
+            filem = filem.Replace('\\', '/');
+            filein = filein.Replace('\\', '/');
+            fileout = fileout.Replace('\\', '/');
+            args = $"-X utf8 \"{pyfile}\" -i \"{filein}\" -o \"{fileout}\" -m \"{filem}\"";
+            if (checkBoxDeep.Checked)
+            {
+                args += " -deep";
+            }
+            else if (checkBoxWeiMT.Checked)
+            {
+                args += " -mt";
+            }
             RunArgs();
         }
 
@@ -173,7 +216,6 @@ namespace WeiFonts
         {
             tabControl1.Enabled = false;
             Cursor = Cursors.WaitCursor;
-            err = "";
             thRun = new System.Threading.Thread(ThRun)
             {
                 IsBackground = true
@@ -183,15 +225,24 @@ namespace WeiFonts
 
         private void ThRun()
         {
+            string err = "";
             using (System.Diagnostics.Process p = new System.Diagnostics.Process())
             {
+                //p.StartInfo.StandardOutputEncoding = Encoding.UTF8;
+                p.StartInfo.StandardErrorEncoding = Encoding.UTF8;
                 p.StartInfo.FileName = exepy;
                 p.StartInfo.Arguments = args;
                 p.StartInfo.UseShellExecute = false;
                 p.StartInfo.CreateNoWindow = true;
                 p.StartInfo.RedirectStandardError = true;
                 p.Start();
-                p.ErrorDataReceived += P_ErrorDataReceived;
+                p.ErrorDataReceived += (s, e) =>
+                {
+                    if (!string.IsNullOrWhiteSpace(e.Data) && (DEBUG || e.Data.Contains("Error") || e.Data.Contains("ERROR")) && !e.Data.Contains("raise"))
+                    {
+                        err += e.Data + "\r\n";
+                    }
+                };
                 p.BeginErrorReadLine();
                 p.WaitForExit();
                 p.Close();
@@ -209,14 +260,6 @@ namespace WeiFonts
                     MessageBox.Show(this, "处理完毕！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }));
-        }
-
-        private void P_ErrorDataReceived(object sender, System.Diagnostics.DataReceivedEventArgs e)
-        {
-            if (!string.IsNullOrWhiteSpace(e.Data))
-            {
-                err += e.Data + "\r\n";
-            }
         }
 
         private bool IsInPATH(string command)
@@ -311,11 +354,6 @@ namespace WeiFonts
 
         private void TextBox_DragDrop(object sender, DragEventArgs e) => ((TextBox)sender).Text = ((System.Array)e.Data.GetData(DataFormats.FileDrop)).GetValue(0).ToString();
         private void TextBox_DragEnter(object sender, DragEventArgs e) => e.Effect = e.Data.GetDataPresent(DataFormats.FileDrop) ? DragDropEffects.All : DragDropEffects.None;
-
-        private void LinkLabelWeb_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://github.com/GuiWonder/WeiFonts");
-        }
         #endregion
     }
 }

@@ -1,249 +1,145 @@
-import sys, os, tempfile, shutil
+import sys, os, tempfile, shutil, math
 from fontTools import ttLib
-'''otc'''
-import struct
-class FontEntry:
-	def __init__(self, sfntType, searchRange, entrySelector, rangeShift):
-		self.sfntType = sfntType
-		self.searchRange = searchRange
-		self.entrySelector = entrySelector
-		self.rangeShift = rangeShift
-		self.tableList = []
-	def append(self, tableEntry):
-		self.tableList.append(tableEntry)
-	def getTable(self, tableTag):
-		for tableEntry in self.tableList:
-			if tableTag == tableEntry.tag:
-				return tableEntry
-		raise KeyError("Failed to find tag: " + tableTag)
-	def __str__(self):
-		dl = [ "fontEntry sfntType: %s, numTables: %s." % (self.sfntType, len(self.tableList) )]
-		for table in self.tableList:
-			dl.append(str(table))
-		dl.append("")
-		return os.linesep.join(dl)
-	def __repr__(self):
-		return str(self)
-class TableEntry:
-	def __init__(self, tag, checkSum, length):
-		self.tag = tag
-		self.checksum = checkSum
-		self.length = length
-		self.data = None
-		self.offset = None
-		self.isPreferred = False
-	def __str__(self):
-		return "Table tag: %s, checksum: %s, length %s." % (self.tag, self.checksum, self.length )
-	def __repr__(self):
-		return str(self)
-ttcHeaderFormat = ">4sLL"
-ttcHeaderSize = struct.calcsize(ttcHeaderFormat)
-offsetFormat = ">L"
-offsetSize = struct.calcsize(">L")
-sfntDirectoryFormat = ">4sHHHH"
-sfntDirectorySize = struct.calcsize(sfntDirectoryFormat)
-sfntDirectoryEntryFormat = ">4sLLL"
-sfntDirectoryEntrySize = struct.calcsize(sfntDirectoryEntryFormat)
-def readFontFile(fontPath):
-	fontEntryList = []
-	with open(fontPath, "rb") as fp:
-		data = fp.read()
-	# See if this is a OTC file first.
-	TTCTag, version, numFonts = struct.unpack(ttcHeaderFormat, data[:ttcHeaderSize])
-	if TTCTag != b'ttcf':
-		# it is a regular font.
-		fontEntry = parseFontFile(0, data)
-		fontEntryList.append(fontEntry)
+from fontTools.ttLib.scaleUpem import scale_upem
+from afdko import otf2otc
+import argparse
+
+def factor(n, f):
+	if f==1: return n
+	return int(math.floor(n*f+0.5))
+
+def cpif(nft, mft, fac, mt=False):
+	for t in ('name', 'STAT', 'fvar'):
+		if t in mft and t in nft:
+			nft[t]=mft[t]
+
+	cpls=((("head"), ("fontRevision", "macStyle")), (("OS/2"), ("achVendID", "ulCodePageRange1", "fsSelection", "usWeightClass")))
+	for t, v in cpls:
+		if t in nft and t in mft:
+			for v1 in v:
+				if hasattr(nft[t], v1) and hasattr(mft[t], v1):
+					setattr(nft[t], v1, getattr(mft[t], v1))
+	if mt:
+		skls=((("head"), ("xMin", "yMin", "xMax", "yMax")), 
+		(("post"), ("underlinePosition", "underlineThickness")), 
+		(("VORG"), ("defaultVertOriginY", )), 
+		(("hhea"), ("ascent", "descent", "lineGap", "advanceWidthMax", "minLeftSideBearing", "minRightSideBearing", "xMaxExtent", "caretOffset")), 
+		(("vhea"), ("ascent", "descent", "lineGap", "advanceHeightMax", "minTopSideBearing", "minBottomSideBearing", "yMaxExtent", "caretOffset")), 
+		(("OS/2"), ("xAvgCharWidth", "ySubscriptXSize", "ySubscriptYSize", "ySubscriptXOffset", "ySubscriptYOffset", "ySuperscriptXSize", "ySuperscriptYSize", "ySuperscriptXOffset", "ySuperscriptYOffset", "yStrikeoutSize", "yStrikeoutPosition", "sTypoAscender", "sTypoDescender", "sTypoLineGap", "usWinAscent", "usWinDescent", "sxHeight", "sCapHeight")))
+		for t, v in skls:
+			if t in nft and t in mft:
+				for v1 in v:
+					if hasattr(nft[t], v1) and hasattr(mft[t], v1):
+						setattr(nft[t], v1, factor(getattr(mft[t], v1), fac))
+
+def checkftname(mfont, newft):
+	if 'GSUB' in newft:
+		ids=set()
+		for fr in newft["GSUB"].table.FeatureList.FeatureRecord:
+			if hasattr(fr.Feature, 'FeatureParams') and hasattr(fr.Feature.FeatureParams, 'FeatUILabelNameID'):
+				ids.add(fr.Feature.FeatureParams.FeatUILabelNameID)
+		for n1 in mfont['name'].names:
+			if n1.nameID in ids: return
+		for n1 in newft['name'].names:
+			if n1.nameID in ids:
+				mfont['name'].setName(str(n1), n1.nameID, n1.platformID, n1.platEncID, n1.langID)
+
+def built(options):
+	ifile, ofile, mfile, mt, deep=options.i, options.o, options.m, options.mt, options.deep
+	ftnum=is_ttc(mfile)
+	isttc=ftnum!=-1
+
+	if isttc: mfont0=ttLib.TTFont(mfile, fontNumber=0)
+	else: mfont0=ttLib.TTFont(mfile)
+	ifont=ttLib.TTFont(ifile)
+	upm, upi=mfont0["head"].unitsPerEm, ifont["head"].unitsPerEm
+	fac=upi/upm
+	if deep and upm!=upi:
+		assert 'glyf' in ifont, f'File "{ifile}" does not support yet, please convert it to TTF first.'
+		removehint(ifont)
+		scale_upem(font=ifont, new_upem=upm)
+
+	if isttc:
+		tmp=tempfile.mktemp()
+		os.mkdir(tmp)
+		fileList=list()
+		for i in range(ftnum):
+			mfonti=ttLib.TTFont(mfile, fontNumber=i)
+			ftnm='unknow'
+			if mfonti['name'].getDebugName(6):
+				ftnm=mfonti['name'].getDebugName(6)
+			tmpfile=os.path.join(tmp, ftnm+'.ttf')
+			i=1
+			while tmpfile in fileList:
+				tmpfile=os.path.join(tmp, ftnm+str(j)+'.ttf')
+				j+=1
+			fileList.append(tmpfile)
+			checkftname(mfonti, ifont)
+			if deep:
+				dcpif(ifont, mfonti, fac)
+				ifont.save(tmpfile)
+			else:
+				newft=ttLib.TTFont(ifile, recalcTimestamp=False, recalcBBoxes=False)
+				cpif(newft, mfonti, fac, mt)
+				newft.save(tmpfile)
+		ttcarg=['-o', ofile]+fileList
+		otf2otc.run(ttcarg)
+		shutil.rmtree(tmp)
 	else:
-		offsetdata = data[ttcHeaderSize:]
-		i = 0
-		while i < numFonts:
-			offset = struct.unpack(offsetFormat, offsetdata[:offsetSize])[0]
-			fontEntry = parseFontFile(offset, data)
-			fontEntryList.append(fontEntry)
-			offsetdata = offsetdata[offsetSize:]
-			i += 1
-	return fontEntryList
-def parseFontFile(offset, data):
-	sfntType, numTables, searchRange, entrySelector, rangeShift = struct.unpack(sfntDirectoryFormat, data[offset:offset+sfntDirectorySize])
-	fontEntry = FontEntry(sfntType, searchRange, entrySelector, rangeShift)
-	curData = data[offset+sfntDirectorySize:]
-	i = 0
-	while i < numTables:
-		tag, checkSum, offset, length = struct.unpack(sfntDirectoryEntryFormat, curData[:sfntDirectoryEntrySize])
-		tableEntry = TableEntry(tag, checkSum, length)
-		tableEntry.data = data[offset:offset+length]
-		fontEntry.append(tableEntry)
-		curData =  curData[sfntDirectoryEntrySize:]
-		i += 1
-	return fontEntry
-def writeTTC(fontList, tableList, ttcFilePath):
-	numFonts = len(fontList)
-	header = struct.pack(ttcHeaderFormat, b'ttcf', 0x00010000,  numFonts)
-	dataList = [header]
-	fontOffset = ttcHeaderSize + numFonts*struct.calcsize(">L")
-	for fontEntry in fontList:
-		dataList.append(struct.pack(">L",fontOffset))
-		fontOffset += sfntDirectorySize + len(fontEntry.tableList)*sfntDirectoryEntrySize
-	# Set the offsets in the tables.
-	for tableEntryList in tableList:
-		for tableEntry in tableEntryList:
-			tableEntry.offset = fontOffset
-			paddedLength = (tableEntry.length + 3) & ~3
-			fontOffset += paddedLength
-	# save the font sfnt directories
-	for fontEntry in fontList:
-		data = struct.pack(sfntDirectoryFormat, fontEntry.sfntType, len(fontEntry.tableList), fontEntry.searchRange, fontEntry.entrySelector, fontEntry.rangeShift)
-		dataList.append(data)
-		for tableEntry in fontEntry.tableList:
-			data = struct.pack(sfntDirectoryEntryFormat, tableEntry.tag, tableEntry.checksum, tableEntry.offset, tableEntry.length)
-			dataList.append(data)
-	# save the tables.
-	for tableEntryList in tableList:
-		for tableEntry in tableEntryList:
-			paddedLength = (tableEntry.length + 3) & ~3
-			paddedData = tableEntry.data + b"\0" * (paddedLength - tableEntry.length)
-			dataList.append(paddedData)
-	
-	fontData = b"".join(dataList)
-	
-	with open(ttcFilePath, "wb") as fp:
-		fp.write(fontData)
-	return
-def runottf2otf(fileList, ttcFilePath):
-	tagOverrideMap={}
-	print("TTC fonts:", str(len(fileList))+' fonts.')
-	fontList = []
-	tableMap = {}
-	tableList = []
-	# Read each font file into a list of tables in a fontEntry
-	for fontPath in fileList:
-		fontEntryList = readFontFile(fontPath)
-		fontList += fontEntryList
-	# Add the fontEntry tableEntries to tableList.
-	for fontEntry in fontList:
-		tableIndex = 0
-		numTables = len(fontEntry.tableList)
-		while tableIndex < numTables:
-			tableEntry = fontEntry.tableList[tableIndex]
-			try:
-				fontIndex = tagOverrideMap[tableEntry.tag]
-				tableEntry = fontList[fontIndex].getTable(tableEntry.tag)
-				fontEntry.tableList[tableIndex] = tableEntry
-			except KeyError:
-				pass
-			try:
-				tableEntryList = tableMap[tableEntry.tag]
-				matched = 0
-				for tEntry in tableEntryList:
-					if (tEntry.checksum == tableEntry.checksum) and (tEntry.length == tableEntry.length) and (tEntry.data == tableEntry.data):
-						matched = 1
-						fontEntry.tableList[tableIndex] = tEntry
-						break
-				if not matched:
-					tableEntryList.append(tableEntry)
-			except KeyError:
-				tableEntryList = [tableEntry]
-				tableMap[tableEntry.tag] = tableEntryList
-				tableList.insert(tableIndex, tableEntryList)
-			tableIndex += 1
-	writeTTC(fontList, tableList, ttcFilePath)
-	print("Output font:", ttcFilePath)
-	# report which tabetablesls are shared.
-	sharedTables = []
-	unSharedTables = []
-	for tableEntryList in tableList:
-		if len(tableEntryList) > 1:
-			unSharedTables.append(tableEntryList[0].tag.decode('ascii'))
+		checkftname(mfont0, ifont)
+		if deep:
+			dcpif(ifont, mfont0, fac)
+			ifont.save(ofile)
 		else:
-			sharedTables.append(tableEntryList[0].tag.decode('ascii'))
-	if len(sharedTables) == 0:
-		print("No tables are shared")
-	else:
-		print("Shared tables: %s" % repr(sharedTables))
-	if len(unSharedTables) == 0:
-		print("All tables are shared")
-	else:
-		print("Un-shared tables: %s" % repr(unSharedTables))
-	print("Done")
-'''otc'''
+			newft=ttLib.TTFont(ifile, recalcTimestamp=False, recalcBBoxes=False)
+			cpif(newft, mfont0, fac, mt)
+			newft.save(ofile)
 
-def getfonts(infl):
-	fts=list()
-	fileob=open(infl, "rb")
-	header=ttLib.sfnt.readTTCHeader(fileob)
-	ftnum=header.numFonts
-	fileob.close()
-	for i in range(ftnum):
-		fonti=ttLib.TTFont(infl, fontNumber=i)
-		ps=fonti["name"].getDebugName(6)
-		fts.append(ps)
-		fonti.close()
-	return fts
+def is_ttc(ftpath):
+	with open(ftpath, 'rb') as f:
+		fullhead=f.read(31)
+		head=fullhead[0: 4]
+		if head==b'ttcf':
+			header=ttLib.sfnt.readTTCHeader(f)
+			ftnum=header.numFonts
+			return ftnum
+	return -1
 
-def buitotc(infile, outfile, mfile):
-	fileList=list()
-	fonts=getfonts(mfile)
-	tmp=tempfile.mktemp()
-	os.mkdir(tmp)
-	for i in range(len(fonts)):
-		tmpfile=os.path.join(tmp, fonts[i]+'.ttf')
-		buitotf(infile, tmpfile, mfile, i)
-		fileList.append(tmpfile)
-	runottf2otf(fileList, outfile)
-	shutil.rmtree(tmp)
+def removehint(font):
+	if 'glyf' in font:
+		for glyph in font['glyf'].glyphs.values():
+			glyph.removeHinting()
 
-def buitotf(infile, outfile, mfile, i=-1):
-	fontm=ttLib.TTFont(mfile, fontNumber=i)
-	newft=ttLib.TTFont(infile, recalcTimestamp=False, recalcBBoxes=False)
-	newft['OS/2'].achVendID=fontm['OS/2'].achVendID
-	newft['OS/2'].ulCodePageRange1=fontm['OS/2'].ulCodePageRange1
-	newft['head'].fontRevision=fontm['head'].fontRevision
-	newft['name']=fontm['name']
-	newft["head"].macStyle=fontm["head"].macStyle
-	newft["OS/2"].fsSelection=fontm["OS/2"].fsSelection
-	newft['OS/2'].usWeightClass=fontm['OS/2'].usWeightClass
-	newft.save(outfile)
-	newft.close()
-	fontm.close()
+def dcpif(ifont, mfont, fac):
+	ts=('head', 'hhea', 'vhea', 'OS/2', 'name', 'STAT', 'fvar')
+	for attos2 in ('sxHeight', 'sCapHeight'):
+		if hasattr(ifont['OS/2'], attos2) and not hasattr(mfont['OS/2'], attos2):
+			setattr(mfont['OS/2'], attos2, factor(getattr(ifont['OS/2'], attos2), 1/fac))
+	for attos2 in ('usFirstCharIndex', 'usLastCharIndex', 'version', 'usDefaultChar', 'usBreakChar', 'usMaxContext'):
+		if hasattr(ifont['OS/2'], attos2):
+			setattr(mfont['OS/2'], attos2, getattr(ifont['OS/2'], attos2))
+	mfont['hhea'].numberOfHMetrics=ifont['hhea'].numberOfHMetrics
+	if 'vhea' in mfont and 'vhea' in ifont:
+		mfont['vhea'].numberOfVMetrics=ifont['vhea'].numberOfVMetrics
+	for t in ts:
+		if t in mfont and t in ifont:
+			ifont[t]=mfont[t]
 
-def parseArgs(args):
-	inFilePath, outFilePath, mFilePath=(str() for i in range(3))
-	i, argn = 0, len(args)
-	while i < argn:
-		arg  = args[i]
-		i += 1
-		if arg == "-i":
-			inFilePath = args[i]
-			i += 1
-		elif arg == "-o":
-			outFilePath = args[i]
-			i += 1
-		elif arg == "-m":
-			mFilePath = args[i]
-			i += 1
-		else:
-			raise RuntimeError("Unknown option '%s'." % (arg))
-	if not inFilePath:
-		raise RuntimeError("You must specify one input font.")
-	if not os.path.isfile(inFilePath):
-		raise FileNotFoundError(f"Can not find file \"{inFilePath}\".\n")
-	if not mFilePath:
-		raise RuntimeError("You must specify one font file.")
-	if not os.path.isfile(mFilePath):
-		raise FileNotFoundError(f"Can not find file \"{mFilePath}\".\n")
-	if not outFilePath:
-		raise RuntimeError("You must specify one output font file.")
-	return inFilePath, outFilePath, mFilePath
+def main(args=None):
+	parser = argparse.ArgumentParser()
+	parser.add_argument("-i", required=True, metavar="INPUT", help="Input font")
+	parser.add_argument("-o", required=True, metavar="OUTPUT", help="Output font")
+	parser.add_argument("-m", required=True, metavar="MODEL", help="Model font")
+	parser.add_argument("-mt", action="store_true", help="Metrics")
+	parser.add_argument("-deep", action="store_true", help="Use deep")
+	options = parser.parse_args(args)
 
-def main(args):
-	ifile, ofile, mfile=parseArgs(args)
+	for f in (options.i, options.m):
+		if not os.path.isfile(f):
+			parser.error(f'Can not find file "{f}".')
 	print('Process...')
-	if mfile.split('.')[-1].lower() in ('otc', 'ttc'):
-		buitotc(ifile, ofile, mfile)
-	else:
-		buitotf(ifile, ofile, mfile)
+	built(options)
 	print('End')
 
 if __name__ == '__main__':
-	main(sys.argv[1:])
+	sys.exit(main())

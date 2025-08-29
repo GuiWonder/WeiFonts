@@ -1,197 +1,29 @@
-import os, json, tempfile, gc, sys, shutil
+import os, sys, math
 from fontTools import ttLib
-
-'''otc'''
-import struct
-class FontEntry:
-	def __init__(self, sfntType, searchRange, entrySelector, rangeShift):
-		self.sfntType = sfntType
-		self.searchRange = searchRange
-		self.entrySelector = entrySelector
-		self.rangeShift = rangeShift
-		self.tableList = []
-	def append(self, tableEntry):
-		self.tableList.append(tableEntry)
-	def getTable(self, tableTag):
-		for tableEntry in self.tableList:
-			if tableTag == tableEntry.tag:
-				return tableEntry
-		raise KeyError("Failed to find tag: " + tableTag)
-	def __str__(self):
-		dl = [ "fontEntry sfntType: %s, numTables: %s." % (self.sfntType, len(self.tableList) )]
-		for table in self.tableList:
-			dl.append(str(table))
-		dl.append("")
-		return os.linesep.join(dl)
-	def __repr__(self):
-		return str(self)
-class TableEntry:
-	def __init__(self, tag, checkSum, length):
-		self.tag = tag
-		self.checksum = checkSum
-		self.length = length
-		self.data = None
-		self.offset = None
-		self.isPreferred = False
-	def __str__(self):
-		return "Table tag: %s, checksum: %s, length %s." % (self.tag, self.checksum, self.length )
-	def __repr__(self):
-		return str(self)
-ttcHeaderFormat = ">4sLL"
-ttcHeaderSize = struct.calcsize(ttcHeaderFormat)
-offsetFormat = ">L"
-offsetSize = struct.calcsize(">L")
-sfntDirectoryFormat = ">4sHHHH"
-sfntDirectorySize = struct.calcsize(sfntDirectoryFormat)
-sfntDirectoryEntryFormat = ">4sLLL"
-sfntDirectoryEntrySize = struct.calcsize(sfntDirectoryEntryFormat)
-def readFontFile(fontPath):
-	fontEntryList = []
-	with open(fontPath, "rb") as fp:
-		data = fp.read()
-	# See if this is a OTC file first.
-	TTCTag, version, numFonts = struct.unpack(ttcHeaderFormat, data[:ttcHeaderSize])
-	if TTCTag != b'ttcf':
-		# it is a regular font.
-		fontEntry = parseFontFile(0, data)
-		fontEntryList.append(fontEntry)
-	else:
-		offsetdata = data[ttcHeaderSize:]
-		i = 0
-		while i < numFonts:
-			offset = struct.unpack(offsetFormat, offsetdata[:offsetSize])[0]
-			fontEntry = parseFontFile(offset, data)
-			fontEntryList.append(fontEntry)
-			offsetdata = offsetdata[offsetSize:]
-			i += 1
-	return fontEntryList
-def parseFontFile(offset, data):
-	sfntType, numTables, searchRange, entrySelector, rangeShift = struct.unpack(sfntDirectoryFormat, data[offset:offset+sfntDirectorySize])
-	fontEntry = FontEntry(sfntType, searchRange, entrySelector, rangeShift)
-	curData = data[offset+sfntDirectorySize:]
-	i = 0
-	while i < numTables:
-		tag, checkSum, offset, length = struct.unpack(sfntDirectoryEntryFormat, curData[:sfntDirectoryEntrySize])
-		tableEntry = TableEntry(tag, checkSum, length)
-		tableEntry.data = data[offset:offset+length]
-		fontEntry.append(tableEntry)
-		curData =  curData[sfntDirectoryEntrySize:]
-		i += 1
-	return fontEntry
-def writeTTC(fontList, tableList, ttcFilePath):
-	numFonts = len(fontList)
-	header = struct.pack(ttcHeaderFormat, b'ttcf', 0x00010000,  numFonts)
-	dataList = [header]
-	fontOffset = ttcHeaderSize + numFonts*struct.calcsize(">L")
-	for fontEntry in fontList:
-		dataList.append(struct.pack(">L",fontOffset))
-		fontOffset += sfntDirectorySize + len(fontEntry.tableList)*sfntDirectoryEntrySize
-	# Set the offsets in the tables.
-	for tableEntryList in tableList:
-		for tableEntry in tableEntryList:
-			tableEntry.offset = fontOffset
-			paddedLength = (tableEntry.length + 3) & ~3
-			fontOffset += paddedLength
-	# save the font sfnt directories
-	for fontEntry in fontList:
-		data = struct.pack(sfntDirectoryFormat, fontEntry.sfntType, len(fontEntry.tableList), fontEntry.searchRange, fontEntry.entrySelector, fontEntry.rangeShift)
-		dataList.append(data)
-		for tableEntry in fontEntry.tableList:
-			data = struct.pack(sfntDirectoryEntryFormat, tableEntry.tag, tableEntry.checksum, tableEntry.offset, tableEntry.length)
-			dataList.append(data)
-	# save the tables.
-	for tableEntryList in tableList:
-		for tableEntry in tableEntryList:
-			paddedLength = (tableEntry.length + 3) & ~3
-			paddedData = tableEntry.data + b"\0" * (paddedLength - tableEntry.length)
-			dataList.append(paddedData)
-	
-	fontData = b"".join(dataList)
-	
-	with open(ttcFilePath, "wb") as fp:
-		fp.write(fontData)
-	return
-def runottf2otf(fileList, ttcFilePath):
-	tagOverrideMap={}
-	print("TTC fonts:", str(len(fileList))+' fonts.')
-	fontList = []
-	tableMap = {}
-	tableList = []
-	# Read each font file into a list of tables in a fontEntry
-	for fontPath in fileList:
-		fontEntryList = readFontFile(fontPath)
-		fontList += fontEntryList
-	# Add the fontEntry tableEntries to tableList.
-	for fontEntry in fontList:
-		tableIndex = 0
-		numTables = len(fontEntry.tableList)
-		while tableIndex < numTables:
-			tableEntry = fontEntry.tableList[tableIndex]
-			try:
-				fontIndex = tagOverrideMap[tableEntry.tag]
-				tableEntry = fontList[fontIndex].getTable(tableEntry.tag)
-				fontEntry.tableList[tableIndex] = tableEntry
-			except KeyError:
-				pass
-			try:
-				tableEntryList = tableMap[tableEntry.tag]
-				matched = 0
-				for tEntry in tableEntryList:
-					if (tEntry.checksum == tableEntry.checksum) and (tEntry.length == tableEntry.length) and (tEntry.data == tableEntry.data):
-						matched = 1
-						fontEntry.tableList[tableIndex] = tEntry
-						break
-				if not matched:
-					tableEntryList.append(tableEntry)
-			except KeyError:
-				tableEntryList = [tableEntry]
-				tableMap[tableEntry.tag] = tableEntryList
-				tableList.insert(tableIndex, tableEntryList)
-			tableIndex += 1
-	writeTTC(fontList, tableList, ttcFilePath)
-	print("Output font:", ttcFilePath)
-	# report which tabetablesls are shared.
-	sharedTables = []
-	unSharedTables = []
-	for tableEntryList in tableList:
-		if len(tableEntryList) > 1:
-			unSharedTables.append(tableEntryList[0].tag.decode('ascii'))
-		else:
-			sharedTables.append(tableEntryList[0].tag.decode('ascii'))
-	if len(sharedTables) == 0:
-		print("No tables are shared")
-	else:
-		print("Shared tables: %s" % repr(sharedTables))
-	if len(unSharedTables) == 0:
-		print("All tables are shared")
-	else:
-		print("Un-shared tables: %s" % repr(unSharedTables))
-	print("Done")
-'''otc'''
+from afdko import otf2otc
 
 pydir = os.path.abspath(os.path.dirname(__file__))
 
-outd=str()
-it='a'
-rmttf=False
-
-TG= ('msyh', 'msjh', 'mingliu', 'simsun', 'simhei', 'msgothic', 'msmincho', 'meiryo', 'malgun', 'yugoth', 'yumin', 'batang', 'gulim', 'allsans', 'allserif', 'all', 'mingliub', 'simsunb')
-WT=('thin', 'extralight', 'light', 'semilight', 'demilight', 'normal', 'regular', 'medium', 'demibold', 'semibold', 'bold', 'black', 'heavy')
-end={'Thin':'th', 'ExtraLight':'xl', 'Light':'l', 'Semilight':'sl', 'DemiLight':'dm', 'Normal':'nm', 'Regular':'', 'Medium':'md', 'Demibold':'db', 'SemiBold':'sb', 'Bold':'bd', 'Black':'bl', 'Heavy':'hv'}
+TG=('msyh', 'msjh', 'mingliu', 'simsun', 'simhei', 'msgothic', 'msmincho', 'meiryo', 'malgun', 'yugoth', 'yumin', 'batang', 'gulim', 'allsans', 'allserif', 'all', 'mingliub', 'simsunb', 'deng', 'kaiu', 'simkai', 'simsunextg', 'simfang')
+WT=('thin', 'extralight', 'light', 'semilight', 'demilight', 'normal', 'regular', 'medium', 'demibold', 'semibold', 'bold', 'extrabold', 'heavy', 'black', 'extrablack')
+end={'Thin':'th', 'ExtraLight':'xl', 'Light':'l', 'Semilight':'sl', 'DemiLight':'dm', 'Normal':'nm', 'Regular':'', 'Medium':'md', 'Demibold':'db', 'SemiBold':'sb', 'Bold':'bd', 'ExtraBold':'xb', 'Heavy':'hv', 'Black':'bl', 'ExtraBlack':'xbl'}
 
 def getwt(font):
 	if font["head"].macStyle & (1 << 0) > 0:
 		return 'Bold'
-	wtn={250:'ExtraLight', 300:'Light', 350:'Normal', 400:'Regular', 500:'Medium', 600:'SemiBold', 900:'Heavy'}
-	wtc=font['OS/2'].usWeightClass
-	if wtc<300:
-		return wtn[250]
-	if wtc in wtn:
-		return wtn[wtc]
-	return 'Regular'
+	v=font['OS/2'].usWeightClass
+	if v<155: return 'Thin'
+	if v<255: return 'ExtraLight'
+	if v<355: return 'Light'
+	if v<455: return 'Regular'
+	if v<555: return 'Medium'
+	if v<700: return 'SemiBold'
+	if v<855: return 'ExtraBold'
+	if v<950: return 'Heavy'
+	return 'ExtraBlack'
 
 def setuswt(font, wt):
-	uswt={'thin':100, 'extralight':250, 'light':300, 'semilight':350, 'demilight':350, 'normal':350, 'regular':400, 'medium':500, 'demibold':600, 'semibold':600, 'bold':700, 'black':900, 'heavy':900}
+	uswt={'thin':100, 'extralight':250, 'light':300, 'semilight':350, 'demilight':350, 'normal':350, 'regular':400, 'medium':500, 'demibold':600, 'semibold':600, 'bold':700, 'extrabold':800, 'heavy':900, 'black':900, 'extrablack':950}
 	font['OS/2'].usWeightClass=uswt[wt]
 	if wt=='bold':
 		font["OS/2"].fsSelection |= 1 << 5
@@ -203,7 +35,6 @@ def setuswt(font, wt):
 		font["OS/2"].fsSelection |= 1 << 6
 	else:
 		font["OS/2"].fsSelection &= ~(1 << 6)
-		
 
 def getit(font):
 	if font["head"].macStyle & (1 << 1) > 0:
@@ -217,273 +48,292 @@ def setit(font, isit):
 	else:
 		font["OS/2"].fsSelection &= ~(1 << 0)
 		font["head"].macStyle &= ~(1 << 1)
-		
 
-def getver(nmo):
-	for n1 in nmo:
-		if n1['languageID']==1033 and n1['nameID']==5:
-			return n1['nameString'].split(' ')[-1]
-	return 1
-
-def otpth(ftf):
-	if outd:
-		return os.path.join(outd, ftf)
+def otpth(outdir, ftf):
+	if outdir:
+		return os.path.join(outdir, ftf)
 	return ftf
 
-def wtbuil(nml, wt):
-	nwtnm=list()
-	for n1 in nml:
-		n2=dict(n1)
-		if n2['nameID'] in (1, 3, 4, 6, 17):
-			n2['nameString']=n2['nameString'].replace('Light', wt)
-		nwtnm.append(n2)
-	return nwtnm
+def factor(n, f):
+	if f==1: return n
+	return int(math.floor(n*f+0.5))
 
-def itbuil(nms):
-	nwtnm=list()
-	isbold=False
-	for n1 in nms:
-		if n1['nameID']==2 and 'Bold' in n1['nameString']:
-			isbold=True
-			break
-	for n1 in nms:
-		n2=dict(n1)
-		if n2['nameID']==2:
-			if 'Italic' in n2['nameString']:
-				return nms
-			if isbold:
-				n2['nameString']='Bold Italic'
-			else:
-				n2['nameString']='Italic'
-		elif n2['nameID'] in (3, 4, 17):
-			n2['nameString']+=' Italic'
-		elif n2['nameID']==6:
-			if '-' in n2['nameString']:
-				n2['nameString']+='Italic'
-			else:
-				n2['nameString']+='-Italic'
-		nwtnm.append(n2)
-	return nwtnm
+def cpif(nft, mft, fac, option):
+	for t in ('name', 'STAT', 'fvar'):
+		if t in mft:
+			nft[t]=mft[t]
 
-def toname(nmls):
+	cpls=((("head"), ("fontRevision", "macStyle")), (("OS/2"), ("achVendID", "ulCodePageRange1", "fsSelection", "usWeightClass")))
+	for t, v in cpls:
+		if t in nft and t in mft:
+			for v1 in v:
+				if hasattr(nft[t], v1) and hasattr(mft[t], v1):
+					setattr(nft[t], v1, getattr(mft[t], v1))
+
+	if option.itarg=='y': setit(nft, True)
+	if option.mkwt: setuswt(nft, option.tgwt.lower())
+
+	if option.metrics:
+		skls=((("head"), ("xMin", "yMin", "xMax", "yMax")), 
+		(("post"), ("underlinePosition", "underlineThickness")), 
+		(("VORG"), ("defaultVertOriginY", )), 
+		(("hhea"), ("ascent", "descent", "lineGap", "advanceWidthMax", "minLeftSideBearing", "minRightSideBearing", "xMaxExtent", "caretOffset")), 
+		(("vhea"), ("ascent", "descent", "lineGap", "advanceHeightMax", "minTopSideBearing", "minBottomSideBearing", "yMaxExtent", "caretOffset")), 
+		(("OS/2"), ("xAvgCharWidth", "ySubscriptXSize", "ySubscriptYSize", "ySubscriptXOffset", "ySubscriptYOffset", "ySuperscriptXSize", "ySuperscriptYSize", "ySuperscriptXOffset", "ySuperscriptYOffset", "yStrikeoutSize", "yStrikeoutPosition", "sTypoAscender", "sTypoDescender", "sTypoLineGap", "usWinAscent", "usWinDescent", "sxHeight", "sCapHeight")))
+		for t, v in skls:
+			if t in nft and t in mft:
+				for v1 in v:
+					if hasattr(nft[t], v1) and hasattr(mft[t], v1):
+						setattr(nft[t], v1, factor(getattr(mft[t], v1), fac))
+
+def is_ttc(ftpath):
+	with open(ftpath, 'rb') as f:
+		fullhead=f.read(31)
+		head=fullhead[0: 4]
+		if head==b'ttcf':
+			header=ttLib.sfnt.readTTCHeader(f)
+			ftnum=header.numFonts
+			return ftnum
+	return -1
+
+def covrb(mname):
 	newnane=ttLib.newTable('name')
-	for nm in nmls:
-		newnane.setName(nm['nameString'], nm['nameID'], nm['platformID'], nm['encodingID'], nm['languageID'])
+	for n1 in mname.names:
+		nstr=str(n1)
+		if n1.nameID==4 and 'Regular' not in nstr:
+			nstr+=' Bold'
+		elif n1.nameID==6 and 'Regular' not in nstr:
+			nstr+='-Bold'
+		elif n1.nameID in (2, 3, 4, 6, 17):
+			nstr=nstr.replace('Regular', 'Bold')
+		newnane.setName(nstr, n1.nameID, n1.platformID, n1.platEncID, n1.langID)
 	return newnane
 
-def bldttfft(font, tgft, wt):
-	ncfg=json.load(open(os.path.join(pydir, f'names/{tgft}.json'), 'r', encoding = 'utf-8'))
-	font['OS/2'].ulCodePageRange1=ncfg['ulCodePageRange1']
-	if tgft=='malgun':wts=('Regular', 'Bold', 'Semilight', 'Light')
-	elif tgft=='yumin':wts=('Regular', 'Bold', 'Demibold', 'Light')
-	else:wts=('Regular', 'Bold', 'Light')
-	if wt not in wts: nmslist=wtbuil(ncfg[tgft+'l'], wt)
-	else: nmslist=ncfg[tgft+end[wt]]
-	ttflist=otpth(tgft+end[wt]+'.ttf')
-	if it=='y':
-		nmslist=itbuil(nmslist)
-		ttflist=otpth(tgft+end[wt]+'It.ttf')
-	font['head'].fontRevision=float(getver(nmslist))
-	font['name']=toname(nmslist)
-	print('Building font(s)...')
-	print('Saving TTF...')
-	font.save(ttflist)
-	print('Done!')
+def covlo(mname, wt):
+	newnane=ttLib.newTable('name')
+	for n1 in mname.names:
+		nstr=str(n1)
+		if n1.nameID in (1, 3, 4, 6, 17):
+			nstr=nstr.replace('Light', wt)
+		newnane.setName(nstr, n1.nameID, n1.platformID, n1.platEncID, n1.langID)
+	return newnane
 
-def bldttcft(font, tgft, wt):
-	ncfg=json.load(open(os.path.join(pydir, f'names/{tgft}.json'), 'r', encoding = 'utf-8'))
-	font['OS/2'].ulCodePageRange1=ncfg['ulCodePageRange1']
-	spwt=dict()
-	isit=it=='y'
-	if tgft in ('msyh', 'msjh', 'meiryo'):
-		if wt not in ('Regular', 'Bold', 'Light'):
-			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg[tgft+'ui'+'l'], wt)]
-		else:
-			nmslist=[ncfg[tgft+end[wt]], ncfg[tgft+'ui'+end[wt]]]
-		edl=end[wt]
-		if tgft=='meiryo': edl=end[wt].replace('bd', 'b')
-		ttflist=[otpth(tgft+edl+'.ttf'), otpth(tgft+'ui'+edl+'.ttf')]
-		ttcfil=otpth(tgft+edl+'.ttc')
-	elif tgft=='simsun':
-		if wt not in ('Regular', 'Bold', 'Light'):
-			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg['n'+tgft+'l'], wt)]
-		else:
-			nmslist=[ncfg[tgft+end[wt]], ncfg['n'+tgft+end[wt]]]
-		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('n'+tgft+end[wt]+'.ttf')]
-		ttcfil=otpth(tgft+end[wt]+'.ttc')
-	elif tgft in ('mingliu', 'mingliub'):
-		if wt not in ('Regular', 'Bold', 'Light'):
-			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg['p'+tgft+'l'], wt), wtbuil(ncfg[tgft+'_hkscsl'], wt)]
-		else:
-			nmslist=[ncfg[tgft+end[wt]], ncfg['p'+tgft+end[wt]], ncfg[tgft+'_hkscs'+end[wt]]]
-		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('p'+tgft+end[wt]+'.ttf'), otpth(tgft+'_hkscs'+end[wt]+'.ttf')]
-		ttcfil=otpth(tgft+end[wt]+'.ttc')
-	elif tgft=='msgothic':
-		if wt not in ('Regular', 'Bold', 'Light'):
-			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg['msuigothicl'], wt), wtbuil(ncfg['mspgothicl'], wt)]
-		else:
-			nmslist=[ncfg[tgft+end[wt]], ncfg['msuigothic'+end[wt]], ncfg['mspgothic'+end[wt]]]
-		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('msuigothic'+end[wt]+'.ttf'), otpth('mspgothic'+end[wt]+'.ttf')]
-		ttcfil=otpth(tgft+end[wt]+'.ttc')
-	elif tgft=='msmincho':
-		if wt not in ('Regular', 'Bold', 'Light'):
-			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg['mspminchol'], wt)]
-		else:
-			nmslist=[ncfg[tgft+end[wt]], ncfg['mspmincho'+end[wt]]]
-		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('mspmincho'+end[wt]+'.ttf')]
-		ttcfil=otpth(tgft+end[wt]+'.ttc')
-	elif tgft=='batang':
-		if wt not in ('Regular', 'Bold', 'Light'):
-			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg['batangchel'], wt), wtbuil(ncfg['gungsuhl'], wt), wtbuil(ncfg['gungsuhchel'], wt)]
-		else:
-			nmslist=[ncfg[tgft+end[wt]], ncfg['batangche'+end[wt]], ncfg['gungsuh'+end[wt]], ncfg['gungsuhche'+end[wt]]]
-		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('batangche'+end[wt]+'.ttf'), otpth('gungsuh'+end[wt]+'.ttf'), otpth('gungsuhche'+end[wt]+'.ttf')]
-		ttcfil=otpth(tgft+end[wt]+'.ttc')
-	elif tgft=='gulim':
-		if wt not in ('Regular', 'Bold', 'Light'):
-			nmslist=[wtbuil(ncfg[tgft+'l'], wt), wtbuil(ncfg['gulimchel'], wt), wtbuil(ncfg['dotuml'], wt), wtbuil(ncfg['dotumchel'], wt)]
-		else:
-			nmslist=[ncfg[tgft+end[wt]], ncfg['gulimche'+end[wt]], ncfg['dotum'+end[wt]], ncfg['dotumche'+end[wt]]]
-		ttflist=[otpth(tgft+end[wt]+'.ttf'), otpth('gulimche'+end[wt]+'.ttf'), otpth('dotum'+end[wt]+'.ttf'), otpth('dotumche'+end[wt]+'.ttf')]
-		ttcfil=otpth(tgft+end[wt]+'.ttc')
-	elif tgft=='yugoth':
-		if wt =='Regular':
-			nmslist=[ncfg['yugoth'], ncfg['yugothuisl']]
-			ttflist=[otpth('YuGothR.ttf'), otpth('YuGothuiSL.ttf')]
-			spwt[1]='semilight'
-			ttcfil=otpth('YuGothR.ttc')
-		elif wt =='Bold':
-			nmslist=[ncfg['yugothbd'], ncfg['yugothuibd'], ncfg['yugothuisb']]
-			ttflist=[otpth('YuGothB.ttf'), otpth('YuGothuiB.ttf'), otpth('YuGothuiSB.ttf')]
-			spwt[2]='semibold'
-			ttcfil=otpth('YuGothB.ttc')
-		elif wt =='Medium':
-			nmslist=[ncfg['yugothmd'], ncfg['yugothui']]
-			ttflist=[otpth('YuGothM.ttf'), otpth('YuGothuiR.ttf')]
-			ttcfil=otpth('YuGothM.ttc')
-			spwt[1]='regular'
-		elif wt =='Light':
-			nmslist=[ncfg['yugothl'], ncfg['yugothuil']]
-			ttflist=[otpth('YuGothL.ttf'), otpth('YuGothuiL.ttf')]
-			ttcfil=otpth('YuGothL.ttc')
-		else:
-			nmslist=[wtbuil(ncfg['yugothl'], wt), wtbuil(ncfg['yugothuil'], wt)]
-			ttflist=[otpth('YuGoth'+end[wt].upper()+'.ttf'), otpth('YuGothui'+end[wt].upper()+'.ttf')]
-			ttcfil=otpth('YuGoth'+end[wt].upper()+'.ttc')
-	if isit:
-		nmslist=[itbuil(nm) for nm in nmslist]
-		ttflist=[ttfl.replace('.ttf', 'It.ttf') for ttfl in ttflist]
-		ttcfil=ttcfil.replace('.ttc', 'It.ttc')
-	print('Building font(s)...')
+def covro(mname, wt):
+	newnane=ttLib.newTable('name')
+	for n1 in mname.names:
+		nstr=str(n1)
+		if n1.nameID==1:
+			fml=nstr.replace('Regular', '').strip()
+			newnane.setName(fml, 16, n1.platformID, n1.platEncID, n1.langID)
+			newnane.setName(wt, 17, n1.platformID, n1.platEncID, n1.langID)
+		if n1.nameID in (1, 4) and 'Regular' not in nstr:
+			nstr+=' '+wt
+		elif n1.nameID==6 and 'Regular' not in nstr:
+			nstr+='-'+wt
+		elif n1.nameID in (1, 3, 4, 6, 17):
+			nstr=nstr.replace('Regular', wt)
+		newnane.setName(nstr, n1.nameID, n1.platformID, n1.platEncID, n1.langID)
+	return newnane
 
-	tmpf=list()
-	wtcls=font['OS/2'].usWeightClass
-	fssl=font["OS/2"].fsSelection
-	macsl=font["head"].macStyle
-	for i in range(len(nmslist)):
-		font['head'].fontRevision=float(getver(nmslist[i]))
-		font['name']=toname(nmslist[i])
-		if i in spwt:
-			setuswt(font, spwt[i])
-		print('Saving TTFs...')
-		font.save(ttflist[i])
-		font['OS/2'].usWeightClass=wtcls
-		font["OS/2"].fsSelection=fssl
-		font["head"].macStyle=macsl
-	print('Saving TTC...')
-	runottf2otf(ttflist, ttcfil)
-	if rmttf:
-		for tpttf in ttflist: os.remove(tpttf)
-	print('Done!')
+def covit(mname):
+	isbold='Bold' in mname.getDebugName(2)
+	newnane=ttLib.newTable('name')
+	for n1 in mname.names:
+		nstr=str(n1)
+		if n1.nameID==2:
+			if 'Italic' in nstr: return mname
+			if isbold: nstr='Bold Italic'
+			else: nstr='Italic'
+		elif n1.nameID in (3, 4, 17):
+			nstr+=' Italic'
+		elif n1.nameID==6:
+			if '-' in nstr:
+				nstr+='Italic'
+			else:
+				nstr+='-Italic'
+		newnane.setName(nstr, n1.nameID, n1.platformID, n1.platEncID, n1.langID)
+	return newnane
 
-def parseArgs(args):
-	global outd, rmttf, it
-	inFilePath, outDir, tarGet, weight=(str() for i in range(4))
+def checkftname(mfont, newft):
+	if 'GSUB' in newft:
+		ids=set()
+		for fr in newft["GSUB"].table.FeatureList.FeatureRecord:
+			if hasattr(fr.Feature, 'FeatureParams') and hasattr(fr.Feature.FeatureParams, 'FeatUILabelNameID'):
+				ids.add(fr.Feature.FeatureParams.FeatUILabelNameID)
+		for n1 in mfont['name'].names:
+			if n1.nameID in ids: return
+		for n1 in newft['name'].names:
+			if n1.nameID in ids:
+				mfont['name'].setName(str(n1), n1.nameID, n1.platformID, n1.platEncID, n1.langID)
+
+def build(option, outfile, mfile, cov=''):
+	ftnum=is_ttc(mfile)
+	isttc=ftnum!=-1
+
+	if isttc: mfont0=ttLib.TTFont(mfile, fontNumber=0)
+	else: mfont0=ttLib.TTFont(mfile)
+	ifont=ttLib.TTFont(option.infile)
+	upm, upi=mfont0["head"].unitsPerEm, ifont["head"].unitsPerEm
+	fac=upi/upm
+
+	if isttc:
+		fileList=list()
+		for i in range(ftnum):
+			mfonti=ttLib.TTFont(mfile, fontNumber=i)
+			if 'italic' in mfonti['name'].getDebugName(6).lower(): continue
+			if cov=='rb': mfonti['name']=covrb(mfonti['name'])
+			elif cov=='lo': mfonti['name']=covlo(mfonti['name'], option.tgwt)
+			elif cov=='ro': mfonti['name']=covro(mfonti['name'], option.tgwt)
+			if option.itarg=='y': mfonti['name']=covit(mfonti['name'])
+			ftnm='unknow'
+			if mfonti['name'].getDebugName(6):
+				ftnm=mfonti['name'].getDebugName(6)
+			tmpfile=os.path.join(option.outdir, ftnm+'.ttf')
+			i=1
+			while tmpfile in fileList:
+				tmpfile=os.path.join(option.outdir, ftnm+str(j)+'.ttf')
+				j+=1
+			fileList.append(tmpfile)
+			newft=ttLib.TTFont(option.infile, recalcTimestamp=False, recalcBBoxes=False)
+			checkftname(mfonti, newft)
+			cpif(newft, mfonti, fac, option)
+			newft.save(tmpfile)
+		ttcarg=['-o', outfile]+fileList
+		otf2otc.run(ttcarg)
+		if option.rmttf:
+			for ff in fileList:
+				os.remove(ff)
+	else:
+		mfont=ttLib.TTFont(mfile)
+		newft=ttLib.TTFont(option.infile, recalcTimestamp=False, recalcBBoxes=False)
+		if cov=='rb': mfont['name']=covrb(mfont['name'])
+		elif cov=='lo': mfont['name']=covlo(mfont['name'], option.tgwt)
+		elif cov=='ro': mfont['name']=covro(mfont['name'], option.tgwt)
+		if option.itarg=='y': mfont['name']=covit(mfont['name'])
+		checkftname(mfont, newft)
+		cpif(newft, mfont, fac, option)
+		newft.save(outfile)
+
+def bldttcft(option, tgft):
+	wt=option.tgwt
+	if tgft in ['malgun', 'simhei', 'yumin', 'simsunb', 'deng', 'kaiu', 'simkai', 'simsunextg', 'simfang']:
+		exname='.ttf'
+	else:
+		exname='.ttc'
+	if tgft=='yugoth': tgft='YuGoth'
+	if tgft=='deng': tgft='Deng'
+	if tgft=='simsunextg': tgft='SimsunExtG'
+	fed=dict()
+	for w in end:
+		if tgft=='YuGoth':
+			if w=='Regular': fed[w]='R'
+			elif w=='Bold': fed[w]='B'
+			elif w=='Light': fed[w]='L'
+			elif w=='Medium': fed[w]='M'
+			else: fed[w]=end[w]
+		elif tgft=='meiryo' and w=='Bold': fed[w]='b'
+		elif tgft=='Deng' and w=='Bold': fed[w]='b'
+		else: fed[w]=end[w]
+	mfiler=os.path.join(pydir, f"datas/{tgft+fed['Regular']}{exname}")
+	mfileb=os.path.join(pydir, f"datas/{tgft+fed['Bold']}{exname}")
+	mfilel=os.path.join(pydir, f"datas/{tgft+fed['Light']}{exname}")
+	mfile=os.path.join(pydir, f'datas/{tgft+fed[wt]}{exname}')
+	if option.itarg=='y': itend='it'
+	else: itend=''
+	outfile=otpth(option.outdir, tgft+fed[wt]+itend+exname)
+	option.mkwt=True
+	if os.path.isfile(mfile):
+		option.mkwt=False
+		build(option, outfile, mfile)
+	elif wt=='Bold':
+		build(option, outfile, mfiler, cov='rb')
+	elif os.path.isfile(mfilel):
+		build(option, outfile, mfilel, cov='lo')
+	else:
+		build(option, outfile, mfiler, cov='ro')
+
+class Option:
+	def __init__(self):
+		self.infile, self.outdir, self.tgwt, self.target=(str() for i in range(4))
+		self.mkwt=True
+		self.rmttf=False
+		self.metrics=False
+		self.itarg='a'
+
+def parseArgs(option, args):
+	extg={'yahei': 'msyh', 'jhenghei': 'msjh', 'songti': 'simsun', 'heiti': 'simhei', 'yugothic': 'yugoth', 'dengxian': 'deng', 'yumincho': 'yumin', 'gungsuh': 'batang', 'dotum': 'gulim', 'dfkai': 'kaiu', 'kaiti': 'simkai', 'mingliuextb': 'mingliub', 'simsunextb': 'simsunb', 'simsung': 'simsunextg'}
 	i, argn = 0, len(args)
 	while i < argn:
 		arg  = args[i]
 		i += 1
 		if arg == "-i":
-			inFilePath = args[i]
+			option.infile = args[i]
 			i += 1
 		elif arg == "-d":
-			outDir = args[i]
+			option.outdir = args[i]
 			i += 1
 		elif arg == "-wt":
-			weight = args[i]
+			option.tgwt = args[i]
 			i += 1
 		elif arg == "-it":
-			it = args[i]
+			option.itarg = args[i].lower()
 			i += 1
 		elif arg == "-tg":
-			tarGet = args[i].lower()
+			option.target = args[i].lower()
+			if option.target in extg: option.target=extg[target]
 			i += 1
 		elif arg == "-r":
-			rmttf = True
+			option.rmttf = True
+		elif arg == "-mt":
+			option.metrics = True
 		else:
 			raise RuntimeError("Unknown option '%s'." % (arg))
-	if not inFilePath:
+	if not option.infile:
 		raise RuntimeError("You must specify one input font.")
-	if not os.path.isfile(inFilePath):
-		raise FileNotFoundError(f"Can not find file \"{inFilePath}\".\n")
-	if not tarGet:
+	if not os.path.isfile(option.infile):
+		raise FileNotFoundError(f"Can not find file \"{option.infile}\".\n")
+	if not option.target:
 		raise RuntimeError(f"You must specify target.{TG}")
-	elif tarGet not in TG:
-		raise RuntimeError(f"Unknown target \"{tarGet}\"，please use {TG}.\n")
+	elif option.target not in TG:
+		raise RuntimeError(f"Unknown target \"{option.target}\"，please use {TG}.\n")
+	if option.itarg not in ('a', 'y', 'n'):
+		raise RuntimeError(f'Unknown italic setting "{option.itarg}"，please use "y" or "n".\n')
+	if option.tgwt:
+		if option.tgwt.lower() not in WT:
+			raise RuntimeError(f'Unknown weight "{option.tgwt}"，please use {tuple(end.keys())}.\n')
+		option.tgwt=option.tgwt.lower()
+		if option.tgwt=='extralight': option.tgwt='ExtraLight'
+		elif option.tgwt=='semibold': option.tgwt='SemiBold'
+		elif option.tgwt=='demilight': option.tgwt='DemiLight'
+		elif option.tgwt=='extrabold': option.tgwt='ExtraBold'
+		elif option.tgwt=='extrablack': option.tgwt='ExtraBlack'
+		else: option.tgwt=option.tgwt.capitalize()
+	if option.outdir and not os.path.isdir(option.outdir):
+		raise RuntimeError(f"Can not find directory \"{option.outdir}\".\n")
 
-	if it.lower() not in ('a', 'y', 'n'):
-		raise RuntimeError(f'Unknown italic setting "{it}"，please use "y" or "n".\n')
-	if weight:
-		if weight.lower() not in WT:
-			raise RuntimeError(f'Unknown weight "{weight}"，please use {tuple(end.keys())}.\n')
-		weight=weight.lower()
-		if weight=='extralight': weight='ExtraLight'
-		elif weight=='semibold': weight='SemiBold'
-		elif weight=='demilight': weight='DemiLight'
-		else: weight=weight.capitalize()
-	if outDir:
-		if not os.path.isdir(outDir):
-			raise RuntimeError(f"Can not find directory \"{outDir}\".\n")
-		else:
-			outd=outDir
-	return inFilePath, tarGet, weight
-
-def run(args):
-	global it
-	ftin, tg, setwt=parseArgs(args)
+def run():
+	option=Option()
+	parseArgs(option, sys.argv[1:])
 	print('Loading...')
-	font = ttLib.TTFont(ftin)
-	if it=='a':
-		it=getit(font)
-	else:
-		setit(font, it=='y')
-	if not setwt:
-		setwt=getwt(font)
-	else:
-		setuswt(font, setwt.lower())
-	if tg in ('malgun', 'all', 'allsans'):
-		bldttfft(font, 'malgun', setwt)
-	if tg in ('simhei', 'all', 'allsans'):
-		bldttfft(font, 'simhei', setwt)
-	if tg in ('yumin', 'all', 'allserif'):
-		bldttfft(font, 'yumin', setwt)
-	if tg=='all':
-		for stg in ('msyh', 'msjh', 'mingliu', 'simsun', 'yugoth', 'msgothic', 'msmincho', 'meiryo', 'batang', 'gulim'):
-			bldttcft(font, stg, setwt)
-	elif tg=='allsans':
-		for stg in ('msyh', 'msjh', 'yugoth', 'msgothic', 'meiryo', 'gulim'):
-			bldttcft(font, stg, setwt)
-	elif tg=='allserif':
-		for stg in ('mingliu', 'simsun', 'msmincho', 'batang'):
-			bldttcft(font, stg, setwt)
-	elif tg=='simsunb':
-		bldttfft(font, tg, setwt)
-	elif tg not in ('malgun', 'simhei', 'yumin'):
-		bldttcft(font, tg, setwt)
-	print('End!')
+	font=ttLib.TTFont(option.infile)
+	if option.itarg=='a':
+		option.itarg=getit(font)
+	if not option.tgwt:
+		option.tgwt=getwt(font)
 
-def main():
-	run(sys.argv[1:])
+	allsans=['msyh', 'msjh', 'yugoth', 'msgothic', 'meiryo', 'gulim', 'simhei', 'malgun', 'deng']
+	allserif=['mingliu', 'simsun', 'msmincho', 'batang', 'yumin']
+	if option.target=='all':
+		tgs=allsans+allserif
+	elif option.target=='allsans':
+		tgs=allsans
+	elif option.target=='allserif':
+		tgs=allserif
+	else:
+		tgs=[option.target, ]
+	for tgname in tgs:
+		bldttcft(option, tgname)
+	print('End.')
 
 if __name__ == "__main__":
-	main()
+	run()
